@@ -1,65 +1,93 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { Button } from "@/components/ui/button";
+import { useCMAStore } from "@/lib/store";
+import { useRouter } from "next/navigation";
+import { FileSpreadsheet, Sparkles, RotateCcw, ArrowRight, Shield, Zap, Database } from "lucide-react";
+
+export default function HomePage() {
+  const loadDummyData = useCMAStore((s) => s.loadDummyData);
+  const resetForm = useCMAStore((s) => s.resetForm);
+  const router = useRouter();
+
+  const handleStartFresh = () => {
+    resetForm();
+    router.push("/cma/create");
+  };
+
+  const handleLoadDemo = () => {
+    loadDummyData();
+    router.push("/cma/create");
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen flex flex-col">
+      {/* Hero Section */}
+      <div className="flex-1 flex items-center justify-center px-4 relative overflow-hidden">
+        {/* Background effects */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.08),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(139,92,246,0.06),transparent_50%)]" />
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-3xl" />
+
+        <div className="max-w-3xl mx-auto text-center relative z-10">
+          {/* Icon */}
+          <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/20 mb-8 glow">
+            <FileSpreadsheet className="w-10 h-10 text-blue-400" />
+          </div>
+
+          {/* Title */}
+          <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
+            <span className="gradient-text">CMA Report</span>
+            <br />
+            <span className="text-white">Builder</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          {/* Subtitle */}
+          <p className="text-lg text-slate-400 max-w-xl mx-auto mb-10 leading-relaxed">
+            Build professional Credit Monitoring Arrangement reports in minutes.
+            A guided 7-step wizard with auto-calculations and instant PDF export.
           </p>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Button size="lg" onClick={handleStartFresh} className="min-w-[200px] gap-2 text-base">
+              <ArrowRight className="w-5 h-5" />
+              Start New Report
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={handleLoadDemo}
+              className="min-w-[200px] gap-2 text-base"
+            >
+              <Sparkles className="w-5 h-5" />
+              Load Demo Data
+            </Button>
+          </div>
+
+          {/* Feature pills */}
+          <div className="flex flex-wrap items-center justify-center gap-3 mt-12">
+            {[
+              { icon: Zap, label: "Auto-Calculations" },
+              { icon: Database, label: "Local Storage" },
+              { icon: Shield, label: "Privacy First" },
+            ].map(({ icon: Icon, label }) => (
+              <div
+                key={label}
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/60 border border-slate-700/50 text-sm text-slate-400"
+              >
+                <Icon className="w-4 h-4 text-blue-400" />
+                {label}
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </div>
+
+      {/* Footer */}
+      <footer className="py-4 text-center text-xs text-slate-600 border-t border-slate-800/50">
+        CMA Report Builder • Frontend-Only • No data sent to servers
+      </footer>
     </div>
   );
 }
