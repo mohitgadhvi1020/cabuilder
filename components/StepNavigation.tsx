@@ -5,12 +5,16 @@ import { Check } from "lucide-react";
 
 const STEPS = [
   { label: "Company", description: "Details" },
-  { label: "Loans", description: "Facilities" },
-  { label: "Settings", description: "Configure" },
+  { label: "Loans", description: "Setup" },
+  { label: "WC", description: "Capital" },
+  { label: "Settings", description: "Format" },
   { label: "Business", description: "Profile" },
-  { label: "Operating", description: "Statement" },
+  { label: "Operating", description: "P&L" },
   { label: "Assets", description: "Schedule" },
   { label: "Liabilities", description: "Schedule" },
+  { label: "Old TL", description: "Existing" },
+  { label: "Images", description: "Upload" },
+  { label: "Cover", description: "Design" },
 ];
 
 interface StepNavigationProps {
@@ -20,71 +24,55 @@ interface StepNavigationProps {
 
 export function StepNavigation({ currentStep, onStepClick }: StepNavigationProps) {
   return (
-    <nav className="w-full mb-8">
-      <div className="flex items-center justify-between">
+    <nav className="w-full mb-8 overflow-x-auto pb-2">
+      <div className="flex items-start gap-1 min-w-max px-1">
         {STEPS.map((step, index) => {
           const isActive = index === currentStep;
           const isCompleted = index < currentStep;
           const isClickable = index <= currentStep;
 
           return (
-            <div key={index} className="flex items-center flex-1 last:flex-none">
+            <div key={index} className="flex items-center">
               <button
                 onClick={() => isClickable && onStepClick(index)}
                 className={cn(
-                  "flex flex-col items-center gap-1.5 group transition-all duration-300 cursor-pointer",
-                  !isClickable && "cursor-not-allowed opacity-50"
+                  "flex flex-col items-center gap-1 group transition-all duration-300 px-1.5",
+                  isClickable ? "cursor-pointer" : "cursor-not-allowed opacity-50"
                 )}
                 disabled={!isClickable}
+                type="button"
               >
                 <div
                   className={cn(
-                    "w-10 h-10 rounded-full flex items-center justify-center text-sm font-semibold transition-all duration-300 border-2",
+                    "w-9 h-9 rounded-full flex items-center justify-center text-xs font-semibold transition-all border-2 shrink-0",
                     isActive &&
-                      "bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-500/30 scale-110",
-                    isCompleted &&
-                      "bg-emerald-600 border-emerald-500 text-white shadow-lg shadow-emerald-500/20",
-                    !isActive &&
-                      !isCompleted &&
-                      "bg-slate-800 border-slate-700 text-slate-500"
+                      "bg-accent border-accent text-accent-foreground shadow-md",
+                    isCompleted && "bg-success border-success text-white",
+                    !isActive && !isCompleted && "bg-white border-card-border text-muted-foreground"
                   )}
                 >
-                  {isCompleted ? (
-                    <Check className="w-5 h-5" />
-                  ) : (
-                    <span>{index + 1}</span>
-                  )}
+                  {isCompleted ? <Check className="w-4 h-4" /> : <span>{index + 1}</span>}
                 </div>
-                <div className="text-center">
+                <div className="text-center w-[4.5rem]">
                   <p
                     className={cn(
-                      "text-xs font-medium transition-colors",
-                      isActive && "text-blue-400",
-                      isCompleted && "text-emerald-400",
-                      !isActive && !isCompleted && "text-slate-500"
+                      "text-[10px] font-medium leading-tight",
+                      isActive && "text-accent",
+                      isCompleted && "text-success",
+                      !isActive && !isCompleted && "text-muted-foreground"
                     )}
                   >
                     {step.label}
                   </p>
-                  <p className="text-[10px] text-slate-600 hidden sm:block">
-                    {step.description}
-                  </p>
                 </div>
               </button>
-
               {index < STEPS.length - 1 && (
-                <div className="flex-1 mx-2 mt-[-20px]">
-                  <div
-                    className={cn(
-                      "h-0.5 rounded-full transition-all duration-500",
-                      index < currentStep
-                        ? "bg-gradient-to-r from-emerald-500 to-emerald-600"
-                        : index === currentStep
-                        ? "bg-gradient-to-r from-blue-500/50 to-slate-700"
-                        : "bg-slate-800"
-                    )}
-                  />
-                </div>
+                <div
+                  className={cn(
+                    "w-4 h-0.5 shrink-0 rounded-full mt-[-18px]",
+                    index < currentStep ? "bg-success" : "bg-card-border"
+                  )}
+                />
               )}
             </div>
           );

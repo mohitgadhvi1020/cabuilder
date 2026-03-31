@@ -13,15 +13,15 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         className={cn(
-          "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 cursor-pointer",
+          "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 cursor-pointer",
           {
-            "bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:from-blue-700 hover:to-indigo-700 active:scale-[0.98]":
+            "bg-accent text-accent-foreground shadow-sm hover:bg-accent-hover active:scale-[0.98]":
               variant === "default",
-            "border border-slate-700 bg-slate-800/50 text-slate-200 hover:bg-slate-700/80 hover:text-white backdrop-blur-sm":
+            "border border-card-border bg-white text-foreground hover:bg-slate-50 hover:border-slate-400":
               variant === "outline",
-            "text-slate-300 hover:bg-slate-800/60 hover:text-white":
+            "text-muted-foreground hover:bg-slate-100 hover:text-foreground":
               variant === "ghost",
-            "bg-gradient-to-r from-red-600 to-rose-600 text-white shadow-lg shadow-red-500/25 hover:shadow-red-500/40 hover:from-red-700 hover:to-rose-700":
+            "bg-destructive text-white shadow-sm hover:bg-red-700":
               variant === "destructive",
           },
           {

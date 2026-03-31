@@ -1,10 +1,30 @@
 @import "tailwindcss";
 
+/**
+ * CMA Builder — Finline-style light theme
+ * Clean white workspace matching professional CMA report output
+ */
 @theme inline {
-  --color-background: #0a0f1c;
-  --color-foreground: #e2e8f0;
+  --color-background: #f4f7fb;
+  --color-foreground: #1a2332;
+  --color-canvas: #f4f7fb;
+  --color-card: #ffffff;
+  --color-card-foreground: #1a2332;
+  --color-card-border: #dce3ec;
+  --color-muted: #94a3b8;
+  --color-muted-foreground: #64748b;
+  --color-accent: #1e3a5f;
+  --color-accent-hover: #2a5080;
+  --color-accent-foreground: #ffffff;
+  --color-accent-subtle: rgba(30, 58, 95, 0.08);
+  --color-success: #0d9488;
+  --color-success-foreground: #ecfdf5;
+  --color-destructive: #dc2626;
+  --color-ring: #3d6a9e;
+  --color-border: #e2e8f0;
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-report: "Georgia", "Times New Roman", serif;
 }
 
 @layer base {
@@ -13,14 +33,13 @@
   }
 
   body {
-    background: var(--color-background);
+    background: var(--color-canvas);
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Custom scrollbar */
   ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
@@ -29,11 +48,11 @@
     background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    background: #334155;
+    background: #c5ced9;
     border-radius: 9999px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #475569;
+    background: #94a3b8;
   }
 }
 
@@ -54,24 +73,23 @@
   }
 
   .glass {
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(16px);
-    border: 1px solid rgba(51, 65, 85, 0.5);
+    border-bottom: 1px solid var(--color-card-border);
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #60a5fa 0%, #818cf8 50%, #a78bfa 100%);
+    background: linear-gradient(135deg, #1e3a5f 0%, #2a5080 50%, #3d6a9e 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .glow {
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.15), 0 0 80px rgba(59, 130, 246, 0.05);
+    box-shadow: 0 0 40px rgba(30, 58, 95, 0.1), 0 0 80px rgba(30, 58, 95, 0.05);
   }
 }
 
-/* Print styles for preview */
 @media print {
   body {
     background: white !important;
@@ -84,5 +102,73 @@
 
   .print-break {
     page-break-before: always;
+  }
+}
+
+.finline-report-root {
+  --finline-paper: #f4f7fb;
+  --finline-ink: #1a2332;
+  --finline-band: #1e3a5f;
+  --finline-rule: #c5ced9;
+}
+
+/* ── A4 page simulation ────────────────────── */
+.a4-page {
+  width: 210mm;
+  min-height: 297mm;
+  max-width: 100%;
+  background: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.a4-page-content {
+  flex: 1 1 auto;
+}
+
+.a4-page-footer {
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: #94a3b8;
+  font-family: var(--font-sans);
+  flex-shrink: 0;
+}
+
+.a4-page-number {
+  font-size: 9px;
+  color: #94a3b8;
+  font-family: var(--font-sans);
+  text-align: right;
+}
+
+@media screen {
+  .a4-page {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media print {
+  .a4-page {
+    width: 100%;
+    min-height: auto;
+    box-shadow: none;
+    border-radius: 0;
+    page-break-after: always;
+    break-after: page;
+    margin: 0;
+  }
+
+  .a4-page:last-child {
+    page-break-after: auto;
+    break-after: auto;
   }
 }

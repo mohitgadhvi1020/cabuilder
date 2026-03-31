@@ -3,7 +3,7 @@
 import { cn } from "@/lib/cn";
 import { OperatingStatementRow } from "@/lib/types";
 import { formatNumber } from "@/lib/calculations";
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 interface OperatingStatementGridProps {
   rows: OperatingStatementRow[];
@@ -13,9 +13,42 @@ interface OperatingStatementGridProps {
 export function OperatingStatementGrid({ rows, onCellEdit }: OperatingStatementGridProps) {
   const [editingCell, setEditingCell] = useState<string | null>(null);
   const [editValue, setEditValue] = useState<string>("");
+  const [colWidths, setColWidths] = useState<Record<string, number>>({});
 
   const yearFields = ["previousYear", "currentYear", "projectedYear"] as const;
   const yearLabels = ["Previous Year", "Current Year", "Projected Year"];
+  const resizeKeys = useMemo(
+    () => ["__particulars", ...yearFields],
+    [yearFields]
+  );
+
+  const getColWidth = useCallback(
+    (key: string) => {
+      if (colWidths[key]) return colWidths[key];
+      if (key === "__particulars") return 320;
+      return 170;
+    },
+    [colWidths]
+  );
+
+  const startResize = useCallback(
+    (key: string, e: React.MouseEvent) => {
+      e.preventDefault();
+      const startX = e.clientX;
+      const startW = getColWidth(key);
+      const onMove = (ev: MouseEvent) => {
+        const next = Math.max(72, startW + (ev.clientX - startX));
+        setColWidths((prev) => ({ ...prev, [key]: next }));
+      };
+      const onUp = () => {
+        window.removeEventListener("mousemove", onMove);
+        window.removeEventListener("mouseup", onUp);
+      };
+      window.addEventListener("mousemove", onMove);
+      window.addEventListener("mouseup", onUp);
+    },
+    [getColWidth]
+  );
 
   const handleDoubleClick = useCallback(
     (id: string, field: string, currentValue: number) => {
@@ -46,19 +79,38 @@ export function OperatingStatementGrid({ rows, onCellEdit }: OperatingStatementG
   );
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-slate-700/50">
-      <table className="w-full border-collapse">
+    <div className="overflow-x-auto rounded-lg border border-card-border">
+      <table
+        className="w-full border-collapse table-fixed"
+        style={{ minWidth: resizeKeys.reduce((sum, key) => sum + getColWidth(key), 0) }}
+      >
         <thead>
-          <tr className="bg-slate-800/80">
-            <th className="text-left text-xs font-semibold text-slate-400 uppercase tracking-wider px-4 py-3 border-b border-slate-700 w-[40%]">
+          <tr className="bg-slate-50">
+            <th
+              className="text-left text-xs font-semibold text-muted-foreground uppercase tracking-wider px-4 py-3 border-b border-card-border relative"
+              style={{ width: getColWidth("__particulars"), minWidth: 120 }}
+            >
               Particulars
+              <button
+                type="button"
+                aria-label="Resize particulars column"
+                onMouseDown={(e) => startResize("__particulars", e)}
+                className="absolute right-0 top-0 h-full w-2 cursor-col-resize"
+              />
             </th>
-            {yearLabels.map((label) => (
+            {yearFields.map((field, idx) => (
               <th
-                key={label}
-                className="text-right text-xs font-semibold text-slate-400 uppercase tracking-wider px-4 py-3 border-b border-slate-700 w-[20%]"
+                key={field}
+                className="text-right text-xs font-semibold text-muted-foreground uppercase tracking-wider px-4 py-3 border-b border-card-border relative"
+                style={{ width: getColWidth(field), minWidth: 96 }}
               >
-                {label}
+                {yearLabels[idx]}
+                <button
+                  type="button"
+                  aria-label={`Resize ${yearLabels[idx]} column`}
+                  onMouseDown={(e) => startResize(field, e)}
+                  className="absolute right-0 top-0 h-full w-2 cursor-col-resize"
+                />
               </th>
             ))}
           </tr>
@@ -68,20 +120,21 @@ export function OperatingStatementGrid({ rows, onCellEdit }: OperatingStatementG
             <tr
               key={row.id}
               className={cn(
-                "border-b border-slate-800/50 transition-colors",
-                row.isHeader && "bg-slate-800/60",
-                row.isTotal && "bg-slate-800/30 border-slate-700",
-                !row.isHeader && !row.isTotal && "hover:bg-slate-800/20"
+                "border-b border-card-border transition-colors",
+                row.isHeader && "bg-slate-100/60",
+                row.isTotal && "bg-slate-50",
+                !row.isHeader && !row.isTotal && "hover:bg-slate-50/60"
               )}
             >
               <td
                 className={cn(
                   "px-4 py-2.5 text-sm",
-                  row.isHeader && "font-bold text-blue-400 uppercase text-xs tracking-wider pt-4",
-                  row.isTotal && "font-semibold text-white",
-                  !row.isHeader && !row.isTotal && "text-slate-300",
+                  row.isHeader && "font-bold text-accent uppercase text-xs tracking-wider pt-4",
+                  row.isTotal && "font-semibold text-foreground",
+                  !row.isHeader && !row.isTotal && "text-foreground",
                   row.indent && "pl-8"
                 )}
+                style={{ width: getColWidth("__particulars"), minWidth: 120 }}
               >
                 {row.label}
               </td>
@@ -96,11 +149,12 @@ export function OperatingStatementGrid({ rows, onCellEdit }: OperatingStatementG
                     key={field}
                     className={cn(
                       "px-4 py-2.5 text-right font-mono text-sm",
-                      row.isHeader && "text-slate-600",
-                      row.isTotal && "font-semibold text-emerald-400",
-                      !row.isHeader && !row.isTotal && "text-slate-300",
+                      row.isHeader && "text-muted",
+                      row.isTotal && "font-semibold text-accent",
+                      !row.isHeader && !row.isTotal && "text-foreground",
                       isEditable && "cursor-pointer"
                     )}
+                    style={{ width: getColWidth(field), minWidth: 96 }}
                     onDoubleClick={() =>
                       isEditable && handleDoubleClick(row.id, field, value)
                     }
@@ -112,7 +166,7 @@ export function OperatingStatementGrid({ rows, onCellEdit }: OperatingStatementG
                         onChange={(e) => setEditValue(e.target.value)}
                         onBlur={() => handleBlur(row.id, field)}
                         onKeyDown={(e) => handleKeyDown(e, row.id, field)}
-                        className="w-full h-8 px-2 text-right bg-blue-900/30 border border-blue-500 rounded text-blue-200 font-mono text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+                        className="w-full h-8 px-2 text-right bg-blue-50 border border-accent rounded text-accent font-mono text-sm focus:outline-none focus:ring-2 focus:ring-ring/40"
                         autoFocus
                       />
                     ) : row.isHeader ? (
@@ -121,7 +175,7 @@ export function OperatingStatementGrid({ rows, onCellEdit }: OperatingStatementG
                       <span
                         className={cn(
                           "inline-block w-full px-2 py-0.5 rounded",
-                          isEditable && "hover:bg-slate-700/50 transition-colors"
+                          isEditable && "hover:bg-slate-100 transition-colors"
                         )}
                       >
                         {formatNumber(value)}
@@ -134,9 +188,9 @@ export function OperatingStatementGrid({ rows, onCellEdit }: OperatingStatementG
           ))}
         </tbody>
       </table>
-      <div className="px-4 py-2 bg-slate-800/30 border-t border-slate-700">
-        <p className="text-xs text-slate-500 italic">
-          💡 Double-click on any cell to edit. Press Enter to save, Escape to cancel.
+      <div className="px-4 py-2 bg-slate-50 border-t border-card-border">
+        <p className="text-xs text-muted-foreground italic">
+          Double-click on any cell to edit. Press Enter to save, Escape to cancel.
         </p>
       </div>
     </div>

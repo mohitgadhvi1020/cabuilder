@@ -13,22 +13,21 @@ export default function CreatePage() {
 
   return (
     <div className="min-h-screen">
-      {/* Top bar */}
-      <header className="sticky top-0 z-50 glass border-b border-slate-700/50">
+      <header className="sticky top-0 z-50 glass">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/">
-              <Button variant="ghost" size="sm" className="gap-2 text-slate-400 hover:text-white">
+              <Button variant="ghost" size="sm" className="gap-2">
                 <ArrowLeft className="w-4 h-4" />
                 Home
               </Button>
             </Link>
-            <div className="h-5 w-px bg-slate-700" />
+            <div className="h-5 w-px bg-card-border" />
             <div>
-              <h1 className="text-sm font-semibold text-white">
+              <h1 className="text-sm font-semibold text-foreground">
                 {companyName || "New CMA Report"}
               </h1>
-              <p className="text-xs text-slate-500">CMA Report Builder</p>
+              <p className="text-xs text-muted-foreground">CMA Report Builder</p>
             </div>
           </div>
 
@@ -37,7 +36,7 @@ export default function CreatePage() {
               variant="ghost"
               size="sm"
               onClick={loadDummyData}
-              className="gap-1 text-slate-400 hover:text-blue-400"
+              className="gap-1 hover:text-accent"
             >
               <Sparkles className="w-3.5 h-3.5" />
               Demo Data
@@ -46,7 +45,7 @@ export default function CreatePage() {
               variant="ghost"
               size="sm"
               onClick={resetForm}
-              className="gap-1 text-slate-400 hover:text-red-400"
+              className="gap-1 hover:text-red-500"
             >
               <RotateCcw className="w-3.5 h-3.5" />
               Reset
@@ -55,7 +54,6 @@ export default function CreatePage() {
         </div>
       </header>
 
-      {/* Main content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <MultiStepForm />
       </main>

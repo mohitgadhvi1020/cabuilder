@@ -15,7 +15,7 @@ export function BusinessProfileStep() {
     <Card>
       <CardHeader>
         <div className="flex items-center gap-3">
-          <div className="p-2 rounded-lg bg-teal-500/10 text-teal-400">
+          <div className="p-2 rounded-lg bg-accent/10 text-accent">
             <Briefcase className="w-5 h-5" />
           </div>
           <div>
@@ -26,6 +26,17 @@ export function BusinessProfileStep() {
       </CardHeader>
       <CardContent>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="md:col-span-2">
+            <Label htmlFor="richHtml">Business profile (rich text / HTML)</Label>
+            <Textarea
+              id="richHtml"
+              value={profile.richHtml}
+              onChange={(e) => setBusinessProfile({ richHtml: e.target.value })}
+              placeholder="<p>Optional HTML for the narrative section in the printed report…</p>"
+              className="mt-1.5 font-mono text-xs"
+              rows={5}
+            />
+          </div>
           <div className="md:col-span-2">
             <Label htmlFor="natureOfBusiness">Nature of Business</Label>
             <Textarea
