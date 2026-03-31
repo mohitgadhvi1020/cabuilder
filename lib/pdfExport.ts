@@ -9,7 +9,8 @@ export async function downloadReportPdf(filename: string = "cma-report.pdf"): Pr
   }
 
   const html2pdf = (await import("html2pdf.js")).default;
-  await html2pdf()
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  await (html2pdf() as any)
     .set({
       margin: 0,
       filename,
