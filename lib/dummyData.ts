@@ -91,6 +91,7 @@ export const dummyData: FormData = {
     industry: "Manufacturing - Auto Components",
     bankName: "State Bank of India",
     branch: "MIDC Pune Branch",
+    ifscCode: "SBIN0005943",
     locationType: "town",
     activity: "Auto component manufacturing",
     email: "contact@sharmaindustries.in",
@@ -182,6 +183,8 @@ export const dummyData: FormData = {
     ownContribution: 5000000,
     interestPct: 10.5,
     loanStartMonth: "2024-04",
+    tenureMonths: 84,
+    moratoriumMonths: 6,
     extraLines: [],
   },
   oldTermLoans: [

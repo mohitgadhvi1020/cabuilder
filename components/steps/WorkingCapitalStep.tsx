@@ -124,13 +124,39 @@ export function WorkingCapitalStep() {
               }
             />
           </div>
-          <div className="sm:col-span-2">
+          <div>
             <Label>Loan starting from</Label>
             <Input
               className="mt-1 bg-white border-card-border"
               placeholder="e.g. April 2025"
               value={wc.loanStartMonth}
               onChange={(e) => setWorkingCapital({ loanStartMonth: e.target.value })}
+            />
+          </div>
+          <div>
+            <Label>Tenure (months)</Label>
+            <Input
+              type="number"
+              min={0}
+              className="mt-1 bg-white border-card-border"
+              placeholder="e.g. 84"
+              value={wc.tenureMonths || ""}
+              onChange={(e) =>
+                setWorkingCapital({ tenureMonths: parseInt(e.target.value, 10) || 0 })
+              }
+            />
+          </div>
+          <div className="sm:col-span-2">
+            <Label>Moratorium period (months)</Label>
+            <Input
+              type="number"
+              min={0}
+              className="mt-1 bg-white border-card-border"
+              placeholder="e.g. 6"
+              value={wc.moratoriumMonths || ""}
+              onChange={(e) =>
+                setWorkingCapital({ moratoriumMonths: parseInt(e.target.value, 10) || 0 })
+              }
             />
           </div>
         </div>

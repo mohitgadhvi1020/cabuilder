@@ -160,6 +160,8 @@ const defaultWorkingCapital = {
   ownContribution: 0,
   interestPct: 0,
   loanStartMonth: "",
+  tenureMonths: 0,
+  moratoriumMonths: 0,
   extraLines: [] as WorkingCapitalLine[],
 };
 
@@ -186,6 +188,7 @@ function buildInitialForm(colIds: string[]): FormData {
       industry: "",
       bankName: "",
       branch: "",
+      ifscCode: "",
       locationType: "village",
       activity: "",
       email: "",

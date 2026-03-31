@@ -24,6 +24,7 @@ export function CompanyDetailsStep() {
     { key: "industry", label: "Industry / sector", placeholder: "Manufacturing" },
     { key: "bankName", label: "Bank name", placeholder: "SBI" },
     { key: "branch", label: "Branch", placeholder: "MIDC Branch" },
+    { key: "ifscCode", label: "IFSC Code", placeholder: "SBIN0005943" },
   ] as const;
 
   const locChip = (active: boolean) =>

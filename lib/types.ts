@@ -26,6 +26,7 @@ export interface CompanyDetails {
   industry: string;
   bankName: string;
   branch: string;
+  ifscCode: string;
   locationType: "village" | "town";
   activity: string;
   email: string;
@@ -143,6 +144,8 @@ export interface WorkingCapital {
   ownContribution: number;
   interestPct: number;
   loanStartMonth: string;
+  tenureMonths: number;
+  moratoriumMonths: number;
   extraLines: WorkingCapitalLine[];
 }
 

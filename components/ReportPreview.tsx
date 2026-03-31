@@ -125,6 +125,7 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
     ["PAN", companyDetails.panNumber],
     ["GST", companyDetails.gstNumber],
     ["Bank", companyDetails.bankName ? `${companyDetails.bankName}, ${companyDetails.branch}` : ""],
+    ["IFSC Code", companyDetails.ifscCode],
     ["Email", companyDetails.email],
     ["Phone", companyDetails.phone],
     ["No. of Employees", companyDetails.employmentCount > 0 ? String(companyDetails.employmentCount) : ""],
@@ -246,21 +247,23 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
                   </tbody>
                 </table>
 
-                {(workingCapital.totalWcLoan > 0 || workingCapital.ownContribution > 0) && (
-                  <div className="mt-4 pt-3 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-4 gap-3">
-                    {[
-                      ["WC Loan", formatCurrency(workingCapital.totalWcLoan, settings.currency)],
-                      ["Own Contribution", formatCurrency(workingCapital.ownContribution, settings.currency)],
-                      ["Interest Rate", workingCapital.interestPct > 0 ? `${workingCapital.interestPct}%` : "—"],
-                      ["Loan Start", workingCapital.loanStartMonth || "—"],
-                    ].map(([k, v]) => (
-                      <div key={k}>
-                        <p className="text-[9px] text-slate-400 uppercase tracking-wider">{k}</p>
-                        <p className="text-[11px] font-semibold text-slate-800 mt-0.5">{v}</p>
-                      </div>
-                    ))}
-                  </div>
-                )}
+              {(workingCapital.totalWcLoan > 0 || workingCapital.ownContribution > 0) && (
+                <div className="mt-4 pt-3 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-4 gap-x-3 gap-y-2.5">
+                  {([
+                    ["WC Loan", formatCurrency(workingCapital.totalWcLoan, settings.currency)],
+                    ["Own Contribution", formatCurrency(workingCapital.ownContribution, settings.currency)],
+                    ["Interest Rate", workingCapital.interestPct > 0 ? `${workingCapital.interestPct}%` : "—"],
+                    ["Loan Starting From", workingCapital.loanStartMonth || "—"],
+                    ["Tenure", workingCapital.tenureMonths > 0 ? `${workingCapital.tenureMonths} months` : "—"],
+                    ["Moratorium Period", workingCapital.moratoriumMonths > 0 ? `${workingCapital.moratoriumMonths} months` : "—"],
+                  ] as [string, string][]).filter(([, v]) => v !== "—").map(([k, v]) => (
+                    <div key={k}>
+                      <p className="text-[9px] text-slate-400 uppercase tracking-wider">{k}</p>
+                      <p className="text-[11px] font-semibold text-slate-800 mt-0.5">{v}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
 
                 {businessProfile.richHtml && (
                   <div className="mt-5 pt-3 border-t border-slate-200">
