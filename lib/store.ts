@@ -785,7 +785,9 @@ export const useCMAStore = create<CMAStore>()(
     }),
     {
       name: "cma-report-store-v3",
-      version: 1,
+      // v2: projection columns auto-label as continuing financial years
+      // (upgrades existing "Projection N" placeholders via alignYearHeadings).
+      version: 2,
       migrate: (persisted: unknown) => {
         const p = persisted as {
           state?: {

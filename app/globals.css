@@ -91,6 +91,11 @@
 }
 
 @media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
   body {
     background: white !important;
     color: black !important;
@@ -113,9 +118,12 @@
 }
 
 /* ── A4 page simulation ────────────────────── */
+/* Height is held just under a full A4 (297mm) so html2pdf never overflows a
+   page onto a near-empty second one (its sub-pixel rounding otherwise doubles
+   every page). overflow:hidden guarantees one source page = one PDF page. */
 .a4-page {
   width: 210mm;
-  min-height: 297mm;
+  height: 295mm;
   max-width: 100%;
   background: white;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);

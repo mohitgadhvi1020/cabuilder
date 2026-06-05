@@ -3,7 +3,8 @@
 import { Suspense, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import { createClient, isSupabaseConfigured, isDemoMode } from "@/lib/supabase/client";
+import { DEMO_CREDENTIALS } from "@/lib/supabase/mockClient";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -66,6 +67,24 @@ function LoginContent() {
     router.refresh();
   };
 
+  const signInDemo = async () => {
+    setError(null);
+    setEmail(DEMO_CREDENTIALS.email);
+    setPassword(DEMO_CREDENTIALS.password);
+    const supabase = createClient();
+    if (!supabase) return;
+    setLoading(true);
+    const { error: err } = await supabase.auth.signInWithPassword(DEMO_CREDENTIALS);
+    setLoading(false);
+    if (err) {
+      setError(err.message);
+      return;
+    }
+    toast("Signed in to demo!");
+    router.push(next);
+    router.refresh();
+  };
+
   if (!isSupabaseConfigured()) {
     return (
       <div className="min-h-screen flex items-center justify-center px-4">
@@ -115,6 +134,24 @@ function LoginContent() {
 
         <Card>
           <CardContent className="pt-6">
+            {isDemoMode() && (
+              <div className="mb-4 rounded-lg border border-accent/30 bg-accent/5 px-3 py-3 text-sm">
+                <p className="font-medium text-foreground">Demo mode — no backend needed</p>
+                <p className="text-muted-foreground mt-0.5">
+                  Use <code className="text-xs">{DEMO_CREDENTIALS.email}</code> /{" "}
+                  <code className="text-xs">{DEMO_CREDENTIALS.password}</code>
+                </p>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="w-full mt-2"
+                  onClick={signInDemo}
+                  disabled={loading}
+                >
+                  Sign in with demo account
+                </Button>
+              </div>
+            )}
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>

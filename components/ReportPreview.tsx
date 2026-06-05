@@ -45,6 +45,55 @@ function PageFooter({ company, auditor, pageNum }: { company: string; auditor: s
   );
 }
 
+/** Grouped vertical bar chart (Net Sales vs Net Profit) — pure CSS, html2canvas-safe. */
+function TrendChart({
+  data,
+  fmt,
+}: {
+  data: { label: string; sales: number; profit: number }[];
+  fmt: (v: number) => string;
+}) {
+  const max = Math.max(1, ...data.map((d) => Math.max(d.sales, d.profit)));
+  return (
+    <div className="mt-6 pt-4 border-t border-slate-200">
+      <div className="flex items-center justify-between mb-3">
+        <h4 className="text-[11px] font-bold text-[#1e3a5f] uppercase tracking-wider">
+          Performance Trend
+        </h4>
+        <div className="flex items-center gap-4 text-[9px] text-slate-500">
+          <span className="flex items-center gap-1.5">
+            <span className="inline-block w-3 h-3 rounded-sm bg-[#1e3a5f]" /> Net Sales
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="inline-block w-3 h-3 rounded-sm bg-[#7fa8d4]" /> Net Profit
+          </span>
+        </div>
+      </div>
+      <div className="flex items-end justify-between gap-2" style={{ height: "150px" }}>
+        {data.map((d) => (
+          <div key={d.label} className="flex-1 flex flex-col items-center justify-end h-full">
+            <div className="flex items-end gap-1 w-full justify-center" style={{ height: "120px" }}>
+              <div
+                className="w-1/3 rounded-t-sm bg-[#1e3a5f] relative"
+                style={{ height: `${Math.max(2, (d.sales / max) * 100)}%` }}
+                title={fmt(d.sales)}
+              />
+              <div
+                className="w-1/3 rounded-t-sm bg-[#7fa8d4] relative"
+                style={{ height: `${Math.max(2, (d.profit / max) * 100)}%` }}
+                title={fmt(d.profit)}
+              />
+            </div>
+            <span className="text-[7.5px] text-slate-500 mt-1.5 text-center leading-tight">
+              {d.label}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 /* ── main component ─────────────────────── */
 
 export function ReportPreview({ backHref }: ReportPreviewProps) {
@@ -110,6 +159,29 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
 
   const repayment = oldTermLoans[0] ? buildTermLoanRepayment(oldTermLoans[0]) : [];
 
+  /** Group the monthly amortization into yearly rows so it fits one page. */
+  const repaymentYearly = useMemo(() => {
+    const years: {
+      year: number;
+      opening: number;
+      principal: number;
+      interest: number;
+      paid: number;
+      closing: number;
+    }[] = [];
+    repayment.forEach((r, i) => {
+      const y = Math.floor(i / 12);
+      if (!years[y]) {
+        years[y] = { year: y + 1, opening: r.opening, principal: 0, interest: 0, paid: 0, closing: r.closing };
+      }
+      years[y].principal += r.principal;
+      years[y].interest += r.interest;
+      years[y].paid += r.paid;
+      years[y].closing = r.closing;
+    });
+    return years;
+  }, [repayment]);
+
   const fmt = (v: number) => formatMoney(v, settings.moneyFormat);
   const unitNote =
     settings.moneyFormat === "lakhs" || settings.moneyFormat === "crores"
@@ -137,11 +209,11 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
 
   /* ── adaptive sizing based on number of year columns ── */
   const dense = nCols >= 6;
-  const tblFont = dense ? "text-[8.5px]" : "text-[10px]";
-  const thFont = dense ? "text-[8px]" : "text-[9px]";
-  const cellPad = dense ? "px-1 py-0.5" : "px-2 py-1";
-  const thPad = dense ? "px-1 py-1.5" : "px-2 py-2";
-  const pagePad = dense ? "10mm 10mm 14mm" : "14mm 16mm 18mm";
+  const tblFont = dense ? "text-[10px]" : "text-[11px]";
+  const thFont = dense ? "text-[9px]" : "text-[10px]";
+  const cellPad = dense ? "px-2 py-[5px]" : "px-3 py-2";
+  const thPad = dense ? "px-2 py-2" : "px-3 py-2.5";
+  const pagePad = dense ? "12mm 12mm 14mm" : "14mm 16mm 16mm";
 
   const thCls = cn(
     thPad,
@@ -190,39 +262,65 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
       >
         {/* ═══════════ PAGE 1 — COVER ═══════════ */}
         <div className="a4-page" style={{ padding: 0 }}>
-          <div className="a4-page-content relative flex flex-col justify-between overflow-hidden">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={coverSettings.coverTemplate || "/covers/cover-1.svg"}
-              alt=""
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40" />
-            <div className="relative z-10 flex flex-col justify-between flex-1 p-[16mm]">
-              <p
-                className="font-bold leading-tight drop-shadow-md"
-                style={{
-                  fontSize: Math.max(28, coverSettings.fontSize * 0.45),
-                  fontWeight: coverSettings.fontWeight,
-                  color: coverSettings.fontColor,
-                }}
-              >
-                {coverSettings.titleText}
-              </p>
-              <div className="space-y-2 mt-auto">
-                <p className="text-2xl font-bold drop-shadow-md" style={{ color: coverSettings.fontColor }}>
-                  {companyDetails.name || "Company Name"}
-                </p>
-                {companyDetails.address && (
-                  <p className="text-sm opacity-80 drop-shadow" style={{ color: coverSettings.fontColor }}>
-                    {companyDetails.address}
+          <div
+            className="a4-page-content relative overflow-hidden text-white"
+            style={{
+              background:
+                "linear-gradient(150deg, #14253f 0%, #1e3a5f 45%, #2c5282 100%)",
+            }}
+          >
+            {/* decorative geometry */}
+            <div className="absolute inset-0" style={{ opacity: 0.12 }}>
+              <div className="absolute -right-24 -top-24 w-[280px] h-[280px] rounded-full border-[24px] border-white/40" />
+              <div className="absolute right-10 top-40 w-[140px] h-[140px] rounded-full border-[14px] border-white/30" />
+              <div className="absolute -left-16 bottom-24 w-[220px] h-[220px] rounded-full border-[18px] border-white/30" />
+            </div>
+
+            <div className="relative z-10 flex flex-col h-full px-[20mm] py-[22mm]">
+              {/* top: eyebrow + auditor */}
+              <div className="flex items-start justify-between">
+                <div>
+                  <p className="text-[11px] tracking-[0.3em] font-semibold text-white/70 uppercase">
+                    Credit Monitoring Arrangement
                   </p>
-                )}
-                <p className="text-xs opacity-60 mt-2" style={{ color: coverSettings.fontColor }}>
-                  {settings.auditorName
-                    ? `Prepared by ${auditorLine}`
-                    : `Prepared on ${new Date().toLocaleDateString("en-IN")}`}
+                  <div className="mt-2 h-[3px] w-16 bg-[#7fa8d4]" />
+                </div>
+                <div className="text-right">
+                  <p className="text-[10px] tracking-widest text-white/60 uppercase">Prepared by</p>
+                  <p className="text-[13px] font-semibold text-white/90 mt-0.5">{auditorLine}</p>
+                </div>
+              </div>
+
+              {/* middle: title + company */}
+              <div className="mt-auto mb-auto">
+                <p className="text-[40px] font-bold leading-[1.05] tracking-tight">
+                  {coverSettings.titleText || "CMA Report"}
                 </p>
+                <div className="mt-6 pl-4 border-l-4 border-[#7fa8d4]">
+                  <p className="text-[24px] font-semibold leading-tight">
+                    {companyDetails.name || "Company Name"}
+                  </p>
+                  {companyDetails.address && (
+                    <p className="text-[12px] text-white/70 mt-1 max-w-[120mm]">{companyDetails.address}</p>
+                  )}
+                </div>
+              </div>
+
+              {/* bottom: key facts strip */}
+              <div className="mt-auto grid grid-cols-3 gap-4 border-t border-white/20 pt-5">
+                {([
+                  ["Constitution", companyDetails.registrationType || companyDetails.constitution || "—"],
+                  ["Industry", companyDetails.industry || companyDetails.activity || "—"],
+                  ["Period", `${yearColumns[0]?.label ?? ""} – ${yearColumns[nCols - 1]?.label ?? ""}`],
+                  ["PAN", companyDetails.panNumber || "—"],
+                  ["Bank", companyDetails.bankName || "—"],
+                  ["Prepared on", new Date().toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" })],
+                ] as [string, string][]).map(([k, v]) => (
+                  <div key={k}>
+                    <p className="text-[8.5px] tracking-widest text-white/50 uppercase">{k}</p>
+                    <p className="text-[12px] font-semibold text-white/90 mt-1 truncate">{v}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -350,6 +448,14 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
                     ))}
                   </tbody>
                 </table>
+                <TrendChart
+                  fmt={fmt}
+                  data={yearColumns.map((c) => ({
+                    label: c.label,
+                    sales: derived.find((r) => r.id === "os-3")?.values[c.id] ?? 0,
+                    profit: derived.find((r) => r.id === "os-21")?.values[c.id] ?? 0,
+                  }))}
+                />
               </div>
               <PageFooter company={companyDetails.name} auditor={auditorLine} pageNum={p} />
             </div>
@@ -529,38 +635,58 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
           return (
             <div className="a4-page" style={{ padding: "14mm 16mm 14mm" }}>
               <div className="a4-page-content">
-                <SectionTitle>DSCR (Debt Service Coverage Ratio)</SectionTitle>
-                <div className="flex items-center gap-4 mb-5">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#1e3a5f]/10">
-                    <span className="text-base font-bold text-[#1e3a5f]">{dscr.toFixed(2)}</span>
-                  </div>
-                  <div>
-                    <p className="text-[10px] text-slate-600">Cash Profit / Annual Debt Service</p>
-                    <p className="text-[9px] text-slate-400 mt-0.5">
-                      {dscr >= 1.5 ? "Healthy — sufficient to cover obligations" : dscr >= 1 ? "Adequate coverage" : "Below benchmark — needs attention"}
-                    </p>
-                  </div>
+                <SectionTitle>Credit Assessment & Bank Finance</SectionTitle>
+
+                {/* KPI hero cards */}
+                <div className="grid grid-cols-3 gap-4 mb-6">
+                  {([
+                    ["DSCR", dscr.toFixed(2), "Debt Service Coverage", dscr >= 1.5 ? "Healthy" : dscr >= 1 ? "Adequate" : "Below benchmark", dscr >= 1.25],
+                    ["Current Ratio", (liabTotals[midCol] ? (assetTotals[midCol] / liabTotals[midCol]) : 0).toFixed(2), "Liquidity position", "Benchmark ≥ 1.33", (assetTotals[midCol] / Math.max(1, liabTotals[midCol])) >= 1.33],
+                    ["Net Profit Margin", `${netSales ? ((npat / netSales) * 100).toFixed(1) : "0.0"}%`, "Profitability", "PAT / Net Sales", (netSales ? (npat / netSales) : 0) >= 0.05],
+                  ] as [string, string, string, string, boolean][]).map(([label, val, sub, note, good]) => (
+                    <div key={label} className="rounded-lg border border-[#dce3ec] bg-gradient-to-b from-slate-50 to-white p-4">
+                      <p className="text-[9px] font-semibold text-slate-400 uppercase tracking-wider">{label}</p>
+                      <p className="text-[28px] font-bold text-[#1e3a5f] leading-none mt-2">{val}</p>
+                      <p className="text-[9px] text-slate-500 mt-2">{sub}</p>
+                      <p className={cn("text-[9px] font-semibold mt-1", good ? "text-emerald-600" : "text-amber-600")}>
+                        {good ? "● " : "○ "}{note}
+                      </p>
+                    </div>
+                  ))}
                 </div>
 
-                <SectionTitle>MPBL (Working Capital)</SectionTitle>
-                <div className="grid grid-cols-2 gap-4 mb-5">
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider mb-1">Method I (25% margin)</p>
-                    <div className="flex gap-3 text-[10px]">
-                      <span className="text-slate-500">WC Gap: <span className="font-mono font-medium text-slate-800">{fmt(mpbl1.wcg)}</span></span>
-                      <span className="text-slate-500">MPBL: <span className="font-mono font-bold text-[#1e3a5f]">{fmt(mpbl1.mpbl)}</span></span>
-                    </div>
-                  </div>
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider mb-1">Method II (20% margin)</p>
-                    <div className="flex gap-3 text-[10px]">
-                      <span className="text-slate-500">MPBL: <span className="font-mono font-bold text-[#1e3a5f]">{fmt(mpbl2.mpbl)}</span></span>
-                    </div>
-                  </div>
-                </div>
+                {/* MPBF computation table — Tandon Method I & II */}
+                <SectionTitle>MPBF — Maximum Permissible Bank Finance</SectionTitle>
+                <table className={cn("w-full border-collapse mb-6", tblFont)} style={{ tableLayout: "fixed" }}>
+                  <colgroup>
+                    <col /><col style={{ width: "26%" }} /><col style={{ width: "26%" }} />
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th className={cn(thCls, "text-left")}>Particulars</th>
+                      <th className={cn(thCls, "text-right")}>Method I (25% margin)</th>
+                      <th className={cn(thCls, "text-right")}>Method II (20% margin)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {([
+                      ["Total Current Assets", mpbl1.tca, mpbl2.tca, false],
+                      ["Less: Other Current Liabilities", mpbl1.otherCl, mpbl2.otherCl, false],
+                      ["Working Capital Gap (WCG)", mpbl1.wcg, mpbl2.wcg, false],
+                      ["Less: Min. Stipulated NWC", mpbl1.minNwc, mpbl2.minNwc, false],
+                      ["Maximum Permissible Bank Finance", mpbl1.mpbl, mpbl2.mpbl, true],
+                    ] as [string, number, number, boolean][]).map(([label, a, b, total], idx) => (
+                      <tr key={label} className={cn("border-b border-slate-100", total ? "bg-[#f0f4f8] border-t-2 border-[#1e3a5f]" : idx % 2 === 0 ? "bg-white" : "bg-slate-50/40")}>
+                        <td className={cn(cellPad, total ? "font-bold text-[#1e3a5f]" : "text-slate-800")}>{label}</td>
+                        <td className={cn(cellPad, "text-right font-mono", total ? "font-bold text-[#1e3a5f]" : "text-slate-800")}>{fmt(a)}</td>
+                        <td className={cn(cellPad, "text-right font-mono", total ? "font-bold text-[#1e3a5f]" : "text-slate-800")}>{fmt(b)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
 
-                <SectionTitle>Sensitivity Analysis</SectionTitle>
-                <div className="grid grid-cols-3 gap-2.5">
+                <SectionTitle>Sensitivity Analysis (Stress Scenarios)</SectionTitle>
+                <div className="grid grid-cols-3 gap-3">
                   {([
                     ["+5% Sales", 5, false],
                     ["−5% Sales", -5, false],
@@ -571,9 +697,9 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
                     const adjSales = sp === 0 ? base : scenarioScale(base, sp);
                     const adjRm = isRm ? scenarioScale(rm, 5) : rm;
                     return (
-                      <div key={label} className="rounded border border-[#dce3ec] p-2 bg-slate-50/50">
-                        <p className="text-[8px] font-bold text-[#1e3a5f] uppercase tracking-wider mb-1">{label}</p>
-                        <div className="space-y-0.5 text-[9px]">
+                      <div key={label} className="rounded-lg border border-[#dce3ec] p-3.5 bg-slate-50/50">
+                        <p className="text-[10px] font-bold text-[#1e3a5f] uppercase tracking-wider mb-2.5">{label}</p>
+                        <div className="space-y-1.5 text-[10px]">
                           <div className="flex justify-between">
                             <span className="text-slate-500">Net Sales</span>
                             <span className="font-mono font-medium text-slate-800">{fmt(adjSales)}</span>
@@ -582,8 +708,8 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
                             <span className="text-slate-500">RM Cost</span>
                             <span className="font-mono font-medium text-slate-800">{fmt(adjRm)}</span>
                           </div>
-                          <div className="flex justify-between border-t border-slate-200 pt-0.5 mt-0.5">
-                            <span className="text-slate-500 font-medium">Gross Margin</span>
+                          <div className="flex justify-between border-t border-slate-200 pt-1.5 mt-1">
+                            <span className="text-slate-600 font-medium">Gross Margin</span>
                             <span className="font-mono font-bold text-[#1e3a5f]">{fmt(adjSales - adjRm)}</span>
                           </div>
                         </div>
@@ -604,15 +730,15 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
             return (
               <div className="a4-page" style={{ padding: pagePad }}>
                 <div className="a4-page-content">
-                  <SectionTitle>Term Loan Repayment Schedule</SectionTitle>
+                  <SectionTitle>Term Loan Repayment Schedule (Year-wise)</SectionTitle>
                   <table className={cn("w-full border-collapse", tblFont)} style={{ tableLayout: "fixed" }}>
                     <colgroup>
-                      <col style={{ width: "40px" }} />
+                      <col style={{ width: "60px" }} />
                       <col /><col /><col /><col /><col />
                     </colgroup>
                     <thead>
                       <tr>
-                        <th className={cn(thCls, "text-left")}>Inst.</th>
+                        <th className={cn(thCls, "text-left")}>Year</th>
                         <th className={cn(thCls, "text-right")}>Opening Bal.</th>
                         <th className={cn(thCls, "text-right")}>Principal</th>
                         <th className={cn(thCls, "text-right")}>Interest</th>
@@ -621,9 +747,9 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
                       </tr>
                     </thead>
                     <tbody>
-                      {repayment.slice(0, 60).map((r, idx) => (
-                        <tr key={r.installment} className={cn("border-b border-slate-100", idx % 2 === 0 ? "bg-white" : "bg-slate-50/40")}>
-                          <td className={cn(cellPad, "text-slate-800 font-medium")}>{r.installment}</td>
+                      {repaymentYearly.map((r, idx) => (
+                        <tr key={r.year} className={cn("border-b border-slate-100", idx % 2 === 0 ? "bg-white" : "bg-slate-50/40")}>
+                          <td className={cn(cellPad, "text-slate-800 font-medium")}>Year {r.year}</td>
                           <td className={cn(cellPad, "text-right font-mono text-slate-800")}>{fmt(r.opening)}</td>
                           <td className={cn(cellPad, "text-right font-mono text-slate-800")}>{fmt(r.principal)}</td>
                           <td className={cn(cellPad, "text-right font-mono text-slate-800")}>{fmt(r.interest)}</td>
@@ -631,6 +757,14 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
                           <td className={cn(cellPad, "text-right font-mono text-slate-800")}>{fmt(r.closing)}</td>
                         </tr>
                       ))}
+                      <tr className="bg-[#f0f4f8] font-bold border-t-2 border-[#1e3a5f]">
+                        <td className={cn(cellPad, "text-[#1e3a5f]")}>Total</td>
+                        <td className={cn(cellPad)} />
+                        <td className={cn(cellPad, "text-right font-mono text-[#1e3a5f]")}>{fmt(repaymentYearly.reduce((s, r) => s + r.principal, 0))}</td>
+                        <td className={cn(cellPad, "text-right font-mono text-[#1e3a5f]")}>{fmt(repaymentYearly.reduce((s, r) => s + r.interest, 0))}</td>
+                        <td className={cn(cellPad, "text-right font-mono text-[#1e3a5f]")}>{fmt(repaymentYearly.reduce((s, r) => s + r.paid, 0))}</td>
+                        <td className={cn(cellPad)} />
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -688,34 +822,51 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
           return (
             <div className="a4-page" style={{ padding: "14mm 16mm 14mm" }}>
               <div className="a4-page-content">
-                <SectionTitle>Report Summary</SectionTitle>
-                <div className="grid grid-cols-2 gap-x-8 gap-y-3 text-[10px] mt-3">
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider">Company</p>
-                    <p className="font-semibold text-slate-800">{companyDetails.name || "—"}</p>
-                  </div>
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider">Industry</p>
-                    <p className="font-semibold text-slate-800">{companyDetails.industry || companyDetails.activity || "—"}</p>
-                  </div>
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider">Net Profit Margin</p>
-                    <p className="font-semibold text-[#1e3a5f]">
-                      {netSales ? ((npat / netSales) * 100).toFixed(2) : "0.00"}%
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider">DSCR</p>
-                    <p className="font-semibold text-[#1e3a5f]">{dscr.toFixed(2)}</p>
-                  </div>
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider">Total Assets (mid-year)</p>
-                    <p className="font-semibold text-slate-800">{fmt(assetTotals[midCol] ?? 0)}</p>
-                  </div>
-                  <div>
-                    <p className="text-[9px] text-slate-400 uppercase tracking-wider">Total Liabilities (mid-year)</p>
-                    <p className="font-semibold text-slate-800">{fmt(liabTotals[midCol] ?? 0)}</p>
-                  </div>
+                <SectionTitle>Executive Summary</SectionTitle>
+
+                <p className="text-[10.5px] text-slate-600 leading-relaxed mb-5">
+                  This Credit Monitoring Arrangement report presents the financial position and projections
+                  of <span className="font-semibold text-slate-800">{companyDetails.name || "the borrower"}</span>
+                  {companyDetails.industry ? ` (${companyDetails.industry})` : ""} for the period
+                  {" "}<span className="font-semibold text-slate-800">{yearColumns[0]?.label} to {yearColumns[nCols - 1]?.label}</span>.
+                  {workingCapital.totalWcLoan > 0 && (
+                    <> The borrower seeks working-capital finance of
+                    {" "}<span className="font-semibold text-slate-800">{formatCurrency(workingCapital.totalWcLoan, settings.currency)}</span>.</>
+                  )}
+                </p>
+
+                <div className="grid grid-cols-3 gap-3.5 mb-5">
+                  {([
+                    ["Net Profit Margin", `${netSales ? ((npat / netSales) * 100).toFixed(1) : "0.0"}%`],
+                    ["DSCR", dscr.toFixed(2)],
+                    ["Current Ratio", (assetTotals[midCol] / Math.max(1, liabTotals[midCol])).toFixed(2)],
+                    ["Total Assets", fmt(assetTotals[midCol] ?? 0)],
+                    ["Net Worth", fmt((assetTotals[midCol] ?? 0) - (liabTotals[midCol] ?? 0))],
+                    ["WC Finance Sought", workingCapital.totalWcLoan > 0 ? fmt(workingCapital.totalWcLoan) : "—"],
+                  ] as [string, string][]).map(([k, v]) => (
+                    <div key={k} className="rounded-lg border border-[#dce3ec] bg-slate-50/60 p-3.5">
+                      <p className="text-[9px] text-slate-400 uppercase tracking-wider">{k}</p>
+                      <p className="text-[20px] font-bold text-[#1e3a5f] mt-1.5 leading-none">{v}</p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="rounded-lg border border-[#1e3a5f]/20 bg-[#f0f4f8] p-4">
+                  <p className="text-[10px] font-bold text-[#1e3a5f] uppercase tracking-wider mb-2">Banker&apos;s Assessment</p>
+                  <ul className="space-y-1.5 text-[10px] text-slate-600 list-none">
+                    <li className="flex gap-2">
+                      <span className="text-[#1e3a5f]">●</span>
+                      Net sales are projected to grow steadily across the period, with net profit margin maintained at {netSales ? ((npat / netSales) * 100).toFixed(1) : "0.0"}%.
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-[#1e3a5f]">●</span>
+                      DSCR of {dscr.toFixed(2)} indicates {dscr >= 1.5 ? "comfortable" : dscr >= 1 ? "adequate" : "tight"} debt-servicing capacity against the proposed obligations.
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-[#1e3a5f]">●</span>
+                      The working-capital gap supports the assessed MPBF; current-ratio and net-worth trends are consistent with the projections.
+                    </li>
+                  </ul>
                 </div>
               </div>
 
