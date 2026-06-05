@@ -164,6 +164,22 @@
   }
 }
 
+/* While html2pdf rasterises the DOM (it uses SCREEN css, not print), strip the
+   on-screen gaps/padding so each .a4-page maps to exactly one PDF page. Without
+   this the inter-page gap pushes every page past 297mm onto a blank one. */
+.pdf-exporting {
+  padding: 0 !important;
+  gap: 0 !important;
+}
+.pdf-exporting > * + * {
+  margin-top: 0 !important;
+}
+.pdf-exporting .a4-page {
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
 @media print {
   .a4-page {
     width: 100%;
