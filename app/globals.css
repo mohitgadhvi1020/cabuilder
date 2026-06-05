@@ -139,6 +139,15 @@
   --finline-rule: #c5ced9;
 }
 
+/* Force backgrounds, fills and the cover image to print (browsers drop them by
+   default), so native "Save as PDF" keeps the navy headers, KPI cards and
+   selected cover template. */
+.finline-report-root,
+.finline-report-root * {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+
 /* ── A4 page simulation ────────────────────── */
 /* Height is held just under a full A4 (297mm) so html2pdf never overflows a
    page onto a near-empty second one (its sub-pixel rounding otherwise doubles

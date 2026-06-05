@@ -50,8 +50,8 @@ export function CoverEditorStep() {
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
           />
-          {/* Text overlay */}
-          <div className="absolute inset-0 flex flex-col justify-between p-8 md:p-12">
+          {/* Text overlay — centred to match the generated report cover */}
+          <div className="absolute inset-0 flex flex-col justify-center p-8 md:p-12">
             <div
               className="font-bold leading-tight tracking-tight"
               style={{
@@ -62,7 +62,7 @@ export function CoverEditorStep() {
             >
               {coverSettings.titleText}
             </div>
-            <div className="space-y-1">
+            <div className="space-y-1 mt-6">
               <p
                 className="font-semibold text-lg"
                 style={{ color: coverSettings.fontColor }}

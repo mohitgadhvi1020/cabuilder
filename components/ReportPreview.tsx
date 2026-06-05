@@ -259,67 +259,45 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
         id="cma-report-print-root"
         className="py-8 space-y-6 flex flex-col items-center print:space-y-0 print:py-0"
       >
-        {/* ═══════════ PAGE 1 — COVER ═══════════ */}
+        {/* ═══════════ PAGE 1 — COVER (uses the template + fonts chosen in the Cover editor) ═══════════ */}
         <div className="a4-page" style={{ padding: 0 }}>
-          <div
-            className="a4-page-content relative overflow-hidden text-white"
-            style={{
-              background:
-                "linear-gradient(150deg, #14253f 0%, #1e3a5f 45%, #2c5282 100%)",
-            }}
-          >
-            {/* decorative geometry */}
-            <div className="absolute inset-0" style={{ opacity: 0.12 }}>
-              <div className="absolute -right-24 -top-24 w-[280px] h-[280px] rounded-full border-[24px] border-white/40" />
-              <div className="absolute right-10 top-40 w-[140px] h-[140px] rounded-full border-[14px] border-white/30" />
-              <div className="absolute -left-16 bottom-24 w-[220px] h-[220px] rounded-full border-[18px] border-white/30" />
-            </div>
+          <div className="a4-page-content relative overflow-hidden">
+            {/* Selected cover template background */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={coverSettings.coverTemplate || "/covers/cover-1.svg"}
+              alt=""
+              className="absolute inset-0 w-full h-full object-cover"
+            />
 
-            <div className="relative z-10 flex flex-col h-full px-[20mm] py-[22mm]">
-              {/* top: eyebrow + auditor */}
-              <div className="flex items-start justify-between">
-                <div>
-                  <p className="text-[11px] tracking-[0.3em] font-semibold text-white/70 uppercase">
-                    Credit Monitoring Arrangement
-                  </p>
-                  <div className="mt-2 h-[3px] w-16 bg-[#7fa8d4]" />
-                </div>
-                <div className="text-right">
-                  <p className="text-[10px] tracking-widest text-white/60 uppercase">Prepared by</p>
-                  <p className="text-[13px] font-semibold text-white/90 mt-0.5">{auditorLine}</p>
-                </div>
+            {/* Text overlay — centred in the page's white zone so it stays
+                readable on every template; mirrors the Cover editor preview. */}
+            <div
+              className="absolute inset-0 flex flex-col justify-center p-[18mm]"
+              style={{ color: coverSettings.fontColor || "#1a2332" }}
+            >
+              <div
+                className="font-bold leading-[1.08] tracking-tight max-w-[150mm]"
+                style={{
+                  fontSize: Math.min(coverSettings.fontSize || 48, 64),
+                  fontWeight: coverSettings.fontWeight || 700,
+                }}
+              >
+                {coverSettings.titleText || "CMA Report"}
               </div>
 
-              {/* middle: title + company */}
-              <div className="mt-auto mb-auto">
-                <p className="text-[40px] font-bold leading-[1.05] tracking-tight">
-                  {coverSettings.titleText || "CMA Report"}
+              <div className="mt-8">
+                <p className="text-[22px] font-semibold leading-tight">
+                  {companyDetails.name || "Company Name"}
                 </p>
-                <div className="mt-6 pl-4 border-l-4 border-[#7fa8d4]">
-                  <p className="text-[24px] font-semibold leading-tight">
-                    {companyDetails.name || "Company Name"}
-                  </p>
-                  {companyDetails.address && (
-                    <p className="text-[12px] text-white/70 mt-1 max-w-[120mm]">{companyDetails.address}</p>
-                  )}
-                </div>
-              </div>
-
-              {/* bottom: key facts strip */}
-              <div className="mt-auto grid grid-cols-3 gap-4 border-t border-white/20 pt-5">
-                {([
-                  ["Constitution", companyDetails.registrationType || companyDetails.constitution || "—"],
-                  ["Industry", companyDetails.industry || companyDetails.activity || "—"],
-                  ["Period", `${yearColumns[0]?.label ?? ""} – ${yearColumns[nCols - 1]?.label ?? ""}`],
-                  ["PAN", companyDetails.panNumber || "—"],
-                  ["Bank", companyDetails.bankName || "—"],
-                  ["Prepared on", new Date().toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" })],
-                ] as [string, string][]).map(([k, v]) => (
-                  <div key={k}>
-                    <p className="text-[8.5px] tracking-widest text-white/50 uppercase">{k}</p>
-                    <p className="text-[12px] font-semibold text-white/90 mt-1 truncate">{v}</p>
-                  </div>
-                ))}
+                {companyDetails.address && (
+                  <p className="text-[12px] opacity-75 mt-1 max-w-[130mm]">{companyDetails.address}</p>
+                )}
+                <p className="text-[11px] opacity-70 mt-4">
+                  {settings.auditorName ? `Prepared by ${auditorLine}` : auditorLine}
+                  {"  ·  "}
+                  {new Date().toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" })}
+                </p>
               </div>
             </div>
           </div>
