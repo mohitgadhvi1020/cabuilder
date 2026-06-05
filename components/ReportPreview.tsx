@@ -17,7 +17,7 @@ import {
 } from "@/lib/calculations";
 import { deriveOperatingRows } from "@/lib/operatingDerived";
 import { formatOperatingGrowthLabel } from "@/lib/operatingGrowth";
-import { ArrowLeft, Download, Printer } from "lucide-react";
+import { ArrowLeft, Download } from "lucide-react";
 import { downloadReportPdf } from "@/lib/pdfExport";
 import { cn } from "@/lib/cn";
 
@@ -239,18 +239,17 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
             </Link>
             <h1 className="text-sm font-semibold text-foreground">CMA Report Preview</h1>
           </div>
-          <div className="flex gap-2">
-            <Button variant="outline" size="sm" onClick={() => window.print()} className="gap-2 border-card-border">
-              <Printer className="w-4 h-4" />
-              Print
-            </Button>
+          <div className="flex items-center gap-2">
+            <span className="hidden sm:inline text-[11px] text-muted-foreground">
+              Choose <strong>Save as PDF</strong> in the print dialog
+            </span>
             <Button
               size="sm"
               onClick={() => downloadReportPdf(`${companyDetails.name || "cma"}-report.pdf`)}
               className="gap-2 bg-accent hover:bg-accent-hover text-accent-foreground"
             >
               <Download className="w-4 h-4" />
-              Download PDF
+              Save as PDF
             </Button>
           </div>
         </div>
