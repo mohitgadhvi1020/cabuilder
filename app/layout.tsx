@@ -20,7 +20,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-screen antialiased">
+      {/* suppressHydrationWarning: browser extensions (e.g. Grammarly) inject
+          attributes onto <body> before React hydrates, causing a harmless
+          server/client attribute mismatch. */}
+      <body className="min-h-screen antialiased" suppressHydrationWarning>
         <Toaster>{children}</Toaster>
       </body>
     </html>
