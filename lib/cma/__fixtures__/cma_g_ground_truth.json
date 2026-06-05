@@ -1,0 +1,9056 @@
+{
+ "source": "CMA_G.xlsx",
+ "note": "Cached computed values. Reporting year columns: CMA Calc & CMA = D(opening),E,F,G,H ; Actual inputs = H(opening),I,J,K,L. Amounts in Rs. Lacs.",
+ "actual_inputs": {
+  "2": {
+   "label": "Balance Sheet Difference",
+   "vals": {
+    "H": -1779.47,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "3": {
+   "label": "Name of The Borrower",
+   "vals": {}
+  },
+  "4": {
+   "label": "Date of CMA Data Preparation",
+   "vals": {}
+  },
+  "5": {
+   "label": "Borrower's Constitution",
+   "vals": {}
+  },
+  "6": {
+   "label": "Borrower's Business",
+   "vals": {}
+  },
+  "7": {
+   "label": "Last Actual Year in CMA Data",
+   "vals": {}
+  },
+  "8": {
+   "label": "CMA Start (First) Year",
+   "vals": {}
+  },
+  "9": {
+   "label": "Require Actual Year in CMA Data Print",
+   "vals": {}
+  },
+  "10": {
+   "label": "No. of Actual Years",
+   "vals": {}
+  },
+  "11": {
+   "label": "No. of Years (Incl. Actual)",
+   "vals": {}
+  },
+  "12": {
+   "label": "Current Year",
+   "vals": {}
+  },
+  "13": {
+   "label": "Projection Year",
+   "vals": {}
+  },
+  "14": {
+   "label": "Require Projection Year in CMA Data Print",
+   "vals": {}
+  },
+  "15": {
+   "label": "Actual Decimal",
+   "vals": {}
+  },
+  "16": {
+   "label": "Estimate Decimal",
+   "vals": {}
+  },
+  "17": {
+   "label": "Rounding",
+   "vals": {}
+  },
+  "18": {
+   "label": "OPERATING STATEMENT",
+   "vals": {}
+  },
+  "20": {
+   "label": null,
+   "vals": {
+    "H": 1.0,
+    "I": 2.0,
+    "J": 3.0
+   }
+  },
+  "21": {
+   "label": "Particulars",
+   "vals": {}
+  },
+  "23": {
+   "label": "(i)",
+   "vals": {
+    "H": 0.0,
+    "I": 16073.04,
+    "J": 15961.08,
+    "K": 1.0
+   }
+  },
+  "24": {
+   "label": "Domestic sales",
+   "vals": {
+    "J": -0.007
+   }
+  },
+  "25": {
+   "label": "Rate Difference & Returns",
+   "vals": {}
+  },
+  "29": {
+   "label": "(ii)",
+   "vals": {
+    "H": 0.0,
+    "I": 529.44,
+    "J": 660.54,
+    "K": 1.0
+   }
+  },
+  "30": {
+   "label": "Export Sales",
+   "vals": {
+    "J": 0.2476
+   }
+  },
+  "31": {
+   "label": "Rate Difference & Returns (Export)",
+   "vals": {}
+  },
+  "35": {
+   "label": "(iii)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "41": {
+   "label": "(iv)",
+   "vals": {
+    "H": 0.0,
+    "I": 98.51,
+    "J": 82.34,
+    "K": 1.0
+   }
+  },
+  "42": {
+   "label": null,
+   "vals": {
+    "J": -0.1641
+   }
+  },
+  "47": {
+   "label": "Gross sales",
+   "vals": {
+    "H": 0.0,
+    "I": 16700.99,
+    "J": 16703.96
+   }
+  },
+  "49": {
+   "label": "(iv)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "55": {
+   "label": "NET SALES (1-2)",
+   "vals": {
+    "H": 0.0,
+    "I": 16700.99,
+    "J": 16703.96
+   }
+  },
+  "57": {
+   "label": "Sales After Adjusting Stock",
+   "vals": {
+    "H": -550.68,
+    "I": 16110.85,
+    "J": 16665.61
+   }
+  },
+  "59": {
+   "label": "COST OF SALES",
+   "vals": {
+    "H": 550.68,
+    "I": 17291.13,
+    "J": 16742.31
+   }
+  },
+  "61": {
+   "label": "(a)",
+   "vals": {}
+  },
+  "62": {
+   "label": "(i)  Imported",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "63": {
+   "label": "Op. Stock of Raw Material",
+   "vals": {}
+  },
+  "64": {
+   "label": "Purchase During The Year",
+   "vals": {}
+  },
+  "68": {
+   "label": "Less: Closing Stock of Raw Material",
+   "vals": {}
+  },
+  "69": {
+   "label": "(ii) Indigenous",
+   "vals": {
+    "H": -4126.87,
+    "I": 12354.71,
+    "J": 10963.93,
+    "K": 1.0
+   }
+  },
+  "70": {
+   "label": "Op. Stock of Raw Material",
+   "vals": {
+    "H": -7.4941,
+    "I": 0.7145,
+    "J": 0.6549
+   }
+  },
+  "71": {
+   "label": "Purchase During The Year",
+   "vals": {}
+  },
+  "73": {
+   "label": "Packing Material Consumed",
+   "vals": {}
+  },
+  "75": {
+   "label": "Less: Closing Stock of Raw Material",
+   "vals": {}
+  },
+  "77": {
+   "label": "(b)",
+   "vals": {}
+  },
+  "78": {
+   "label": "(i)  Imported",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "79": {
+   "label": "Op. Stock of Stores & Spares",
+   "vals": {}
+  },
+  "80": {
+   "label": "Purchase During The Year",
+   "vals": {}
+  },
+  "83": {
+   "label": "Less: Closing Stock of Stores & Spares",
+   "vals": {}
+  },
+  "84": {
+   "label": "(ii) Indigenous",
+   "vals": {
+    "H": -202.28,
+    "I": 6.96,
+    "J": 580.04,
+    "K": 1.0
+   }
+  },
+  "85": {
+   "label": "Op. Stock of Stores & Spares",
+   "vals": {
+    "H": -0.3673,
+    "I": 0.0004,
+    "J": 0.0346
+   }
+  },
+  "86": {
+   "label": "Purchase During The Year",
+   "vals": {}
+  },
+  "89": {
+   "label": "Less: Closing Stock of Stores & Spares",
+   "vals": {}
+  },
+  "91": {
+   "label": "(c)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "96": {
+   "label": "(d)",
+   "vals": {
+    "H": 0.0,
+    "I": 219.16,
+    "J": 213.6,
+    "K": 1.0
+   }
+  },
+  "97": {
+   "label": "Electric Expense",
+   "vals": {
+    "I": 0.0127,
+    "J": 0.0128
+   }
+  },
+  "102": {
+   "label": "(e)",
+   "vals": {
+    "H": 0.0,
+    "I": 656.9,
+    "J": 874.91,
+    "K": 1.0
+   }
+  },
+  "103": {
+   "label": "Wages Expense",
+   "vals": {
+    "I": 0.038,
+    "J": 0.0523
+   }
+  },
+  "104": {
+   "label": "Salary Expense and Director Remuneration",
+   "vals": {}
+  },
+  "105": {
+   "label": "Contribution to PF and other funds",
+   "vals": {}
+  },
+  "106": {
+   "label": "Employee Benefit Expenses",
+   "vals": {}
+  },
+  "108": {
+   "label": "(f)",
+   "vals": {
+    "H": 0.0,
+    "I": 361.28,
+    "J": 455.94,
+    "K": 1.0
+   }
+  },
+  "109": {
+   "label": null,
+   "vals": {
+    "I": 0.0209,
+    "J": 0.0272
+   }
+  },
+  "114": {
+   "label": "(g)",
+   "vals": {
+    "H": 0.0,
+    "I": 252.13,
+    "J": 247.38,
+    "K": 1.0
+   }
+  },
+  "115": {
+   "label": null,
+   "vals": {
+    "I": 0.1192,
+    "J": 0.0891
+   }
+  },
+  "118": {
+   "label": "(h)",
+   "vals": {
+    "H": -4329.15,
+    "I": 13851.14,
+    "J": 13335.8
+   }
+  },
+  "120": {
+   "label": "(i)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "121": {
+   "label": "(j)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "123": {
+   "label": "(k)",
+   "vals": {
+    "H": -4329.15,
+    "I": 13851.14,
+    "J": 13335.8
+   }
+  },
+  "125": {
+   "label": "(l)",
+   "vals": {
+    "H": 0.0,
+    "I": 550.68,
+    "J": 1140.82
+   }
+  },
+  "126": {
+   "label": "(m)",
+   "vals": {
+    "H": 550.68,
+    "I": 1140.82,
+    "J": 1179.17
+   }
+  },
+  "128": {
+   "label": "TOTAL COST OF SALES",
+   "vals": {
+    "H": -4879.83,
+    "I": 13261.0,
+    "J": 13297.45
+   }
+  },
+  "130": {
+   "label": "5A",
+   "vals": {
+    "H": 4879.83,
+    "I": 3439.99,
+    "J": 3406.51
+   }
+  },
+  "131": {
+   "label": "Gross Profit Ratio",
+   "vals": {
+    "H": 0.0,
+    "I": 0.206,
+    "J": 0.2039
+   }
+  },
+  "133": {
+   "label": "Selling general and administrative expenses",
+   "vals": {
+    "H": 0.0,
+    "I": 1836.22,
+    "J": 2016.99,
+    "K": 1.0
+   }
+  },
+  "134": {
+   "label": "Selling & Distribution Expense",
+   "vals": {
+    "J": 0.0984
+   }
+  },
+  "135": {
+   "label": "Administration Expense",
+   "vals": {}
+  },
+  "136": {
+   "label": "Windmill related Expense",
+   "vals": {}
+  },
+  "137": {
+   "label": "Miscellaneous Expense",
+   "vals": {}
+  },
+  "139": {
+   "label": "SUB - TOTAL (5+6)",
+   "vals": {
+    "H": -4879.83,
+    "I": 15097.22,
+    "J": 15314.44
+   }
+  },
+  "141": {
+   "label": "Operating profit before interest (3-7)",
+   "vals": {
+    "H": 4879.83,
+    "I": 1603.77,
+    "J": 1389.52
+   }
+  },
+  "142": {
+   "label": "Operating Profit Ratio",
+   "vals": {
+    "H": 0.0,
+    "I": 0.096,
+    "J": 0.0832
+   }
+  },
+  "143": {
+   "label": "8A",
+   "vals": {
+    "H": 4879.83,
+    "I": 1855.9,
+    "J": 1636.9
+   }
+  },
+  "144": {
+   "label": "PBDIT Ratio",
+   "vals": {
+    "H": 0.0,
+    "I": 0.1111,
+    "J": 0.098
+   }
+  },
+  "146": {
+   "label": "Total Interest",
+   "vals": {
+    "H": 0.0,
+    "I": 130.57,
+    "J": 148.92
+   }
+  },
+  "148": {
+   "label": "a",
+   "vals": {
+    "H": 0.0,
+    "I": 15.2,
+    "J": 25.96,
+    "K": 1.0
+   }
+  },
+  "149": {
+   "label": null,
+   "vals": {
+    "H": 0.0944,
+    "I": 0.0944,
+    "J": 0.0944
+   }
+  },
+  "150": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.1837,
+    "J": 0.7638
+   }
+  },
+  "152": {
+   "label": "Non-EMI Based Repayment Loans",
+   "vals": {}
+  },
+  "153": {
+   "label": "b.1",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 8.66,
+    "K": 1.0
+   }
+  },
+  "154": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "155": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "156": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 133.09,
+    "L": 0.0
+   }
+  },
+  "157": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 133.09,
+    "I": 133.09,
+    "L": 0.0
+   }
+  },
+  "158": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "159": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "161": {
+   "label": "b.2",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "162": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "163": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "164": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "165": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "166": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "167": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "169": {
+   "label": "b.3",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "170": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "171": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "172": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "173": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "174": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "175": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "177": {
+   "label": "b.4",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "178": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "179": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "180": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "181": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "182": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "183": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "185": {
+   "label": "b.5",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "186": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "187": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "188": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "189": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "190": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "191": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "193": {
+   "label": "b.6",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "194": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "195": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "196": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "197": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "198": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "199": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "201": {
+   "label": "EMI Based Repayment Loans",
+   "vals": {}
+  },
+  "202": {
+   "label": "c.1",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "203": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "204": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "205": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "206": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "207": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "208": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "210": {
+   "label": "c.2",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "211": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "212": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "213": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "214": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "215": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "216": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "218": {
+   "label": "c.3",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "219": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "220": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "221": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "222": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "223": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "224": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "226": {
+   "label": "c.4",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "227": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "228": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "229": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "230": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "231": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "232": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "234": {
+   "label": "c.5",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "235": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "236": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "237": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "238": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "239": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "240": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "242": {
+   "label": "c.6",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "243": {
+   "label": "Op. Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "244": {
+   "label": "Add: Disbursement During Year",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "245": {
+   "label": "Add: Interest Charged",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "L": 0.0
+   }
+  },
+  "246": {
+   "label": "Less: Total Repayment (Incl. Interest)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "L": 0.0
+   }
+  },
+  "247": {
+   "label": "Closing Balance",
+   "vals": {
+    "L": 0.0
+   }
+  },
+  "248": {
+   "label": "12 Month Due Installment",
+   "vals": {}
+  },
+  "250": {
+   "label": "d",
+   "vals": {
+    "H": 0.0,
+    "I": 115.37,
+    "J": 114.3,
+    "K": 1.0
+   }
+  },
+  "251": {
+   "label": null,
+   "vals": {
+    "I": 0.13,
+    "J": 0.13
+   }
+  },
+  "252": {
+   "label": null,
+   "vals": {
+    "I": 0.9651,
+    "J": 0.9808
+   }
+  },
+  "254": {
+   "label": "e",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "258": {
+   "label": "OPERATING PROFIT AFTER INTEREST (8-9)",
+   "vals": {
+    "H": 4879.83,
+    "I": 1473.2,
+    "J": 1240.6
+   }
+  },
+  "259": {
+   "label": "Operating Profit After Int. Ratio",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0882,
+    "J": 0.0743
+   }
+  },
+  "261": {
+   "label": "(i) Add other non-operating income",
+   "vals": {}
+  },
+  "262": {
+   "label": "(a)",
+   "vals": {
+    "H": 0.0,
+    "I": 106.24,
+    "J": 94.01
+   }
+  },
+  "265": {
+   "label": "(b)",
+   "vals": {
+    "H": 0.0,
+    "I": 78.73,
+    "J": 99.9
+   }
+  },
+  "266": {
+   "label": "Profit from Derivative and Securities",
+   "vals": {}
+  },
+  "268": {
+   "label": "Sub - Total (income)",
+   "vals": {
+    "H": 0.0,
+    "I": 184.97,
+    "J": 193.91,
+    "K": 1.0
+   }
+  },
+  "270": {
+   "label": "(ii) Deduct other non-operating expenses",
+   "vals": {}
+  },
+  "271": {
+   "label": "(a)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "274": {
+   "label": "(b)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "277": {
+   "label": "Sub - Total (Expense)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "278": {
+   "label": "(iii)",
+   "vals": {
+    "H": 0.0,
+    "I": 184.97,
+    "J": 193.91
+   }
+  },
+  "280": {
+   "label": "Profit before tax/loss 10+11(iii)",
+   "vals": {
+    "H": 4879.83,
+    "I": 1658.17,
+    "J": 1434.51
+   }
+  },
+  "281": {
+   "label": "Operating Profit Ratio",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0993,
+    "J": 0.0859
+   }
+  },
+  "283": {
+   "label": "Provision for taxes",
+   "vals": {
+    "H": 0.0,
+    "I": 420.02,
+    "J": 354.13
+   }
+  },
+  "284": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.2533,
+    "J": 0.2469
+   }
+  },
+  "287": {
+   "label": "Deferred Tax Provision",
+   "vals": {
+    "H": 0.0,
+    "I": -1.04,
+    "J": 23.29
+   }
+  },
+  "291": {
+   "label": "NET PROFIT/LOSS (12-13)",
+   "vals": {
+    "H": 4879.83,
+    "I": 1239.19,
+    "J": 1057.09
+   }
+  },
+  "292": {
+   "label": "Net Profit After Tax Ratio",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0742,
+    "J": 0.0633
+   }
+  },
+  "294": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "295": {
+   "label": "(a)",
+   "vals": {}
+  },
+  "297": {
+   "label": "(b) Dividend Rate",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "299": {
+   "label": "RETAINED PROFIT (14-15)",
+   "vals": {
+    "H": 4879.83,
+    "I": 1239.19,
+    "J": 1057.09
+   }
+  },
+  "300": {
+   "label": "Retained profit to Net profit (% age)",
+   "vals": {
+    "H": 1.0,
+    "I": 1.0,
+    "J": 1.0
+   }
+  },
+  "302": {
+   "label": "FORM III",
+   "vals": {}
+  },
+  "303": {
+   "label": "ANALYSIS OF BALANCE SHEET",
+   "vals": {}
+  },
+  "306": {
+   "label": "LIABILITIES",
+   "vals": {}
+  },
+  "308": {
+   "label": null,
+   "vals": {
+    "H": 1.0,
+    "I": 2.0,
+    "J": 3.0
+   }
+  },
+  "309": {
+   "label": "CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "310": {
+   "label": "Short term borrowings from",
+   "vals": {}
+  },
+  "311": {
+   "label": "banks (including BP/BD)",
+   "vals": {}
+  },
+  "312": {
+   "label": "i) From applicant banks",
+   "vals": {
+    "H": 0.0,
+    "I": 876.6,
+    "J": 360.04
+   }
+  },
+  "313": {
+   "label": "ii) From other banks",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "314": {
+   "label": "iii) Working Capital Demand Loan",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "315": {
+   "label": "SUB TOTAL (A)",
+   "vals": {
+    "H": 0.0,
+    "I": 876.6,
+    "J": 360.04,
+    "K": 1.0
+   }
+  },
+  "317": {
+   "label": "Sundry Creditors for Capital Goods",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "321": {
+   "label": "Sundry creditors (Trade)",
+   "vals": {
+    "H": 0.0,
+    "I": 893.14,
+    "J": 928.26,
+    "K": 1.0
+   }
+  },
+  "322": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.96,
+    "J": 1.01
+   }
+  },
+  "324": {
+   "label": "Total Consumption (RM + Spares)",
+   "vals": {
+    "H": -4329.15,
+    "I": 12361.67,
+    "J": 11543.97
+   }
+  },
+  "325": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": -4329.15,
+    "J": -3117.11
+   }
+  },
+  "326": {
+   "label": null,
+   "vals": {
+    "H": 4329.15,
+    "I": 3117.11,
+    "J": 2652.4
+   }
+  },
+  "327": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 11149.63,
+    "J": 11079.26
+   }
+  },
+  "329": {
+   "label": "Advance payments from customers / deposits from dealers",
+   "vals": {
+    "H": 0.0,
+    "I": 30.17,
+    "J": 84.88,
+    "K": 1.0
+   }
+  },
+  "333": {
+   "label": "Provision for taxation",
+   "vals": {
+    "H": 0.0,
+    "I": 417.53,
+    "J": 347.0,
+    "K": 1.0
+   }
+  },
+  "335": {
+   "label": "Dividend payable",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "337": {
+   "label": "Other statutory liabilities (due within one year)",
+   "vals": {
+    "H": 0.0,
+    "I": 94.5,
+    "J": 58.37,
+    "K": 1.0
+   }
+  },
+  "341": {
+   "label": "Deposits/Instalments of term loans/ DPGs/debentures,etc.,(due in 1 yr.)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 31.92,
+    "K": 1.0
+   }
+  },
+  "345": {
+   "label": null,
+   "vals": {
+    "H": 0.0
+   }
+  },
+  "346": {
+   "label": null,
+   "vals": {
+    "H": 0.0
+   }
+  },
+  "347": {
+   "label": null,
+   "vals": {
+    "H": 0.0
+   }
+  },
+  "355": {
+   "label": "Other current liabilities & provisions",
+   "vals": {}
+  },
+  "356": {
+   "label": "(due within one year)",
+   "vals": {}
+  },
+  "357": {
+   "label": "Other current liabilities",
+   "vals": {
+    "H": 0.0,
+    "I": 201.37,
+    "J": 162.14,
+    "K": 1.0
+   }
+  },
+  "358": {
+   "label": "Salary Payable",
+   "vals": {}
+  },
+  "361": {
+   "label": "Other Provisions",
+   "vals": {
+    "H": 0.0,
+    "I": 50.09,
+    "J": 47.99,
+    "K": 1.0
+   }
+  },
+  "362": {
+   "label": "Provision for Gratuity",
+   "vals": {}
+  },
+  "365": {
+   "label": "Unsecured Loan (Due within 1 Yr.)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "369": {
+   "label": "SUB TOTAL (B)",
+   "vals": {
+    "H": 0.0,
+    "I": 1686.8,
+    "J": 1660.56
+   }
+  },
+  "370": {
+   "label": "TOTAL CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "371": {
+   "label": "[Item (A)+Item (B)]",
+   "vals": {
+    "H": 0.0,
+    "I": 2563.4,
+    "J": 2020.6
+   }
+  },
+  "373": {
+   "label": "TERM LIABILITIES",
+   "vals": {}
+  },
+  "374": {
+   "label": "Debentures (not maturing within 1 yr)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "378": {
+   "label": "Preference shares (red. after 1 yr.)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "382": {
+   "label": "Term loans (excluding instalments payable within one year)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 101.17,
+    "K": 1.0
+   }
+  },
+  "386": {
+   "label": null,
+   "vals": {
+    "H": 0.0
+   }
+  },
+  "387": {
+   "label": null,
+   "vals": {
+    "H": 0.0
+   }
+  },
+  "388": {
+   "label": null,
+   "vals": {
+    "H": 0.0
+   }
+  },
+  "396": {
+   "label": "Deffered payment creditors (excldg. instalments due within one year)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "400": {
+   "label": "Term deposites (repayable after 1 yr.)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "404": {
+   "label": "Other term liabilities(Unsecured Loan)",
+   "vals": {
+    "H": 0.0,
+    "I": 919.54,
+    "J": 896.47,
+    "K": 1.0
+   }
+  },
+  "405": {
+   "label": "Unsecured Loan",
+   "vals": {}
+  },
+  "408": {
+   "label": "TOTAL TERM LIABILITIES (Sum of 11 to 16)",
+   "vals": {
+    "H": 0.0,
+    "I": 919.54,
+    "J": 997.64
+   }
+  },
+  "409": {
+   "label": "TOTAL OUTSIDE LIABILITIES",
+   "vals": {}
+  },
+  "410": {
+   "label": "(Total of item 10 + 17)",
+   "vals": {
+    "H": 0.0,
+    "I": 3482.94,
+    "J": 3018.24
+   }
+  },
+  "412": {
+   "label": "NET WORTH:",
+   "vals": {}
+  },
+  "413": {
+   "label": null,
+   "vals": {
+    "H": 25.48,
+    "I": 25.48,
+    "J": 25.48,
+    "K": 1.0
+   }
+  },
+  "414": {
+   "label": "Opening Balance",
+   "vals": {}
+  },
+  "417": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "418": {
+   "label": "Closing Balance",
+   "vals": {}
+  },
+  "420": {
+   "label": "Other Reserves (excluding provisions)",
+   "vals": {
+    "H": 0.0,
+    "I": 71.9,
+    "J": 71.9,
+    "K": 1.0
+   }
+  },
+  "421": {
+   "label": "Closing Balance",
+   "vals": {}
+  },
+  "423": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "424": {
+   "label": "Closing Balance",
+   "vals": {}
+  },
+  "426": {
+   "label": "Surplus(+) or deficit (-) in P & L A/c.",
+   "vals": {
+    "H": 4879.83,
+    "I": 8376.59,
+    "J": 9433.68,
+    "K": 1.0
+   }
+  },
+  "427": {
+   "label": "Adjustments (Including Op. Bal. in 1st Yr.)",
+   "vals": {}
+  },
+  "429": {
+   "label": "b",
+   "vals": {
+    "H": 41.62,
+    "I": 40.58,
+    "J": 63.87,
+    "K": 1.0
+   }
+  },
+  "430": {
+   "label": "Adjustments (Including Op. Bal. in 1st Yr.)",
+   "vals": {}
+  },
+  "432": {
+   "label": "NET WORTH (Total of 19 to 23)",
+   "vals": {
+    "H": 4946.93,
+    "I": 8514.55,
+    "J": 9594.93
+   }
+  },
+  "433": {
+   "label": "TOTAL LIABILITIES (Total of item 24 + 25)",
+   "vals": {
+    "H": 4946.93,
+    "I": 11997.49,
+    "J": 12613.17
+   }
+  },
+  "435": {
+   "label": "FORM III",
+   "vals": {}
+  },
+  "436": {
+   "label": "ANALYSIS OF BALANCE SHEET (Contd.)",
+   "vals": {}
+  },
+  "439": {
+   "label": "ASSETS",
+   "vals": {}
+  },
+  "441": {
+   "label": null,
+   "vals": {
+    "H": 1.0,
+    "I": 2.0,
+    "J": 3.0
+   }
+  },
+  "442": {
+   "label": "CURRENT ASSETS",
+   "vals": {}
+  },
+  "443": {
+   "label": "Cash and bank balance",
+   "vals": {
+    "H": 0.0,
+    "I": 250.49,
+    "J": 106.55,
+    "K": 1.0
+   }
+  },
+  "446": {
+   "label": "Investments (other than long term investments)",
+   "vals": {}
+  },
+  "447": {
+   "label": "i) Govt. & Other Trustee securities",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "448": {
+   "label": "ii) Fixed deposits with bank & Others",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "450": {
+   "label": "Sundry Debtors",
+   "vals": {}
+  },
+  "451": {
+   "label": "i)",
+   "vals": {
+    "H": 0.0,
+    "I": 1105.36,
+    "J": 1112.57,
+    "K": 1.0
+   }
+  },
+  "452": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.83,
+    "J": 0.84
+   }
+  },
+  "455": {
+   "label": "ii)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "456": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "459": {
+   "label": "Installment of deffered receivable (due within 1 yr.)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "461": {
+   "label": "Inventory:",
+   "vals": {}
+  },
+  "462": {
+   "label": "i)   Raw materials (including stores)",
+   "vals": {}
+  },
+  "463": {
+   "label": "a) Imported",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "464": {
+   "label": "Months Consumption",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "465": {
+   "label": "b) Indegenous",
+   "vals": {
+    "H": 4126.87,
+    "I": 2885.86,
+    "J": 2329.25,
+    "K": 1.0
+   }
+  },
+  "466": {
+   "label": "Months Consumption",
+   "vals": {
+    "H": -12.0,
+    "I": 2.8,
+    "J": 2.55
+   }
+  },
+  "468": {
+   "label": "ii)  Stock-in-process",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "470": {
+   "label": "iii) Finished goods",
+   "vals": {
+    "H": 550.68,
+    "I": 1140.82,
+    "J": 1179.17,
+    "K": 1.0
+   }
+  },
+  "472": {
+   "label": "iv) Stores & Spares",
+   "vals": {}
+  },
+  "473": {
+   "label": "a) Imported",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "474": {
+   "label": "Months Consumption",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "475": {
+   "label": "b) Indegenous",
+   "vals": {
+    "H": 202.28,
+    "I": 231.25,
+    "J": 323.15,
+    "K": 1.0
+   }
+  },
+  "476": {
+   "label": "Months Consumption",
+   "vals": {
+    "H": -12.0,
+    "I": 398.71,
+    "J": 6.69
+   }
+  },
+  "478": {
+   "label": "Advances to suppliers of raw materials & stores/spares",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "479": {
+   "label": "Advance payment of taxes",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "481": {
+   "label": "Other current assets (due within one year)",
+   "vals": {}
+  },
+  "483": {
+   "label": "Other Current Assets",
+   "vals": {
+    "H": 0.0,
+    "I": 19.07,
+    "J": 9.68,
+    "K": 1.0
+   }
+  },
+  "487": {
+   "label": "Loan and Advance",
+   "vals": {
+    "H": 0.0,
+    "I": 147.73,
+    "J": 121.84,
+    "K": 1.0
+   }
+  },
+  "488": {
+   "label": "Loan and Advances to employees",
+   "vals": {}
+  },
+  "489": {
+   "label": "Advance to Supplier",
+   "vals": {}
+  },
+  "490": {
+   "label": "Balance with Demat",
+   "vals": {}
+  },
+  "492": {
+   "label": "Statutory Dues Paid in advance",
+   "vals": {
+    "H": 0.0,
+    "I": 573.39,
+    "J": 569.44,
+    "K": 1.0
+   }
+  },
+  "496": {
+   "label": "TOTAL CURRENT ASSETS (Sum of 26 to 33)",
+   "vals": {
+    "H": 4879.83,
+    "I": 6353.97,
+    "J": 5751.65
+   }
+  },
+  "498": {
+   "label": "FIXED ASSETS",
+   "vals": {}
+  },
+  "499": {
+   "label": "GROSS BLOCK",
+   "vals": {
+    "H": 4721.85,
+    "I": 5260.78,
+    "J": 6223.7
+   }
+  },
+  "500": {
+   "label": "Addition/Sell of Assets",
+   "vals": {}
+  },
+  "501": {
+   "label": "Depreciation to date",
+   "vals": {
+    "H": 2875.28,
+    "I": 3146.28,
+    "J": 3447.44
+   }
+  },
+  "502": {
+   "label": "Adj. in Depreciation Due to Add./Sell",
+   "vals": {}
+  },
+  "503": {
+   "label": "NET BLOCK (35-36)",
+   "vals": {
+    "H": 1846.57,
+    "I": 2114.5,
+    "J": 2776.26,
+    "K": 1.0
+   }
+  },
+  "506": {
+   "label": "OTHER NON-CURRENT ASSETS",
+   "vals": {}
+  },
+  "507": {
+   "label": "i)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "508": {
+   "label": "b) Others",
+   "vals": {
+    "H": 0.0,
+    "I": 3472.87,
+    "J": 4029.0,
+    "K": 1.0
+   }
+  },
+  "510": {
+   "label": "ii)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "512": {
+   "label": "iii)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "514": {
+   "label": "iv)",
+   "vals": {}
+  },
+  "515": {
+   "label": "Security Deposit",
+   "vals": {
+    "H": 0.0,
+    "I": 56.15,
+    "J": 56.26,
+    "K": 1.0
+   }
+  },
+  "519": {
+   "label": "Debtors (Due more than 6 months)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "523": {
+   "label": "Loans & Advances to Others",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "527": {
+   "label": "Non consumable stores & spares",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "529": {
+   "label": "Other non-current assets incldg. dues from directors",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "531": {
+   "label": "TOTAL OTHER NON-CURRENT ASSETS",
+   "vals": {}
+  },
+  "532": {
+   "label": "(Total of 38 to 40)",
+   "vals": {
+    "H": 0.0,
+    "I": 3529.02,
+    "J": 4085.26
+   }
+  },
+  "534": {
+   "label": "Intangible assets (patents goodwill, prelim.exp., bad/doughtful debts not provided for, etc.)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0,
+    "K": 1.0
+   }
+  },
+  "538": {
+   "label": "TOTAL ASSETS(Total of 34,37,41 & 42)",
+   "vals": {
+    "H": 6726.4,
+    "I": 11997.49,
+    "J": 12613.17
+   }
+  },
+  "539": {
+   "label": "TANGIBLE NET WORTH (24-42)",
+   "vals": {
+    "H": 4946.93,
+    "I": 8514.55,
+    "J": 9594.93
+   }
+  },
+  "540": {
+   "label": "NET WORKING CAPITAL (34-10)",
+   "vals": {
+    "H": 4879.83,
+    "I": 3790.57,
+    "J": 3731.05
+   }
+  },
+  "541": {
+   "label": "To tally with (17+24)-(37+41+42)",
+   "vals": {}
+  },
+  "542": {
+   "label": "Current Ratio (Item 34/10)",
+   "vals": {
+    "H": 0.0,
+    "I": 2.4787,
+    "J": 2.8465
+   }
+  },
+  "543": {
+   "label": "Total Outstanding Liabilities/Tangible",
+   "vals": {}
+  },
+  "544": {
+   "label": "Net Worth (18/44)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.4091,
+    "J": 0.3146
+   }
+  },
+  "546": {
+   "label": "ADDITIONAL INFORMATION",
+   "vals": {}
+  },
+  "547": {
+   "label": "(A)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "548": {
+   "label": "(B)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "549": {
+   "label": "TOL (Excluding Quasi-Equity)",
+   "vals": {
+    "H": 0.0,
+    "I": 2563.4,
+    "J": 2020.6
+   }
+  },
+  "550": {
+   "label": "Quasi TNW (Including Quasi Equity)",
+   "vals": {
+    "H": 4946.93,
+    "I": 9434.09,
+    "J": 10592.57
+   }
+  },
+  "551": {
+   "label": "Quasi TOL/TNW",
+   "vals": {
+    "H": 0.0,
+    "I": 0.2717,
+    "J": 0.1908
+   }
+  },
+  "552": {
+   "label": "Contingent Liabilities:",
+   "vals": {}
+  },
+  "553": {
+   "label": "i)   Arrears of cumulative dividends",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "554": {
+   "label": "ii)  Gratuity liability not provided for",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "555": {
+   "label": "iii)  Disputed excise/customs/tax liabilities",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "556": {
+   "label": "iv)  Other Liabilities not provided for",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "558": {
+   "label": null,
+   "vals": {
+    "H": -1779.47,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "559": {
+   "label": null,
+   "vals": {
+    "H": -1779.47,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "561": {
+   "label": "FORM IV",
+   "vals": {}
+  },
+  "562": {
+   "label": "COMPARATIVE STATEMENT OF CURRENT ASSETS & CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "565": {
+   "label": "PARTICULARS",
+   "vals": {}
+  },
+  "567": {
+   "label": null,
+   "vals": {
+    "H": 1.0,
+    "I": 2.0,
+    "J": 3.0
+   }
+  },
+  "568": {
+   "label": "A.",
+   "vals": {}
+  },
+  "569": {
+   "label": "Raw materials (including stores)",
+   "vals": {}
+  },
+  "570": {
+   "label": "a) Imported",
+   "vals": {}
+  },
+  "571": {
+   "label": "(months' consumption)",
+   "vals": {}
+  },
+  "572": {
+   "label": "b) Indigenous",
+   "vals": {}
+  },
+  "573": {
+   "label": "( months' consumption)",
+   "vals": {}
+  },
+  "574": {
+   "label": "Other consumable spares, excluding",
+   "vals": {}
+  },
+  "575": {
+   "label": "those included in (1) above",
+   "vals": {}
+  },
+  "576": {
+   "label": "a) Imported",
+   "vals": {}
+  },
+  "577": {
+   "label": "(months' consumption)",
+   "vals": {}
+  },
+  "578": {
+   "label": "b) Indigenous",
+   "vals": {}
+  },
+  "579": {
+   "label": "(months' consumption)",
+   "vals": {}
+  },
+  "580": {
+   "label": "Stock-in-process",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "581": {
+   "label": "(Months' cost of sales)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "582": {
+   "label": "Finished goods",
+   "vals": {
+    "H": 550.68,
+    "I": 1140.82,
+    "J": 1179.17
+   }
+  },
+  "583": {
+   "label": "Other Trading items- Direct",
+   "vals": {}
+  },
+  "584": {
+   "label": "(Months' cost of sales)",
+   "vals": {
+    "H": -1.3542,
+    "I": 1.0323,
+    "J": 1.0641
+   }
+  },
+  "585": {
+   "label": "Receibables other than export &",
+   "vals": {}
+  },
+  "586": {
+   "label": "deffered receivables (including BP/BD)",
+   "vals": {
+    "H": 0.0,
+    "I": 1105.36,
+    "J": 1112.57
+   }
+  },
+  "587": {
+   "label": "(  Months' domestic sales excluding",
+   "vals": {}
+  },
+  "588": {
+   "label": "deffered payment sales)",
+   "vals": {}
+  },
+  "589": {
+   "label": "Export receivables (including bills",
+   "vals": {}
+  },
+  "590": {
+   "label": "Purchased & Discounted)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "591": {
+   "label": "(Months' export sales)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "592": {
+   "label": "Advances to suppliers of raw materials",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "593": {
+   "label": "& stores/spares consumable",
+   "vals": {}
+  },
+  "594": {
+   "label": "Other current assets including cash &",
+   "vals": {}
+  },
+  "595": {
+   "label": "bank balances & deffered receivables",
+   "vals": {
+    "H": 0.0,
+    "I": 990.68,
+    "J": 807.51
+   }
+  },
+  "596": {
+   "label": "due within one year",
+   "vals": {}
+  },
+  "597": {
+   "label": "TOTAL CURRENT ASSETS",
+   "vals": {}
+  },
+  "598": {
+   "label": "(To agree with item 34 in Form III)",
+   "vals": {
+    "H": 4879.83,
+    "I": 6353.97,
+    "J": 5751.65
+   }
+  },
+  "599": {
+   "label": "B.",
+   "vals": {}
+  },
+  "600": {
+   "label": "(Other than bank borrowings for working",
+   "vals": {}
+  },
+  "601": {
+   "label": "capital)",
+   "vals": {}
+  },
+  "602": {
+   "label": "Creditors for purchase of raw materials,",
+   "vals": {
+    "H": 0.0,
+    "I": 893.14,
+    "J": 928.26
+   }
+  },
+  "603": {
+   "label": "stores & consumable spares",
+   "vals": {}
+  },
+  "604": {
+   "label": "( Months' Purchase)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.96,
+    "J": 1.01
+   }
+  },
+  "605": {
+   "label": "Advances from customers",
+   "vals": {
+    "H": 0.0,
+    "I": 30.17,
+    "J": 84.88
+   }
+  },
+  "606": {
+   "label": "Statutory liabilities",
+   "vals": {
+    "H": 0.0,
+    "I": 94.5,
+    "J": 58.37
+   }
+  },
+  "607": {
+   "label": "Other current liabilities (specify major items)",
+   "vals": {}
+  },
+  "608": {
+   "label": "Provision for Tax",
+   "vals": {
+    "H": 0.0,
+    "I": 417.53,
+    "J": 347.0
+   }
+  },
+  "609": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "610": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "611": {
+   "label": null,
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 31.92
+   }
+  },
+  "612": {
+   "label": "Other",
+   "vals": {
+    "H": 0.0,
+    "I": 251.46,
+    "J": 210.13
+   }
+  },
+  "613": {
+   "label": "TOTAL",
+   "vals": {
+    "H": 0.0,
+    "I": 1686.8,
+    "J": 1660.56
+   }
+  },
+  "614": {
+   "label": "(to agree with sub.total B of Form No.III)",
+   "vals": {
+    "H": 0.0,
+    "I": 1686.8,
+    "J": 1660.56
+   }
+  },
+  "616": {
+   "label": "FORM V",
+   "vals": {}
+  },
+  "617": {
+   "label": "COMPUTATION OF MAXIMUM PERMISSIBLE BANK FINANCE FOR WORKING CAPITAL",
+   "vals": {}
+  },
+  "620": {
+   "label": "PARTICULARS",
+   "vals": {}
+  },
+  "622": {
+   "label": null,
+   "vals": {
+    "H": 1.0,
+    "I": 2.0,
+    "J": 3.0
+   }
+  },
+  "623": {
+   "label": "Total Current Assets (Item 9 of form IV)",
+   "vals": {}
+  },
+  "624": {
+   "label": "Other Current Liabilities other than bank",
+   "vals": {
+    "H": 0.0,
+    "I": 1686.8,
+    "J": 1660.56
+   }
+  },
+  "625": {
+   "label": "borrowing",
+   "vals": {}
+  },
+  "626": {
+   "label": "(Item 14 of form IV)",
+   "vals": {}
+  },
+  "627": {
+   "label": "Working Capital Gap (WCG) ( 1 - 2)",
+   "vals": {}
+  },
+  "628": {
+   "label": "Min.Stipulated net working capital(i.e.25%",
+   "vals": {}
+  },
+  "629": {
+   "label": "of WCG/25%of TOTAL CURRENT ASSETS",
+   "vals": {}
+  },
+  "630": {
+   "label": "as the case may be depending upon the",
+   "vals": {}
+  },
+  "631": {
+   "label": "method of lending being applied)",
+   "vals": {}
+  },
+  "632": {
+   "label": "(Export receivables to be excluded under",
+   "vals": {}
+  },
+  "633": {
+   "label": "both methods)",
+   "vals": {}
+  },
+  "634": {
+   "label": "Actual / Projected N.W.C. (Item 45 of Form III)",
+   "vals": {
+    "H": 4879.83,
+    "I": 3790.57,
+    "J": 3731.05
+   }
+  },
+  "635": {
+   "label": "Item (3) minus item (4)",
+   "vals": {}
+  },
+  "636": {
+   "label": "Item (3) minus item (5)",
+   "vals": {}
+  },
+  "637": {
+   "label": "Maximum permissible bank finance",
+   "vals": {}
+  },
+  "638": {
+   "label": "(Item (6) or (7) whichever is lower)",
+   "vals": {}
+  },
+  "639": {
+   "label": "Excess borrowings representing short fall",
+   "vals": {}
+  },
+  "640": {
+   "label": "in N.W.C.",
+   "vals": {}
+  },
+  "641": {
+   "label": "(Item 4 minus 5)",
+   "vals": {}
+  },
+  "643": {
+   "label": "FORM VI",
+   "vals": {}
+  },
+  "644": {
+   "label": "FUNDS FLOW STATEMENT",
+   "vals": {}
+  },
+  "649": {
+   "label": null,
+   "vals": {
+    "H": 1.0,
+    "I": 2.0,
+    "J": 3.0
+   }
+  },
+  "650": {
+   "label": "SOURCES",
+   "vals": {}
+  },
+  "651": {
+   "label": "a)",
+   "vals": {
+    "H": 4879.83,
+    "I": 1239.19,
+    "J": 1057.09
+   }
+  },
+  "652": {
+   "label": "b)",
+   "vals": {}
+  },
+  "653": {
+   "label": "c)",
+   "vals": {
+    "H": 0.0,
+    "I": 71.9,
+    "J": 0.0
+   }
+  },
+  "654": {
+   "label": "d)",
+   "vals": {
+    "H": 0.0,
+    "I": 919.54,
+    "J": 78.1
+   }
+  },
+  "655": {
+   "label": "(including public deposits)",
+   "vals": {}
+  },
+  "656": {
+   "label": "e)",
+   "vals": {
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "657": {
+   "label": "f)",
+   "vals": {
+    "H": 408526000.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "658": {
+   "label": "g)",
+   "vals": {
+    "H": 0.0,
+    "I": 2256.53,
+    "J": 23.29
+   }
+  },
+  "659": {
+   "label": "h)",
+   "vals": {}
+  },
+  "661": {
+   "label": "USES",
+   "vals": {}
+  },
+  "662": {
+   "label": "a)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "663": {
+   "label": "b)",
+   "vals": {
+    "H": 99764000.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "664": {
+   "label": "(including public deposits)",
+   "vals": {}
+  },
+  "665": {
+   "label": "c)",
+   "vals": {}
+  },
+  "666": {
+   "label": "d)",
+   "vals": {
+    "H": 0.0,
+    "I": 3529.02,
+    "J": 556.24
+   }
+  },
+  "667": {
+   "label": "e)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "668": {
+   "label": "f)",
+   "vals": {
+    "H": 6386958.38,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "669": {
+   "label": "g)",
+   "vals": {}
+  },
+  "671": {
+   "label": "Long Term Surplus (+)/Deficit",
+   "vals": {}
+  },
+  "672": {
+   "label": "(-) (item 1 - item 2)",
+   "vals": {}
+  },
+  "673": {
+   "label": "Increase/(Decrease) in current assets",
+   "vals": {
+    "H": -575160579.17,
+    "I": 1474.14,
+    "J": -602.32
+   }
+  },
+  "674": {
+   "label": "Increase/(-)decrease in current",
+   "vals": {}
+  },
+  "675": {
+   "label": "liablities other than Bank",
+   "vals": {}
+  },
+  "676": {
+   "label": "borrowings",
+   "vals": {
+    "H": -166056000.0,
+    "I": 1686.8,
+    "J": -26.24
+   }
+  },
+  "677": {
+   "label": "Increase/(decrease) in working",
+   "vals": {}
+  },
+  "678": {
+   "label": "capital gap",
+   "vals": {
+    "H": -409104579.17,
+    "I": -212.66,
+    "J": -576.08
+   }
+  },
+  "679": {
+   "label": "Net surplus (+) / deficit (-)",
+   "vals": {}
+  },
+  "680": {
+   "label": "(Difference of 3 & 6)",
+   "vals": {}
+  },
+  "681": {
+   "label": "Increase/(Decrase) in Bank",
+   "vals": {}
+  },
+  "682": {
+   "label": "borrowings",
+   "vals": {
+    "H": -36004000.0,
+    "I": 876.6,
+    "J": -516.56
+   }
+  },
+  "684": {
+   "label": "BREAK UP OF (4)",
+   "vals": {}
+  },
+  "685": {
+   "label": "i)",
+   "vals": {}
+  },
+  "686": {
+   "label": "ii)",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "687": {
+   "label": "iii)",
+   "vals": {
+    "H": -117916449.32,
+    "I": 590.14,
+    "J": 38.35
+   }
+  },
+  "688": {
+   "label": "iv)",
+   "vals": {}
+  },
+  "689": {
+   "label": "a) Domestic",
+   "vals": {
+    "H": -111257000.0,
+    "I": 1105.36,
+    "J": 7.21
+   }
+  },
+  "690": {
+   "label": "b) Export",
+   "vals": {
+    "H": 0.0,
+    "I": 0.0,
+    "J": 0.0
+   }
+  },
+  "691": {
+   "label": "v)",
+   "vals": {}
+  },
+  "692": {
+   "label": "spares & traded goods",
+   "vals": {}
+  },
+  "693": {
+   "label": "vi)",
+   "vals": {}
+  },
+  "695": {
+   "label": "Total",
+   "vals": {}
+  }
+ },
+ "cma_calculations": {
+  "1": {
+   "label": "Excess Borrowing (MPBF - Bank CC Limit)",
+   "vals": {
+    "D": 0.0,
+    "E": -0.0,
+    "F": -0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "2": {
+   "label": "Fund Flow Difference",
+   "vals": {
+    "D": -1482.49,
+    "E": 1779.47,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "3": {
+   "label": "Balance Sheet Difference",
+   "vals": {
+    "D": -1779.47,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "5": {
+   "label": "Name of The Borrower",
+   "vals": {}
+  },
+  "6": {
+   "label": "Borrower's Constitution",
+   "vals": {}
+  },
+  "7": {
+   "label": "CMA Start (First) Year",
+   "vals": {
+    "D": 2023.0
+   }
+  },
+  "8": {
+   "label": "No. of Actual Years",
+   "vals": {
+    "D": 3.0
+   }
+  },
+  "9": {
+   "label": "No. of Years (Incl. Actual)",
+   "vals": {
+    "D": 6.0
+   }
+  },
+  "10": {
+   "label": "Current Year",
+   "vals": {
+    "D": 1.0
+   }
+  },
+  "11": {
+   "label": "Projection Year",
+   "vals": {
+    "D": 3.0
+   }
+  },
+  "12": {
+   "label": "Actual Decimal",
+   "vals": {
+    "D": 2.0
+   }
+  },
+  "13": {
+   "label": "Estimate Decimal",
+   "vals": {
+    "D": 2.0
+   }
+  },
+  "14": {
+   "label": "Rounding",
+   "vals": {
+    "D": 100000.0
+   }
+  },
+  "15": {
+   "label": "Drawing Power (DP) Calculations",
+   "vals": {}
+  },
+  "16": {
+   "label": "Sales Break-up",
+   "vals": {
+    "E": 0.0397,
+    "G": 0.9603
+   }
+  },
+  "17": {
+   "label": "Adjustment Required in Export-Domestic Break-up",
+   "vals": {
+    "E": 0.0
+   }
+  },
+  "18": {
+   "label": "Break-up of Stock",
+   "vals": {
+    "E": 0.0397,
+    "G": 0.9603
+   }
+  },
+  "19": {
+   "label": "Margin Requirement For Drawing Power Calculations",
+   "vals": {}
+  },
+  "20": {
+   "label": "Domestic Stock",
+   "vals": {
+    "E": 0.25,
+    "F": 0.25
+   }
+  },
+  "21": {
+   "label": "Export Stock",
+   "vals": {
+    "E": 0.1,
+    "F": 0.1
+   }
+  },
+  "22": {
+   "label": "Domestic Book debts",
+   "vals": {
+    "E": 0.5,
+    "F": 0.5
+   }
+  },
+  "23": {
+   "label": "Export Receiveables",
+   "vals": {
+    "E": 0.1,
+    "F": 0.1
+   }
+  },
+  "24": {
+   "label": "Consider Paid Stock / Total Stock For Drawing Power",
+   "vals": {}
+  },
+  "26": {
+   "label": "OPERATING STATEMENT",
+   "vals": {}
+  },
+  "28": {
+   "label": null,
+   "vals": {
+    "D": 1.0,
+    "E": 2.0,
+    "F": 3.0,
+    "G": 4.0,
+    "H": 5.0
+   }
+  },
+  "29": {
+   "label": "Particulars",
+   "vals": {}
+  },
+  "31": {
+   "label": "(i)",
+   "vals": {
+    "D": 0.0,
+    "E": 16073.04,
+    "F": 15961.08,
+    "G": 17237.97,
+    "H": 19823.67
+   }
+  },
+  "32": {
+   "label": "Growth %",
+   "vals": {
+    "F": -0.007,
+    "G": 0.08,
+    "H": 0.15
+   }
+  },
+  "33": {
+   "label": "(ii)",
+   "vals": {
+    "D": 0.0,
+    "E": 529.44,
+    "F": 660.54,
+    "G": 713.38,
+    "H": 820.39
+   }
+  },
+  "34": {
+   "label": "Growth %",
+   "vals": {
+    "F": 0.2476,
+    "G": 0.08,
+    "H": 0.15
+   }
+  },
+  "35": {
+   "label": "(iii)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "36": {
+   "label": "Growth %",
+   "vals": {
+    "G": 0.0,
+    "H": 0.15
+   }
+  },
+  "37": {
+   "label": "(iv)",
+   "vals": {
+    "D": 0.0,
+    "E": 98.51,
+    "F": 82.34,
+    "G": 82.34,
+    "H": 82.96
+   }
+  },
+  "38": {
+   "label": "Growth %",
+   "vals": {
+    "F": -0.1641,
+    "G": 0.0,
+    "H": 0.0075
+   }
+  },
+  "39": {
+   "label": "Gross sales",
+   "vals": {
+    "D": 0.0,
+    "E": 16700.99,
+    "F": 16703.96,
+    "G": 18033.69,
+    "H": 20727.02
+   }
+  },
+  "41": {
+   "label": "Less: VAT & Excise duty",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "42": {
+   "label": "Growth %",
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "43": {
+   "label": "NET SALES (1-2)",
+   "vals": {
+    "D": 0.0,
+    "E": 16700.99,
+    "F": 16703.96,
+    "G": 18033.69,
+    "H": 20727.02
+   }
+  },
+  "45": {
+   "label": "Sales After Adjusting Stock",
+   "vals": {
+    "D": 550.68,
+    "E": 17291.13,
+    "F": 16742.31,
+    "G": 18101.03,
+    "H": 20913.14
+   }
+  },
+  "47": {
+   "label": "COST OF SALES",
+   "vals": {}
+  },
+  "48": {
+   "label": "Adjustment in All Expenses",
+   "vals": {
+    "G": 180.0,
+    "H": -135.0
+   }
+  },
+  "49": {
+   "label": "Additional Adjustment in Raw Material",
+   "vals": {}
+  },
+  "50": {
+   "label": "(a)",
+   "vals": {
+    "D": -7.4941,
+    "E": 0.7145,
+    "F": 0.6549,
+    "G": 0.647,
+    "H": 0.6484
+   }
+  },
+  "51": {
+   "label": "(i)  Imported",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "52": {
+   "label": "% of Sales",
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "53": {
+   "label": "(ii) Indigenous",
+   "vals": {
+    "D": -4126.87,
+    "E": 12354.71,
+    "F": 10963.93,
+    "G": 11710.53,
+    "H": 13561.01
+   }
+  },
+  "54": {
+   "label": "% of Sales",
+   "vals": {
+    "D": -7.4941,
+    "E": 0.7145,
+    "F": 0.6549,
+    "G": 0.647,
+    "H": 0.6484
+   }
+  },
+  "55": {
+   "label": "(b)",
+   "vals": {
+    "G": 0.0342,
+    "H": 0.0343
+   }
+  },
+  "56": {
+   "label": "(i)  Imported",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "57": {
+   "label": "% of Sales",
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "58": {
+   "label": "(ii) Indigenous",
+   "vals": {
+    "D": -202.28,
+    "E": 6.96,
+    "F": 580.04,
+    "G": 619.54,
+    "H": 717.44
+   }
+  },
+  "59": {
+   "label": "% of Sales",
+   "vals": {
+    "D": -0.3673,
+    "E": 0.0004,
+    "F": 0.0346,
+    "G": 0.0342,
+    "H": 0.0343
+   }
+  },
+  "61": {
+   "label": "(c)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "62": {
+   "label": "% of Sales",
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "64": {
+   "label": "(d)",
+   "vals": {
+    "D": 0.0,
+    "E": 219.16,
+    "F": 213.6,
+    "G": 228.15,
+    "H": 264.2
+   }
+  },
+  "65": {
+   "label": "% of Sales",
+   "vals": {
+    "E": 0.0127,
+    "F": 0.0128,
+    "G": 0.0126,
+    "H": 0.0126
+   }
+  },
+  "67": {
+   "label": "(e)",
+   "vals": {
+    "D": 0.0,
+    "E": 656.9,
+    "F": 874.91,
+    "G": 934.49,
+    "H": 1082.16
+   }
+  },
+  "68": {
+   "label": "% of Sales",
+   "vals": {
+    "E": 0.038,
+    "F": 0.0523,
+    "G": 0.0516,
+    "H": 0.0517
+   }
+  },
+  "70": {
+   "label": "(f)",
+   "vals": {
+    "D": 0.0,
+    "E": 361.28,
+    "F": 455.94,
+    "G": 486.99,
+    "H": 563.94
+   }
+  },
+  "71": {
+   "label": "% of Sales",
+   "vals": {
+    "E": 0.0209,
+    "F": 0.0272,
+    "G": 0.0269,
+    "H": 0.027
+   }
+  },
+  "73": {
+   "label": "(g)",
+   "vals": {
+    "D": 0.0,
+    "E": 252.13,
+    "F": 247.38,
+    "G": 333.53,
+    "H": 370.29
+   }
+  },
+  "74": {
+   "label": "Comp-WDV",
+   "vals": {
+    "E": 0.1192,
+    "F": 0.0891,
+    "G": 0.077,
+    "H": 0.077
+   }
+  },
+  "76": {
+   "label": "(h)",
+   "vals": {
+    "D": -4329.15,
+    "E": 13851.14,
+    "F": 13335.8,
+    "G": 14313.23,
+    "H": 16559.04
+   }
+  },
+  "78": {
+   "label": "(i)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "79": {
+   "label": "(j)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "80": {
+   "label": "Months Cost of Production",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "82": {
+   "label": "(k)",
+   "vals": {
+    "D": -4329.15,
+    "E": 13851.14,
+    "F": 13335.8,
+    "G": 14313.23,
+    "H": 16559.04
+   }
+  },
+  "84": {
+   "label": "(l)",
+   "vals": {
+    "D": 0.0,
+    "E": 550.68,
+    "F": 1140.82,
+    "G": 1179.17,
+    "H": 1246.51
+   }
+  },
+  "85": {
+   "label": "Sub - Total",
+   "vals": {
+    "D": -4329.15,
+    "E": 14401.82,
+    "F": 14476.62,
+    "G": 15492.4,
+    "H": 17805.55
+   }
+  },
+  "86": {
+   "label": "(m)",
+   "vals": {
+    "D": 550.68,
+    "E": 1140.82,
+    "F": 1179.17,
+    "G": 1246.51,
+    "H": 1432.63
+   }
+  },
+  "87": {
+   "label": "Months Cost of Sales",
+   "vals": {
+    "D": -1.35,
+    "E": 1.03,
+    "F": 1.06,
+    "G": 1.05,
+    "H": 1.05
+   }
+  },
+  "89": {
+   "label": "TOTAL COST OF SALES",
+   "vals": {
+    "D": -4879.83,
+    "E": 13261.0,
+    "F": 13297.45,
+    "G": 14245.89,
+    "H": 16372.92
+   }
+  },
+  "91": {
+   "label": "5A",
+   "vals": {
+    "D": 4879.83,
+    "E": 3439.99,
+    "F": 3406.51,
+    "G": 3787.8,
+    "H": 4354.1
+   }
+  },
+  "92": {
+   "label": "Gross Profit Ratio",
+   "vals": {
+    "D": 0.0,
+    "E": 0.206,
+    "F": 0.2039,
+    "G": 0.21,
+    "H": 0.2101
+   }
+  },
+  "94": {
+   "label": "Selling, General & Admin. Expenses",
+   "vals": {
+    "D": 0.0,
+    "E": 1836.22,
+    "F": 2016.99,
+    "G": 2168.26,
+    "H": 2385.09
+   }
+  },
+  "95": {
+   "label": "% of Increase as comp. to last year",
+   "vals": {
+    "F": 0.0984,
+    "G": 0.075,
+    "H": 0.1
+   }
+  },
+  "97": {
+   "label": "SUB - TOTAL (5+6)",
+   "vals": {
+    "D": -4879.83,
+    "E": 15097.22,
+    "F": 15314.44,
+    "G": 16414.15,
+    "H": 18758.01
+   }
+  },
+  "99": {
+   "label": "Operating profit before interest (3-7)",
+   "vals": {
+    "D": 4879.83,
+    "E": 1603.77,
+    "F": 1389.52,
+    "G": 1619.54,
+    "H": 1969.01
+   }
+  },
+  "100": {
+   "label": "Operating Profit Ratio",
+   "vals": {
+    "D": 0.0,
+    "E": 0.096,
+    "F": 0.0832,
+    "G": 0.0898,
+    "H": 0.095
+   }
+  },
+  "101": {
+   "label": "8A",
+   "vals": {
+    "D": 4879.83,
+    "E": 1855.9,
+    "F": 1636.9,
+    "G": 1953.07,
+    "H": 2339.3
+   }
+  },
+  "102": {
+   "label": "PBDIT Ratio",
+   "vals": {
+    "D": 0.0,
+    "E": 0.1111,
+    "F": 0.098,
+    "G": 0.1083,
+    "H": 0.1129
+   }
+  },
+  "104": {
+   "label": "Total Interest",
+   "vals": {
+    "D": 0.0,
+    "E": 130.57,
+    "F": 148.92,
+    "G": 200.3,
+    "H": 238.85
+   }
+  },
+  "106": {
+   "label": "a",
+   "vals": {
+    "D": 0.0,
+    "E": 15.2,
+    "F": 25.96,
+    "G": 43.52,
+    "H": 81.9
+   }
+  },
+  "107": {
+   "label": "Rate of Interest",
+   "vals": {
+    "D": 0.0944,
+    "E": 0.0944,
+    "F": 0.0944,
+    "G": 0.078,
+    "H": 0.078
+   }
+  },
+  "108": {
+   "label": "Utilisation %",
+   "vals": {
+    "D": 0.0,
+    "E": 0.1837,
+    "F": 0.7638,
+    "G": 0.6,
+    "H": 0.7
+   }
+  },
+  "110": {
+   "label": "b.1",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 8.66,
+    "G": 9.83,
+    "H": 7.18
+   }
+  },
+  "111": {
+   "label": "b.2",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "112": {
+   "label": "b.3",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "113": {
+   "label": "b.4",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "114": {
+   "label": "b.5",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "115": {
+   "label": "b.6",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "117": {
+   "label": "c.1",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 3.91,
+    "H": 6.73
+   }
+  },
+  "118": {
+   "label": "c.2",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "119": {
+   "label": "c.3",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "120": {
+   "label": "c.4",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "121": {
+   "label": "c.5",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "122": {
+   "label": "c.6",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "124": {
+   "label": "h",
+   "vals": {
+    "D": 0.0,
+    "E": 115.37,
+    "F": 114.3,
+    "G": 143.04,
+    "H": 143.04
+   }
+  },
+  "125": {
+   "label": "Rate of Interest",
+   "vals": {
+    "D": 0.0,
+    "E": 0.13,
+    "F": 0.13,
+    "G": 0.12,
+    "H": 0.12
+   }
+  },
+  "126": {
+   "label": "Utilisation %",
+   "vals": {
+    "E": 0.9651,
+    "F": 0.9808,
+    "G": 1.0,
+    "H": 1.0
+   }
+  },
+  "128": {
+   "label": "i",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "130": {
+   "label": "OPERATING PROFIT AFTER INTEREST (8-9)",
+   "vals": {
+    "D": 4879.83,
+    "E": 1473.2,
+    "F": 1240.6,
+    "G": 1419.24,
+    "H": 1730.16
+   }
+  },
+  "131": {
+   "label": "Operating Profit After Int. Ratio",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0882,
+    "F": 0.0743,
+    "G": 0.0787,
+    "H": 0.0835
+   }
+  },
+  "133": {
+   "label": "(i) Add other non-operating income",
+   "vals": {}
+  },
+  "134": {
+   "label": "(a)",
+   "vals": {
+    "D": 0.0,
+    "E": 106.24,
+    "F": 94.01,
+    "G": 55.0,
+    "H": 60.0
+   }
+  },
+  "135": {
+   "label": "(b)",
+   "vals": {
+    "D": 0.0,
+    "E": 78.73,
+    "F": 99.9,
+    "G": 60.0,
+    "H": 65.0
+   }
+  },
+  "136": {
+   "label": "Sub - Total (income)",
+   "vals": {
+    "D": 0.0,
+    "E": 184.97,
+    "F": 193.91,
+    "G": 115.0,
+    "H": 125.0
+   }
+  },
+  "138": {
+   "label": "(ii) Deduct other non-operating expenses",
+   "vals": {}
+  },
+  "139": {
+   "label": "(a)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "140": {
+   "label": "(b)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "141": {
+   "label": "Sub - Total (Expense)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "142": {
+   "label": "(iii)",
+   "vals": {
+    "D": 0.0,
+    "E": 184.97,
+    "F": 193.91,
+    "G": 115.0,
+    "H": 125.0
+   }
+  },
+  "144": {
+   "label": "Profit before tax/loss 10+11(iii)",
+   "vals": {
+    "D": 4879.83,
+    "E": 1658.17,
+    "F": 1434.51,
+    "G": 1534.24,
+    "H": 1855.16
+   }
+  },
+  "145": {
+   "label": "Operating Profit Ratio",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0993,
+    "F": 0.0859,
+    "G": 0.0851,
+    "H": 0.0895
+   }
+  },
+  "147": {
+   "label": "Provision for taxes",
+   "vals": {
+    "D": 0.0,
+    "E": 420.02,
+    "F": 354.13,
+    "G": 365.19,
+    "H": 456.32
+   }
+  },
+  "148": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.2533,
+    "F": 0.2469,
+    "G": 0.025,
+    "H": 0.025
+   }
+  },
+  "150": {
+   "label": "Deferred Tax Provision",
+   "vals": {
+    "D": 0.0,
+    "E": -1.04,
+    "F": 23.29,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "152": {
+   "label": "NET PROFIT/LOSS (12-13)",
+   "vals": {
+    "D": 4879.83,
+    "E": 1239.19,
+    "F": 1057.09,
+    "G": 1169.05,
+    "H": 1398.84
+   }
+  },
+  "153": {
+   "label": "Net Profit After Tax Ratio",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0742,
+    "F": 0.0633,
+    "G": 0.0648,
+    "H": 0.0675
+   }
+  },
+  "155": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "156": {
+   "label": "(b) Dividend Rate",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "158": {
+   "label": "RETAINED PROFIT (14-15)",
+   "vals": {
+    "D": 4879.83,
+    "E": 1239.19,
+    "F": 1057.09,
+    "G": 1169.05,
+    "H": 1398.84
+   }
+  },
+  "159": {
+   "label": "Retained profit to Net profit (% age)",
+   "vals": {
+    "D": 1.0,
+    "E": 1.0,
+    "F": 1.0,
+    "G": 1.0,
+    "H": 1.0
+   }
+  },
+  "161": {
+   "label": "FORM III",
+   "vals": {}
+  },
+  "162": {
+   "label": "ANALYSIS OF BALANCE SHEET",
+   "vals": {}
+  },
+  "165": {
+   "label": "LIABILITIES",
+   "vals": {}
+  },
+  "167": {
+   "label": null,
+   "vals": {
+    "D": 1.0,
+    "E": 2.0,
+    "F": 3.0,
+    "G": 4.0,
+    "H": 5.0
+   }
+  },
+  "168": {
+   "label": "CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "169": {
+   "label": "Short term borrowings from",
+   "vals": {}
+  },
+  "170": {
+   "label": "banks (including BP/BD)",
+   "vals": {}
+  },
+  "171": {
+   "label": "i) From applicant banks",
+   "vals": {
+    "D": 0.0,
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0
+   }
+  },
+  "172": {
+   "label": "ii) From other banks",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "173": {
+   "label": "iii) Working Capital Demand Loan",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "174": {
+   "label": "SUB TOTAL (A)",
+   "vals": {
+    "D": 0.0,
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0
+   }
+  },
+  "176": {
+   "label": "Sundry Creditors for Capital Goods",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "178": {
+   "label": "Sundry creditors (Trade)",
+   "vals": {
+    "D": 0.0,
+    "E": 893.14,
+    "F": 928.26,
+    "G": 539.2,
+    "H": 616.42
+   }
+  },
+  "179": {
+   "label": "Months Purchase",
+   "vals": {
+    "D": 0.0,
+    "E": 0.96,
+    "F": 1.01,
+    "G": 0.5,
+    "H": 0.5
+   }
+  },
+  "180": {
+   "label": "Total Consumption (RM + Spares)",
+   "vals": {
+    "G": 12330.07,
+    "H": 14278.45
+   }
+  },
+  "181": {
+   "label": "Opening Stock (RM + Spares)",
+   "vals": {
+    "G": 2652.4,
+    "H": 3263.21
+   }
+  },
+  "182": {
+   "label": "Closing Stock (RM + Spares)",
+   "vals": {
+    "G": 3263.21,
+    "H": 3778.86
+   }
+  },
+  "183": {
+   "label": "Total Purchase (RM + Spares)",
+   "vals": {
+    "G": 12940.88,
+    "H": 14794.1
+   }
+  },
+  "185": {
+   "label": "Advance payments from customers / deposits from dealers",
+   "vals": {
+    "D": 0.0,
+    "E": 30.17,
+    "F": 84.88,
+    "G": 35.0,
+    "H": 40.0
+   }
+  },
+  "187": {
+   "label": "Provision for taxation",
+   "vals": {
+    "D": 0.0,
+    "E": 417.53,
+    "F": 347.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "189": {
+   "label": "Dividend payable",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "191": {
+   "label": "Other statutory liabilities (due within one year)",
+   "vals": {
+    "D": 0.0,
+    "E": 94.5,
+    "F": 58.37,
+    "G": 35.0,
+    "H": 40.0
+   }
+  },
+  "193": {
+   "label": "Deposits/Instalments of term loans/ DPGs/debentures,etc.,(due in 1 yr.)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 31.92,
+    "G": 49.75,
+    "H": 51.23
+   }
+  },
+  "195": {
+   "label": "Other current liabilities & provisions",
+   "vals": {}
+  },
+  "196": {
+   "label": "(due within one year)",
+   "vals": {}
+  },
+  "197": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 201.37,
+    "F": 162.14,
+    "G": 130.0,
+    "H": 135.0
+   }
+  },
+  "198": {
+   "label": "b)",
+   "vals": {
+    "D": 0.0,
+    "E": 50.09,
+    "F": 47.99,
+    "G": 45.0,
+    "H": 46.5
+   }
+  },
+  "199": {
+   "label": "c)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "201": {
+   "label": "SUB TOTAL (B)",
+   "vals": {
+    "D": 0.0,
+    "E": 1686.8,
+    "F": 1660.56,
+    "G": 833.95,
+    "H": 929.15
+   }
+  },
+  "202": {
+   "label": "TOTAL CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "203": {
+   "label": "[Item (A)+Item (B)]",
+   "vals": {
+    "D": 0.0,
+    "E": 2563.4,
+    "F": 2020.6,
+    "G": 2333.95,
+    "H": 2429.15
+   }
+  },
+  "205": {
+   "label": "TERM LIABILITIES",
+   "vals": {}
+  },
+  "206": {
+   "label": "Debentures (not maturing within 1 yr)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "207": {
+   "label": "Preference shares (red. after 1 yr.)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "208": {
+   "label": "Term loans (excluding instalments payable within one year)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 101.17,
+    "G": 143.05,
+    "H": 91.82
+   }
+  },
+  "209": {
+   "label": null,
+   "vals": {
+    "G": 133.09
+   }
+  },
+  "222": {
+   "label": "Deffered payment creditors (excldg. instalments due within one year)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "224": {
+   "label": "Term deposites (repayable after 1 yr.)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "226": {
+   "label": "Other term liabilities(Unsecured Loan)",
+   "vals": {
+    "D": 0.0,
+    "E": 919.54,
+    "F": 896.47,
+    "G": 1192.0,
+    "H": 1192.0
+   }
+  },
+  "228": {
+   "label": "TOTAL TERM LIABILITIES (Sum of 11 to 16)",
+   "vals": {
+    "D": 0.0,
+    "E": 919.54,
+    "F": 997.64,
+    "G": 1335.05,
+    "H": 1283.82
+   }
+  },
+  "229": {
+   "label": "TOTAL OUTSIDE LIABILITIES",
+   "vals": {}
+  },
+  "230": {
+   "label": "(Total of item 10 + 17)",
+   "vals": {
+    "D": 0.0,
+    "E": 3482.94,
+    "F": 3018.24,
+    "G": 3669.0,
+    "H": 3712.97
+   }
+  },
+  "232": {
+   "label": "NET WORTH:",
+   "vals": {}
+  },
+  "233": {
+   "label": null,
+   "vals": {
+    "D": 25.48,
+    "E": 25.48,
+    "F": 25.48,
+    "G": 25.48,
+    "H": 25.48
+   }
+  },
+  "234": {
+   "label": null,
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "236": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "238": {
+   "label": "Other Reserves (excluding provisions)",
+   "vals": {
+    "D": 0.0,
+    "E": 71.9,
+    "F": 71.9,
+    "G": 71.9,
+    "H": 71.9
+   }
+  },
+  "240": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "242": {
+   "label": "Surplus(+) or deficit (-) in P & L A/c.",
+   "vals": {
+    "D": 4879.83,
+    "E": 8376.59,
+    "F": 9433.68,
+    "G": 10602.73,
+    "H": 12001.57
+   }
+  },
+  "243": {
+   "label": "Adjustments",
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "245": {
+   "label": "b",
+   "vals": {
+    "D": 41.62,
+    "E": 40.58,
+    "F": 63.87,
+    "G": 63.87,
+    "H": 63.87
+   }
+  },
+  "247": {
+   "label": "NET WORTH (Total of 19 to 23)",
+   "vals": {
+    "D": 4946.93,
+    "E": 8514.55,
+    "F": 9594.93,
+    "G": 10763.98,
+    "H": 12162.82
+   }
+  },
+  "248": {
+   "label": "TOTAL LIABILITIES (Total of item 24 + 25)",
+   "vals": {
+    "D": 4946.93,
+    "E": 11997.49,
+    "F": 12613.17,
+    "G": 14432.98,
+    "H": 15875.79
+   }
+  },
+  "250": {
+   "label": "FORM III",
+   "vals": {}
+  },
+  "251": {
+   "label": "ANALYSIS OF BALANCE SHEET (Contd.)",
+   "vals": {}
+  },
+  "254": {
+   "label": "ASSETS",
+   "vals": {}
+  },
+  "256": {
+   "label": null,
+   "vals": {
+    "D": 1.0,
+    "E": 2.0,
+    "F": 3.0,
+    "G": 4.0,
+    "H": 5.0
+   }
+  },
+  "257": {
+   "label": "CURRENT ASSETS",
+   "vals": {}
+  },
+  "258": {
+   "label": "Cash and bank balance",
+   "vals": {
+    "D": 0.0,
+    "E": 250.49,
+    "F": 106.55,
+    "G": 248.69,
+    "H": 299.0
+   }
+  },
+  "260": {
+   "label": "Investments (other than long term investments)",
+   "vals": {}
+  },
+  "261": {
+   "label": "i) Govt. & Other Trustee securities",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "262": {
+   "label": "ii) Fixed deposits with bank & Others",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "264": {
+   "label": "Sundry Debtors",
+   "vals": {}
+  },
+  "265": {
+   "label": "i)",
+   "vals": {
+    "D": 0.0,
+    "E": 1105.36,
+    "F": 1112.57,
+    "G": 1580.15,
+    "H": 1817.17
+   }
+  },
+  "266": {
+   "label": "Months Sales",
+   "vals": {
+    "D": 0.0,
+    "E": 0.83,
+    "F": 0.84,
+    "G": 1.1,
+    "H": 1.1
+   }
+  },
+  "267": {
+   "label": "ii)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "268": {
+   "label": "Months Sales",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "270": {
+   "label": "Installment of deffered receivable (due within 1 yr.)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "272": {
+   "label": "Inventory:",
+   "vals": {}
+  },
+  "273": {
+   "label": "i)   Raw materials (including stores)",
+   "vals": {}
+  },
+  "274": {
+   "label": "a) Imported",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "275": {
+   "label": "b) Indegenous",
+   "vals": {
+    "D": 4126.87,
+    "E": 2885.86,
+    "F": 2329.25,
+    "G": 2927.63,
+    "H": 3390.25
+   }
+  },
+  "276": {
+   "label": "Months Consumption",
+   "vals": {
+    "D": -12.0,
+    "E": 2.8,
+    "F": 2.55,
+    "G": 3.0,
+    "H": 3.0
+   }
+  },
+  "278": {
+   "label": "ii)  Stock-in-process",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "280": {
+   "label": "iii) Finished goods",
+   "vals": {
+    "D": 550.68,
+    "E": 1140.82,
+    "F": 1179.17,
+    "G": 1246.51,
+    "H": 1432.63
+   }
+  },
+  "282": {
+   "label": "iv) Stores & Spares",
+   "vals": {}
+  },
+  "283": {
+   "label": "a) Imported",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "284": {
+   "label": "b) Indegenous",
+   "vals": {
+    "D": 202.28,
+    "E": 231.25,
+    "F": 323.15,
+    "G": 335.58,
+    "H": 388.61
+   }
+  },
+  "285": {
+   "label": "Months Consumption",
+   "vals": {
+    "D": -12.0,
+    "E": 398.71,
+    "F": 6.69,
+    "G": 6.5,
+    "H": 6.5
+   }
+  },
+  "287": {
+   "label": "Advances to suppliers of raw materials & stores/spares",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 250.0,
+    "H": 350.0
+   }
+  },
+  "289": {
+   "label": "Advance payment of taxes",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "291": {
+   "label": "Other current assets (due within one year)",
+   "vals": {}
+  },
+  "292": {
+   "label": "a)",
+   "vals": {
+    "D": 0.0,
+    "E": 19.07,
+    "F": 9.68,
+    "G": 12.5,
+    "H": 14.0
+   }
+  },
+  "294": {
+   "label": "b)",
+   "vals": {
+    "D": 0.0,
+    "E": 147.73,
+    "F": 121.84,
+    "G": 150.0,
+    "H": 155.0
+   }
+  },
+  "295": {
+   "label": "c)",
+   "vals": {
+    "D": 0.0,
+    "E": 573.39,
+    "F": 569.44,
+    "G": 650.0,
+    "H": 700.0
+   }
+  },
+  "297": {
+   "label": "TOTAL CURRENT ASSETS (Sum of 26 to 33)",
+   "vals": {
+    "D": 4879.83,
+    "E": 6353.97,
+    "F": 5751.65,
+    "G": 7401.06,
+    "H": 8546.66
+   }
+  },
+  "299": {
+   "label": "FIXED ASSETS",
+   "vals": {}
+  },
+  "300": {
+   "label": "GROSS BLOCK",
+   "vals": {
+    "D": 4721.85,
+    "E": 5260.78,
+    "F": 6223.7,
+    "G": 6605.39,
+    "H": 7120.39
+   }
+  },
+  "301": {
+   "label": "Opening Gross Block",
+   "vals": {
+    "G": 381.69,
+    "H": 515.0
+   }
+  },
+  "302": {
+   "label": "Addition/Sell of Assets",
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "303": {
+   "label": "Depreciation to date",
+   "vals": {
+    "D": 2875.28,
+    "E": 3146.28,
+    "F": 3447.44,
+    "G": 3780.97,
+    "H": 4151.26
+   }
+  },
+  "304": {
+   "label": "Opening Depreciation",
+   "vals": {}
+  },
+  "305": {
+   "label": "Adj. in Depreciation Due to Add./Sell",
+   "vals": {
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "306": {
+   "label": "NET BLOCK (35-36)",
+   "vals": {
+    "D": 1846.57,
+    "E": 2114.5,
+    "F": 2776.26,
+    "G": 2824.42,
+    "H": 2969.13
+   }
+  },
+  "309": {
+   "label": "OTHER NON-CURRENT ASSETS",
+   "vals": {}
+  },
+  "310": {
+   "label": "i)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "312": {
+   "label": "b) Others",
+   "vals": {
+    "D": 0.0,
+    "E": 3472.87,
+    "F": 4029.0,
+    "G": 4150.0,
+    "H": 4300.0
+   }
+  },
+  "314": {
+   "label": "ii)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "316": {
+   "label": "iii)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "318": {
+   "label": "iv)",
+   "vals": {}
+  },
+  "319": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 56.15,
+    "F": 56.26,
+    "G": 57.5,
+    "H": 60.0
+   }
+  },
+  "320": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "321": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "323": {
+   "label": "Non consumable stores & spares",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "325": {
+   "label": "Other non-current assets incldg. dues from directors",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "327": {
+   "label": "TOTAL OTHER NON-CURRENT ASSETS",
+   "vals": {}
+  },
+  "328": {
+   "label": "(Total of 38 to 40)",
+   "vals": {
+    "D": 0.0,
+    "E": 3529.02,
+    "F": 4085.26,
+    "G": 4207.5,
+    "H": 4360.0
+   }
+  },
+  "330": {
+   "label": "Intangible assets (patents goodwill, prelim.exp., bad/doughtful debts not provided for, etc.)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "332": {
+   "label": "TOTAL ASSETS(Total of 34,37,41 & 42)",
+   "vals": {
+    "D": 6726.4,
+    "E": 11997.49,
+    "F": 12613.17,
+    "G": 14432.98,
+    "H": 15875.79
+   }
+  },
+  "333": {
+   "label": "TANGIBLE NET WORTH (24-42)",
+   "vals": {
+    "D": 4946.93,
+    "E": 8514.55,
+    "F": 9594.93,
+    "G": 10763.98,
+    "H": 12162.82
+   }
+  },
+  "334": {
+   "label": "NET WORKING CAPITAL (34-10)",
+   "vals": {
+    "D": 4879.83,
+    "E": 3790.57,
+    "F": 3731.05,
+    "G": 5067.11,
+    "H": 6117.51
+   }
+  },
+  "335": {
+   "label": "To tally with (17+24)-(37+41+42)",
+   "vals": {}
+  },
+  "336": {
+   "label": "Current Ratio (Item 34/10)",
+   "vals": {
+    "D": 0.0,
+    "E": 2.4787,
+    "F": 2.8465,
+    "G": 3.171,
+    "H": 3.5184
+   }
+  },
+  "337": {
+   "label": "Total Outstanding Liabilities/Tangible",
+   "vals": {}
+  },
+  "338": {
+   "label": "Net Worth (18/44)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.4091,
+    "F": 0.3146,
+    "G": 0.3409,
+    "H": 0.3053
+   }
+  },
+  "340": {
+   "label": "ADDITIONAL INFORMATION",
+   "vals": {}
+  },
+  "341": {
+   "label": "(A)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "342": {
+   "label": "(B)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "343": {
+   "label": "TOL (Excluding Quasi-Equity)",
+   "vals": {
+    "D": 0.0,
+    "E": 2563.4,
+    "F": 2020.6,
+    "G": 2333.95,
+    "H": 2429.15
+   }
+  },
+  "344": {
+   "label": "Quasi TNW (Including Quasi Equity)",
+   "vals": {
+    "D": 4946.93,
+    "E": 9434.09,
+    "F": 10592.57,
+    "G": 12099.03,
+    "H": 13446.64
+   }
+  },
+  "345": {
+   "label": "Quasi TOL/TNW",
+   "vals": {
+    "D": 0.0,
+    "E": 0.2717,
+    "F": 0.1908,
+    "G": 0.1929,
+    "H": 0.1807
+   }
+  },
+  "346": {
+   "label": "Contingent Liabilities:",
+   "vals": {}
+  },
+  "347": {
+   "label": "i)   Arrears of cumulative dividends",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "348": {
+   "label": "ii)  Gratuity liability not provided for",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "349": {
+   "label": "iii)  Disputed excise/customs/tax liabilities",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "350": {
+   "label": "iv)  Other Liabilities not provided for",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "352": {
+   "label": null,
+   "vals": {
+    "D": -1779.47,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "353": {
+   "label": null,
+   "vals": {
+    "D": -1779.47,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "355": {
+   "label": "FORM IV",
+   "vals": {}
+  },
+  "356": {
+   "label": "COMPARATIVE STATEMENT OF CURRENT ASSETS & CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "359": {
+   "label": "PARTICULARS",
+   "vals": {}
+  },
+  "361": {
+   "label": null,
+   "vals": {
+    "D": 1.0,
+    "E": 2.0,
+    "F": 3.0,
+    "G": 4.0,
+    "H": 5.0
+   }
+  },
+  "362": {
+   "label": "A.",
+   "vals": {}
+  },
+  "363": {
+   "label": "Raw materials (including stores)",
+   "vals": {}
+  },
+  "364": {
+   "label": "a) Imported",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "365": {
+   "label": "(months' consumption)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "366": {
+   "label": "b) Indigenous",
+   "vals": {
+    "D": 4126.87,
+    "E": 2885.86,
+    "F": 2329.25,
+    "G": 2927.63,
+    "H": 3390.25
+   }
+  },
+  "367": {
+   "label": "( months' consumption)",
+   "vals": {
+    "D": -12.0,
+    "E": 2.8,
+    "F": 2.55,
+    "G": 3.0,
+    "H": 3.0
+   }
+  },
+  "368": {
+   "label": "Other consumable spares, excluding",
+   "vals": {}
+  },
+  "369": {
+   "label": "those included in (1) above",
+   "vals": {}
+  },
+  "370": {
+   "label": "a) Imported",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "371": {
+   "label": "(months' consumption)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "372": {
+   "label": "b) Indigenous",
+   "vals": {
+    "D": 202.28,
+    "E": 231.25,
+    "F": 323.15,
+    "G": 335.58,
+    "H": 388.61
+   }
+  },
+  "373": {
+   "label": "(months' consumption)",
+   "vals": {
+    "D": -12.0,
+    "E": 398.71,
+    "F": 6.69,
+    "G": 6.5,
+    "H": 6.5
+   }
+  },
+  "374": {
+   "label": "Stock-in-process",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "375": {
+   "label": "(Months' cost of sales)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "376": {
+   "label": "Finished goods",
+   "vals": {
+    "D": 550.68,
+    "E": 1140.82,
+    "F": 1179.17,
+    "G": 1246.51,
+    "H": 1432.63
+   }
+  },
+  "377": {
+   "label": "Other Trading items- Direct",
+   "vals": {}
+  },
+  "378": {
+   "label": "(Months' cost of sales)",
+   "vals": {
+    "D": -1.3542,
+    "E": 1.0323,
+    "F": 1.0641,
+    "G": 1.05,
+    "H": 1.05
+   }
+  },
+  "379": {
+   "label": "Receibables other than export &",
+   "vals": {}
+  },
+  "380": {
+   "label": "deffered receivables (including BP/BD)",
+   "vals": {
+    "D": 0.0,
+    "E": 1105.36,
+    "F": 1112.57,
+    "G": 1580.15,
+    "H": 1817.17
+   }
+  },
+  "381": {
+   "label": "(  Months' domestic sales excluding",
+   "vals": {}
+  },
+  "382": {
+   "label": "deffered payment sales)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.83,
+    "F": 0.84,
+    "G": 1.1,
+    "H": 1.1
+   }
+  },
+  "383": {
+   "label": "Export receivables (including bills",
+   "vals": {}
+  },
+  "384": {
+   "label": "Purchased & Discounted)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "385": {
+   "label": "(Months' export sales)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "386": {
+   "label": "Advances to suppliers of raw materials",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 250.0,
+    "H": 350.0
+   }
+  },
+  "387": {
+   "label": "& stores/spares consumable",
+   "vals": {}
+  },
+  "388": {
+   "label": "Other current assets including cash &",
+   "vals": {}
+  },
+  "389": {
+   "label": "bank balances & deffered receivables",
+   "vals": {
+    "D": 0.0,
+    "E": 990.68,
+    "F": 807.51,
+    "G": 1061.19,
+    "H": 1168.0
+   }
+  },
+  "390": {
+   "label": "due within one year",
+   "vals": {}
+  },
+  "391": {
+   "label": "TOTAL CURRENT ASSETS",
+   "vals": {
+    "D": 4879.83,
+    "E": 6353.97,
+    "F": 5751.65,
+    "G": 7401.06,
+    "H": 8546.66
+   }
+  },
+  "392": {
+   "label": "(To agree with item 34 in Form III)",
+   "vals": {
+    "D": 4879.83,
+    "E": 6353.97,
+    "F": 5751.65,
+    "G": 7401.06,
+    "H": 8546.66
+   }
+  },
+  "393": {
+   "label": "B.",
+   "vals": {}
+  },
+  "394": {
+   "label": "(Other than bank borrowings for working",
+   "vals": {}
+  },
+  "395": {
+   "label": "capital)",
+   "vals": {}
+  },
+  "396": {
+   "label": "Creditors for purchase of raw materials,",
+   "vals": {
+    "D": 0.0,
+    "E": 893.14,
+    "F": 928.26,
+    "G": 539.2,
+    "H": 616.42
+   }
+  },
+  "397": {
+   "label": "stores & consumable spares",
+   "vals": {}
+  },
+  "398": {
+   "label": "( Months' Purchase)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.5,
+    "H": 0.5
+   }
+  },
+  "399": {
+   "label": "Advances from customers",
+   "vals": {
+    "D": 0.0,
+    "E": 30.17,
+    "F": 84.88,
+    "G": 35.0,
+    "H": 40.0
+   }
+  },
+  "400": {
+   "label": "Statutory liabilities",
+   "vals": {
+    "D": 0.0,
+    "E": 94.5,
+    "F": 58.37,
+    "G": 35.0,
+    "H": 40.0
+   }
+  },
+  "401": {
+   "label": "Other current liabilities (specify major items)",
+   "vals": {}
+  },
+  "402": {
+   "label": "Provision for Tax",
+   "vals": {
+    "D": 0.0,
+    "E": 417.53,
+    "F": 347.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "403": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "404": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "405": {
+   "label": null,
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 31.92,
+    "G": 49.75,
+    "H": 51.23
+   }
+  },
+  "406": {
+   "label": "Other",
+   "vals": {
+    "D": 0.0,
+    "E": 251.46,
+    "F": 210.13,
+    "G": 175.0,
+    "H": 181.5
+   }
+  },
+  "407": {
+   "label": "TOTAL",
+   "vals": {
+    "D": 0.0,
+    "E": 1686.8,
+    "F": 1660.56,
+    "G": 833.95,
+    "H": 929.15
+   }
+  },
+  "408": {
+   "label": "(to agree with sub.total B of Form No.III)",
+   "vals": {
+    "D": 0.0,
+    "E": 1686.8,
+    "F": 1660.56,
+    "G": 833.95,
+    "H": 929.15
+   }
+  },
+  "410": {
+   "label": "FORM V",
+   "vals": {}
+  },
+  "411": {
+   "label": "COMPUTATION OF MAXIMUM PERMISSIBLE BANK FINANCE FOR WORKING CAPITAL",
+   "vals": {}
+  },
+  "414": {
+   "label": "PARTICULARS",
+   "vals": {}
+  },
+  "416": {
+   "label": null,
+   "vals": {
+    "D": 1.0,
+    "E": 2.0,
+    "F": 3.0,
+    "G": 4.0,
+    "H": 5.0
+   }
+  },
+  "417": {
+   "label": "Total Current Assets (Item 9 of form IV)",
+   "vals": {
+    "D": 4879.83,
+    "E": 6353.97,
+    "F": 5751.65,
+    "G": 7401.06,
+    "H": 8546.66
+   }
+  },
+  "418": {
+   "label": "Other Current Liabilities other than bank",
+   "vals": {
+    "D": 0.0,
+    "E": 1686.8,
+    "F": 1660.56,
+    "G": 833.95,
+    "H": 929.15
+   }
+  },
+  "419": {
+   "label": "borrowing",
+   "vals": {}
+  },
+  "420": {
+   "label": "(Item 14 of form IV)",
+   "vals": {}
+  },
+  "421": {
+   "label": "Working Capital Gap (WCG) ( 1 - 2)",
+   "vals": {
+    "D": 4879.83,
+    "E": 4667.17,
+    "F": 4091.09,
+    "G": 6567.11,
+    "H": 7617.51
+   }
+  },
+  "422": {
+   "label": "Min.Stipulated net working capital(i.e.25%",
+   "vals": {
+    "D": 1219.96,
+    "E": 1166.79,
+    "F": 1022.77,
+    "G": 1641.78,
+    "H": 1904.38
+   }
+  },
+  "423": {
+   "label": "of WCG/25%of TOTAL CURRENT ASSETS",
+   "vals": {}
+  },
+  "424": {
+   "label": "as the case may be depending upon the",
+   "vals": {}
+  },
+  "425": {
+   "label": "method of lending being applied)",
+   "vals": {}
+  },
+  "426": {
+   "label": "(Export receivables to be excluded under",
+   "vals": {}
+  },
+  "427": {
+   "label": "both methods)",
+   "vals": {}
+  },
+  "428": {
+   "label": "Actual / Projected N.W.C. (Item 45 of Form III)",
+   "vals": {
+    "D": 4879.83,
+    "E": 3790.57,
+    "F": 3731.05,
+    "G": 5067.11,
+    "H": 6117.51
+   }
+  },
+  "429": {
+   "label": "Item (3) minus item (4)",
+   "vals": {
+    "D": 3659.87,
+    "E": 3500.38,
+    "F": 3068.32,
+    "G": 4925.33,
+    "H": 5713.13
+   }
+  },
+  "430": {
+   "label": "Item (3) minus item (5)",
+   "vals": {
+    "D": 0.0,
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0
+   }
+  },
+  "431": {
+   "label": "Maximum permissible bank finance",
+   "vals": {
+    "D": 0.0,
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0
+   }
+  },
+  "432": {
+   "label": "(Item (6) or (7) whichever is lower)",
+   "vals": {}
+  },
+  "433": {
+   "label": "Excess borrowings representing short fall",
+   "vals": {}
+  },
+  "434": {
+   "label": "in N.W.C.",
+   "vals": {}
+  },
+  "435": {
+   "label": "(Item 4 minus 5)",
+   "vals": {}
+  },
+  "437": {
+   "label": "FORM VI",
+   "vals": {}
+  },
+  "438": {
+   "label": "FUNDS FLOW STATEMENT",
+   "vals": {}
+  },
+  "443": {
+   "label": null,
+   "vals": {
+    "D": 1.0,
+    "E": 2.0,
+    "F": 3.0,
+    "G": 4.0,
+    "H": 5.0
+   }
+  },
+  "444": {
+   "label": "SOURCES",
+   "vals": {}
+  },
+  "445": {
+   "label": "a)",
+   "vals": {
+    "D": 4879.83,
+    "E": 1239.19,
+    "F": 1057.09,
+    "G": 1169.05,
+    "H": 1398.84
+   }
+  },
+  "446": {
+   "label": "b)",
+   "vals": {
+    "D": 0.0,
+    "E": 252.13,
+    "F": 247.38,
+    "G": 333.53,
+    "H": 370.29
+   }
+  },
+  "447": {
+   "label": "c)",
+   "vals": {
+    "D": 25.48,
+    "E": 71.9,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "448": {
+   "label": "d)",
+   "vals": {
+    "D": 0.0,
+    "E": 919.54,
+    "F": 78.1,
+    "G": 337.41,
+    "H": 0.0
+   }
+  },
+  "449": {
+   "label": "(including public deposits)",
+   "vals": {}
+  },
+  "450": {
+   "label": "e)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "451": {
+   "label": "f)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "452": {
+   "label": "g)",
+   "vals": {
+    "D": 41.62,
+    "E": 2256.53,
+    "F": 23.29,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "453": {
+   "label": "h)",
+   "vals": {
+    "D": 4946.93,
+    "E": 4739.29,
+    "F": 1405.86,
+    "G": 1839.99,
+    "H": 1769.13
+   }
+  },
+  "455": {
+   "label": "USES",
+   "vals": {}
+  },
+  "456": {
+   "label": "a)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "457": {
+   "label": "b)",
+   "vals": {
+    "D": 17.67,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 51.23
+   }
+  },
+  "458": {
+   "label": "(including public deposits)",
+   "vals": {}
+  },
+  "459": {
+   "label": "c)",
+   "vals": {
+    "D": 1690.3,
+    "E": 520.06,
+    "F": 909.14,
+    "G": 381.69,
+    "H": 515.0
+   }
+  },
+  "460": {
+   "label": "d)",
+   "vals": {
+    "D": 0.0,
+    "E": 3529.02,
+    "F": 556.24,
+    "G": 122.24,
+    "H": 152.5
+   }
+  },
+  "461": {
+   "label": "e)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "462": {
+   "label": "f)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "463": {
+   "label": "g)",
+   "vals": {
+    "D": 1707.97,
+    "E": 4049.08,
+    "F": 1465.38,
+    "G": 503.93,
+    "H": 718.73
+   }
+  },
+  "465": {
+   "label": "Long Term Surplus (+)/Deficit",
+   "vals": {}
+  },
+  "466": {
+   "label": "(-) (item 1 - item 2)",
+   "vals": {
+    "D": 3238.96,
+    "E": 690.21,
+    "F": -59.52,
+    "G": 1336.06,
+    "H": 1050.4
+   }
+  },
+  "467": {
+   "label": "Increase/(Decrease) in current assets",
+   "vals": {
+    "D": 4324.13,
+    "E": 1474.14,
+    "F": -602.32,
+    "G": 1649.41,
+    "H": 1145.6
+   }
+  },
+  "468": {
+   "label": "Increase/(-)decrease in current",
+   "vals": {}
+  },
+  "469": {
+   "label": "liablities other than Bank",
+   "vals": {}
+  },
+  "470": {
+   "label": "borrowings",
+   "vals": {
+    "D": -397.32,
+    "E": 1686.8,
+    "F": -26.24,
+    "G": -826.61,
+    "H": 95.2
+   }
+  },
+  "471": {
+   "label": "Increase/(decrease) in working",
+   "vals": {}
+  },
+  "472": {
+   "label": "capital gap",
+   "vals": {
+    "D": 4721.45,
+    "E": -212.66,
+    "F": -576.08,
+    "G": 2476.02,
+    "H": 1050.4
+   }
+  },
+  "473": {
+   "label": "Net surplus (+) / deficit (-)",
+   "vals": {}
+  },
+  "474": {
+   "label": "(Difference of 3 & 6)",
+   "vals": {
+    "D": -1482.49,
+    "E": 902.87,
+    "F": 516.56,
+    "G": -1139.96,
+    "H": 0.0
+   }
+  },
+  "475": {
+   "label": "Increase/(Decrase) in Bank",
+   "vals": {}
+  },
+  "476": {
+   "label": "borrowings",
+   "vals": {
+    "D": 0.0,
+    "E": 876.6,
+    "F": -516.56,
+    "G": 1139.96,
+    "H": 0.0
+   }
+  },
+  "478": {
+   "label": "BREAK UP OF (4)",
+   "vals": {}
+  },
+  "479": {
+   "label": "i)",
+   "vals": {
+    "D": 3970.59,
+    "E": -1241.01,
+    "F": -556.61,
+    "G": 598.38,
+    "H": 462.62
+   }
+  },
+  "480": {
+   "label": "ii)",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "481": {
+   "label": "iii)",
+   "vals": {
+    "D": 550.68,
+    "E": 590.14,
+    "F": 38.35,
+    "G": 67.34,
+    "H": 186.12
+   }
+  },
+  "482": {
+   "label": "iv)",
+   "vals": {}
+  },
+  "483": {
+   "label": "a) Domestic",
+   "vals": {
+    "D": -238.0,
+    "E": 1105.36,
+    "F": 7.21,
+    "G": 467.58,
+    "H": 237.02
+   }
+  },
+  "484": {
+   "label": "b) Export",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "485": {
+   "label": "v)",
+   "vals": {}
+  },
+  "486": {
+   "label": "spares & traded goods",
+   "vals": {
+    "D": 202.28,
+    "E": 28.97,
+    "F": 91.9,
+    "G": 12.43,
+    "H": 53.03
+   }
+  },
+  "487": {
+   "label": "vi)",
+   "vals": {
+    "D": -161.42,
+    "E": 990.68,
+    "F": -183.17,
+    "G": 503.68,
+    "H": 206.81
+   }
+  },
+  "489": {
+   "label": "Total",
+   "vals": {
+    "D": 4324.13,
+    "E": 1474.14,
+    "F": -602.32,
+    "G": 1649.41,
+    "H": 1145.6
+   }
+  },
+  "493": {
+   "label": "Drawing Power Calculations",
+   "vals": {}
+  },
+  "495": {
+   "label": "Export Debtors",
+   "vals": {
+    "D": 0.0,
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "496": {
+   "label": "Domestic Debtors",
+   "vals": {
+    "D": 0.0,
+    "E": 552.68,
+    "F": 556.29,
+    "G": 790.08,
+    "H": 908.59
+   }
+  },
+  "497": {
+   "label": null,
+   "vals": {
+    "D": 3514.58,
+    "E": 2423.41,
+    "F": 2091.04,
+    "G": 2859.67,
+    "H": 3309.48
+   }
+  },
+  "498": {
+   "label": "Export Stock",
+   "vals": {
+    "D": 174.36,
+    "E": 120.22,
+    "F": 103.74,
+    "G": 141.87,
+    "H": 164.18
+   }
+  },
+  "500": {
+   "label": "Drawing Power",
+   "vals": {
+    "D": 3688.94,
+    "E": 3096.31,
+    "F": 2751.07,
+    "G": 3791.62,
+    "H": 4382.25
+   }
+  },
+  "501": {
+   "label": "Working Capital Limit",
+   "vals": {
+    "D": 0.0,
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0
+   }
+  },
+  "502": {
+   "label": "Excess Borrowing (DP - Bank CC Limit)",
+   "vals": {
+    "D": 3688.94,
+    "E": 2219.71,
+    "F": 2391.03,
+    "G": 2291.62,
+    "H": 2882.25
+   }
+  },
+  "503": {
+   "label": "Excess Borrowing (MPBF - Bank CC Limit)",
+   "vals": {
+    "D": 0.0,
+    "E": -0.0,
+    "F": -0.0,
+    "G": 0.0,
+    "H": 0.0
+   }
+  },
+  "504": {
+   "label": null,
+   "vals": {
+    "D": 3.0,
+    "E": 4.0,
+    "F": 5.0,
+    "G": 6.0,
+    "H": 7.0
+   }
+  }
+ },
+ "cma_output": {
+  "2": {
+   "label": null,
+   "vals": {
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0,
+    "I": 1500.0
+   }
+  },
+  "3": {
+   "label": "Excess Borrowing (MPBF - Bank CC Limit)",
+   "vals": {
+    "E": -0.0,
+    "F": -0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": -0.0
+   }
+  },
+  "4": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "5": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "6": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "7": {
+   "label": "ASSESMENT OF WORKING CAPITAL REQUIRMENTS",
+   "vals": {}
+  },
+  "8": {
+   "label": "(Applicable to Units engaged in Manufacturing activity)",
+   "vals": {}
+  },
+  "9": {
+   "label": "FORM I",
+   "vals": {}
+  },
+  "13": {
+   "label": "Particulars of the existing/proposed limits from the Banking System",
+   "vals": {}
+  },
+  "14": {
+   "label": "(Limits from all Banks and Financial Institution as on date of application)",
+   "vals": {}
+  },
+  "17": {
+   "label": "A.",
+   "vals": {}
+  },
+  "19": {
+   "label": "Sr.",
+   "vals": {}
+  },
+  "20": {
+   "label": "No.",
+   "vals": {}
+  },
+  "23": {
+   "label": "[1]",
+   "vals": {}
+  },
+  "25": {
+   "label": "A",
+   "vals": {}
+  },
+  "27": {
+   "label": "1.",
+   "vals": {}
+  },
+  "28": {
+   "label": "Rajkot",
+   "vals": {}
+  },
+  "29": {
+   "label": "Working Capital Requirement",
+   "vals": {}
+  },
+  "30": {
+   "label": "Cash Credit Limit",
+   "vals": {}
+  },
+  "31": {
+   "label": "Fund Based Limit",
+   "vals": {}
+  },
+  "32": {
+   "label": "Cash Credit Against Stock",
+   "vals": {
+    "E": 725.0,
+    "I": 1000.0
+   }
+  },
+  "33": {
+   "label": "Cash Credit Against Book Debt",
+   "vals": {
+    "E": 725.0,
+    "I": 1000.0
+   }
+  },
+  "34": {
+   "label": "Total Fund Based Limit",
+   "vals": {
+    "E": 725.0,
+    "H": 360.04,
+    "I": 1000.0
+   }
+  },
+  "36": {
+   "label": "Export Limits",
+   "vals": {}
+  },
+  "37": {
+   "label": "Pre-shipment Limit",
+   "vals": {}
+  },
+  "38": {
+   "label": "EPC / PCFC",
+   "vals": {
+    "E": 0.0,
+    "I": -200.0
+   }
+  },
+  "39": {
+   "label": "(margin @ 10%)",
+   "vals": {}
+  },
+  "40": {
+   "label": "Post-shipment Limit",
+   "vals": {}
+  },
+  "41": {
+   "label": "FBP/FBN/FCBP/FCBN/FCBD/LC Discounting",
+   "vals": {
+    "E": 0.0,
+    "I": -200.0
+   }
+  },
+  "42": {
+   "label": "(margin @ 10%)",
+   "vals": {}
+  },
+  "43": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "I": -400.0
+   }
+  },
+  "45": {
+   "label": "Seasonal Limit",
+   "vals": {}
+  },
+  "46": {
+   "label": "Cash Credit Against Stock",
+   "vals": {
+    "E": 225.0,
+    "I": 500.0
+   }
+  },
+  "47": {
+   "label": "Cash Credit Against Book Debt",
+   "vals": {
+    "E": 225.0,
+    "I": 500.0
+   }
+  },
+  "48": {
+   "label": "Total Fund Based Limit",
+   "vals": {
+    "E": 225.0,
+    "I": 500.0
+   }
+  },
+  "49": {
+   "label": "(Season Period : January to August)",
+   "vals": {}
+  },
+  "51": {
+   "label": "Total Limit",
+   "vals": {
+    "E": 950.0,
+    "I": 1500.0
+   }
+  },
+  "56": {
+   "label": "B.",
+   "vals": {}
+  },
+  "58": {
+   "label": "Sr.\nNo",
+   "vals": {}
+  },
+  "59": {
+   "label": "[1]",
+   "vals": {}
+  },
+  "61": {
+   "label": "1.",
+   "vals": {}
+  },
+  "78": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "79": {
+   "label": "ASSESMENT OF WORKING CAPITAL REQUIREMENTS",
+   "vals": {}
+  },
+  "80": {
+   "label": "FORM II",
+   "vals": {}
+  },
+  "81": {
+   "label": "OPERATING STATEMENT",
+   "vals": {}
+  },
+  "86": {
+   "label": null,
+   "vals": {
+    "E": 1.0,
+    "F": 2.0,
+    "G": 3.0,
+    "H": 4.0,
+    "I": 5.0
+   }
+  },
+  "87": {
+   "label": "(i)",
+   "vals": {
+    "E": 16073.04,
+    "F": 15961.08,
+    "G": 17237.97,
+    "H": 19823.67,
+    "I": 21806.04
+   }
+  },
+  "88": {
+   "label": "(ii)",
+   "vals": {
+    "E": 529.44,
+    "F": 660.54,
+    "G": 713.38,
+    "H": 820.39,
+    "I": 902.43
+   }
+  },
+  "89": {
+   "label": "(iii)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "90": {
+   "label": "(iv)",
+   "vals": {
+    "E": 98.51,
+    "F": 82.34,
+    "G": 82.34,
+    "H": 82.96,
+    "I": 83.37
+   }
+  },
+  "91": {
+   "label": "Gross sales",
+   "vals": {
+    "E": 16700.99,
+    "F": 16703.96,
+    "G": 18033.69,
+    "H": 20727.02,
+    "I": 22791.84
+   }
+  },
+  "92": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "93": {
+   "label": "NET SALES (1-2)",
+   "vals": {
+    "E": 16700.99,
+    "F": 16703.96,
+    "G": 18033.69,
+    "H": 20727.02,
+    "I": 22791.84
+   }
+  },
+  "94": {
+   "label": "% age rise (+) or fall (-) in net sales as",
+   "vals": {
+    "F": 0.0002,
+    "G": 0.0796,
+    "H": 0.1493,
+    "I": 0.0996
+   }
+  },
+  "95": {
+   "label": "compared to previous year.",
+   "vals": {}
+  },
+  "96": {
+   "label": "COST OF SALES",
+   "vals": {}
+  },
+  "97": {
+   "label": "(a)",
+   "vals": {}
+  },
+  "98": {
+   "label": "(i)  Imported",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "99": {
+   "label": "(ii) Indigenous",
+   "vals": {
+    "E": 12354.71,
+    "F": 10963.93,
+    "G": 11710.53,
+    "H": 13561.01,
+    "I": 14854.62
+   }
+  },
+  "100": {
+   "label": "(b)",
+   "vals": {}
+  },
+  "101": {
+   "label": "(i)  Imported",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "102": {
+   "label": "(ii) Indigenous",
+   "vals": {
+    "E": 6.96,
+    "F": 580.04,
+    "G": 619.54,
+    "H": 717.44,
+    "I": 785.88
+   }
+  },
+  "103": {
+   "label": "(c)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "104": {
+   "label": "(d)",
+   "vals": {
+    "E": 219.16,
+    "F": 213.6,
+    "G": 228.15,
+    "H": 264.2,
+    "I": 289.4
+   }
+  },
+  "105": {
+   "label": "(e)",
+   "vals": {
+    "E": 656.9,
+    "F": 874.91,
+    "G": 934.49,
+    "H": 1082.16,
+    "I": 1185.39
+   }
+  },
+  "106": {
+   "label": "(f)",
+   "vals": {
+    "E": 361.28,
+    "F": 455.94,
+    "G": 486.99,
+    "H": 563.94,
+    "I": 617.74
+   }
+  },
+  "107": {
+   "label": "(g)",
+   "vals": {
+    "E": 252.13,
+    "F": 247.38,
+    "G": 333.53,
+    "H": 370.29,
+    "I": 413.52
+   }
+  },
+  "108": {
+   "label": "(h)",
+   "vals": {
+    "E": 13851.14,
+    "F": 13335.8,
+    "G": 14313.23,
+    "H": 16559.04,
+    "I": 18146.55
+   }
+  },
+  "109": {
+   "label": "(i)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "110": {
+   "label": "(j)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "111": {
+   "label": "(k)",
+   "vals": {
+    "E": 13851.14,
+    "F": 13335.8,
+    "G": 14313.23,
+    "H": 16559.04,
+    "I": 18146.55
+   }
+  },
+  "112": {
+   "label": "(l)",
+   "vals": {
+    "E": 550.68,
+    "F": 1140.82,
+    "G": 1179.17,
+    "H": 1246.51,
+    "I": 1432.63
+   }
+  },
+  "113": {
+   "label": "Sub - Total",
+   "vals": {
+    "E": 14401.82,
+    "F": 14476.62,
+    "G": 15492.4,
+    "H": 17805.55,
+    "I": 19579.18
+   }
+  },
+  "114": {
+   "label": "(m)",
+   "vals": {
+    "E": 1140.82,
+    "F": 1179.17,
+    "G": 1246.51,
+    "H": 1432.63,
+    "I": 1575.34
+   }
+  },
+  "115": {
+   "label": "TOTAL COST OF SALES",
+   "vals": {
+    "E": 13261.0,
+    "F": 13297.45,
+    "G": 14245.89,
+    "H": 16372.92,
+    "I": 18003.84
+   }
+  },
+  "116": {
+   "label": "Selling general and administrative expenses",
+   "vals": {
+    "E": 1836.22,
+    "F": 2016.99,
+    "G": 2168.26,
+    "H": 2385.09,
+    "I": 2623.6
+   }
+  },
+  "117": {
+   "label": "SUB - TOTAL (5+6)",
+   "vals": {
+    "E": 15097.22,
+    "F": 15314.44,
+    "G": 16414.15,
+    "H": 18758.01,
+    "I": 20627.44
+   }
+  },
+  "118": {
+   "label": "Operating profit before interest (3-7)",
+   "vals": {
+    "E": 1603.77,
+    "F": 1389.52,
+    "G": 1619.54,
+    "H": 1969.01,
+    "I": 2164.4
+   }
+  },
+  "119": {
+   "label": "Total Interest",
+   "vals": {
+    "E": 130.57,
+    "F": 148.92,
+    "G": 200.3,
+    "H": 238.85,
+    "I": 246.42
+   }
+  },
+  "120": {
+   "label": "OPERATING PROFIT AFTER INTEREST (8-9)",
+   "vals": {
+    "E": 1473.2,
+    "F": 1240.6,
+    "G": 1419.24,
+    "H": 1730.16,
+    "I": 1917.98
+   }
+  },
+  "121": {
+   "label": "(i) Add other non-operating income",
+   "vals": {}
+  },
+  "122": {
+   "label": null,
+   "vals": {
+    "E": 106.24,
+    "F": 94.01,
+    "G": 55.0,
+    "H": 60.0,
+    "I": 65.0
+   }
+  },
+  "123": {
+   "label": null,
+   "vals": {
+    "E": 78.73,
+    "F": 99.9,
+    "G": 60.0,
+    "H": 65.0,
+    "I": 70.0
+   }
+  },
+  "124": {
+   "label": "Sub - Total (income)",
+   "vals": {
+    "E": 184.97,
+    "F": 193.91,
+    "G": 115.0,
+    "H": 125.0,
+    "I": 135.0
+   }
+  },
+  "125": {
+   "label": "(ii)",
+   "vals": {}
+  },
+  "126": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "127": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "128": {
+   "label": "Sub - Total (expenses)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "129": {
+   "label": "(iii)",
+   "vals": {
+    "E": 184.97,
+    "F": 193.91,
+    "G": 115.0,
+    "H": 125.0,
+    "I": 135.0
+   }
+  },
+  "130": {
+   "label": "(net of 11 (i) & 11 (ii))",
+   "vals": {
+    "G": 0.0
+   }
+  },
+  "131": {
+   "label": "Profit before tax/loss 10+11(iii)",
+   "vals": {
+    "E": 1658.17,
+    "F": 1434.51,
+    "G": 1534.24,
+    "H": 1855.16,
+    "I": 2052.98
+   }
+  },
+  "132": {
+   "label": "Provision for taxes",
+   "vals": {}
+  },
+  "133": {
+   "label": "(a) Provision for Income Tax",
+   "vals": {
+    "E": 420.02,
+    "F": 354.13,
+    "G": 365.19,
+    "H": 456.32,
+    "I": 504.54
+   }
+  },
+  "134": {
+   "label": "(b) Deferred Tax Provision",
+   "vals": {
+    "E": -1.04,
+    "F": 23.29,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "135": {
+   "label": "NET PROFIT/LOSS (12-13)",
+   "vals": {
+    "E": 1239.19,
+    "F": 1057.09,
+    "G": 1169.05,
+    "H": 1398.84,
+    "I": 1548.44
+   }
+  },
+  "136": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "137": {
+   "label": "(b) Dividend Rate",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "138": {
+   "label": "RETAINED PROFIT (14-15)",
+   "vals": {
+    "E": 1239.19,
+    "F": 1057.09,
+    "G": 1169.05,
+    "H": 1398.84,
+    "I": 1548.44
+   }
+  },
+  "139": {
+   "label": "Retained profit to Net profit (% age)",
+   "vals": {
+    "E": 1.0,
+    "F": 1.0,
+    "G": 1.0,
+    "H": 1.0,
+    "I": 1.0
+   }
+  },
+  "146": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "147": {
+   "label": "FORM III",
+   "vals": {}
+  },
+  "148": {
+   "label": "ANALYSIS OF BALANCE SHEET",
+   "vals": {}
+  },
+  "151": {
+   "label": "LIABILITIES",
+   "vals": {}
+  },
+  "153": {
+   "label": null,
+   "vals": {
+    "E": 1.0,
+    "F": 2.0,
+    "G": 3.0,
+    "H": 4.0,
+    "I": 5.0
+   }
+  },
+  "154": {
+   "label": "CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "155": {
+   "label": "Short term borrowings from",
+   "vals": {}
+  },
+  "156": {
+   "label": "banks (including BP/BD)",
+   "vals": {}
+  },
+  "157": {
+   "label": "i) From applicant banks",
+   "vals": {
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0,
+    "I": 1500.0
+   }
+  },
+  "158": {
+   "label": "ii) From other banks",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "159": {
+   "label": "iii) Working Capital Demand Loan",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "160": {
+   "label": "SUB TOTAL (A)",
+   "vals": {
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0,
+    "I": 1500.0
+   }
+  },
+  "161": {
+   "label": "Sundry Creditors for Capital Goods",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "162": {
+   "label": "Sundry creditors (Trade)",
+   "vals": {
+    "E": 893.14,
+    "F": 928.26,
+    "G": 539.2,
+    "H": 616.42,
+    "I": 666.71
+   }
+  },
+  "163": {
+   "label": "Advance payments from customers/deposits",
+   "vals": {}
+  },
+  "164": {
+   "label": "from dealers",
+   "vals": {
+    "E": 30.17,
+    "F": 84.88,
+    "G": 35.0,
+    "H": 40.0,
+    "I": 45.0
+   }
+  },
+  "165": {
+   "label": "Provision for taxation",
+   "vals": {
+    "E": 417.53,
+    "F": 347.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "166": {
+   "label": "Dividend payable",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "167": {
+   "label": "Other statutory liabilities (due within one year)",
+   "vals": {
+    "E": 94.5,
+    "F": 58.37,
+    "G": 35.0,
+    "H": 40.0,
+    "I": 45.0
+   }
+  },
+  "168": {
+   "label": "Deposits /Instalments of term loans/DPGs/",
+   "vals": {}
+  },
+  "169": {
+   "label": "debentures,etc.,(due within one year)",
+   "vals": {
+    "E": 0.0,
+    "F": 31.92,
+    "G": 49.75,
+    "H": 51.23,
+    "I": 0.0
+   }
+  },
+  "170": {
+   "label": "Other current liabilities & provisions",
+   "vals": {}
+  },
+  "171": {
+   "label": "(due within one year)",
+   "vals": {}
+  },
+  "172": {
+   "label": null,
+   "vals": {
+    "E": 201.37,
+    "F": 162.14,
+    "G": 130.0,
+    "H": 135.0,
+    "I": 140.0
+   }
+  },
+  "173": {
+   "label": null,
+   "vals": {
+    "E": 50.09,
+    "F": 47.99,
+    "G": 45.0,
+    "H": 46.5,
+    "I": 48.0
+   }
+  },
+  "174": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "175": {
+   "label": "d) Deferred Tax Provision",
+   "vals": {
+    "E": 40.58,
+    "F": 63.87,
+    "G": 63.87,
+    "H": 63.87,
+    "I": 63.87
+   }
+  },
+  "176": {
+   "label": "SUB TOTAL (B)",
+   "vals": {
+    "E": 1727.38,
+    "F": 1724.43,
+    "G": 897.82,
+    "H": 993.02,
+    "I": 1008.58
+   }
+  },
+  "177": {
+   "label": "TOTAL CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "178": {
+   "label": "[Item (A)+Item (B)]",
+   "vals": {
+    "E": 2603.98,
+    "F": 2084.47,
+    "G": 2397.82,
+    "H": 2493.02,
+    "I": 2508.58
+   }
+  },
+  "179": {
+   "label": "TERM LIABILITIES",
+   "vals": {}
+  },
+  "180": {
+   "label": "Debentures (not maturing within one year)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "181": {
+   "label": "Preference shares (redeemable after one year)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "182": {
+   "label": "Term loans (excluding instalments payable",
+   "vals": {}
+  },
+  "183": {
+   "label": "within one year)",
+   "vals": {
+    "E": 0.0,
+    "F": 101.17,
+    "G": 143.05,
+    "H": 91.82,
+    "I": 91.82
+   }
+  },
+  "184": {
+   "label": "Deffered payment creditors (excldg. instalments",
+   "vals": {}
+  },
+  "185": {
+   "label": "due within one year)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "186": {
+   "label": "Term deposites (repayable after one year)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "187": {
+   "label": "Other term liabilities",
+   "vals": {
+    "E": 919.54,
+    "F": 896.47,
+    "G": 1192.0,
+    "H": 1192.0,
+    "I": 1192.0
+   }
+  },
+  "188": {
+   "label": "TOTAL TERM LIABILITIES (Sum of 11 to 16)",
+   "vals": {
+    "E": 919.54,
+    "F": 997.64,
+    "G": 1335.05,
+    "H": 1283.82,
+    "I": 1283.82
+   }
+  },
+  "189": {
+   "label": "TOTAL OUTSIDE LIABILITIES",
+   "vals": {}
+  },
+  "190": {
+   "label": "(Total of item 10 + 17)",
+   "vals": {
+    "E": 3523.52,
+    "F": 3082.11,
+    "G": 3732.87,
+    "H": 3776.84,
+    "I": 3792.4
+   }
+  },
+  "191": {
+   "label": "NET WORTH:",
+   "vals": {}
+  },
+  "192": {
+   "label": null,
+   "vals": {
+    "E": 25.48,
+    "F": 25.48,
+    "G": 25.48,
+    "H": 25.48,
+    "I": 25.48
+   }
+  },
+  "193": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "194": {
+   "label": null,
+   "vals": {
+    "E": 71.9,
+    "F": 71.9,
+    "G": 71.9,
+    "H": 71.9,
+    "I": 71.9
+   }
+  },
+  "195": {
+   "label": "Other Reserves (excluding provisions)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "196": {
+   "label": "a) Surplus(+) or deficit (-) in P & L A/c.",
+   "vals": {
+    "E": 8376.59,
+    "F": 9433.68,
+    "G": 10602.73,
+    "H": 12001.57,
+    "I": 13550.01
+   }
+  },
+  "197": {
+   "label": "NET WORTH (Total of 19 to 23)",
+   "vals": {
+    "E": 8473.97,
+    "F": 9531.06,
+    "G": 10700.11,
+    "H": 12098.95,
+    "I": 13647.39
+   }
+  },
+  "198": {
+   "label": "TOTAL LIABILITIES (Total of item 24 + 25)",
+   "vals": {
+    "E": 11997.49,
+    "F": 12613.17,
+    "G": 14432.98,
+    "H": 15875.79,
+    "I": 17439.79
+   }
+  },
+  "205": {
+   "label": null,
+   "vals": {
+    "G": 0.0
+   }
+  },
+  "206": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "207": {
+   "label": "FORM III",
+   "vals": {}
+  },
+  "208": {
+   "label": "ANALYSIS OF BALANCE SHEET (Contd.)",
+   "vals": {}
+  },
+  "211": {
+   "label": "ASSETS",
+   "vals": {}
+  },
+  "213": {
+   "label": null,
+   "vals": {
+    "E": 1.0,
+    "F": 2.0,
+    "G": 3.0,
+    "H": 4.0,
+    "I": 5.0
+   }
+  },
+  "214": {
+   "label": "CURRENT ASSETS",
+   "vals": {}
+  },
+  "215": {
+   "label": "Cash and bank balance",
+   "vals": {
+    "E": 250.49,
+    "F": 106.55,
+    "G": 248.69,
+    "H": 299.0,
+    "I": 457.6
+   }
+  },
+  "216": {
+   "label": "Investments (other than long term investments)",
+   "vals": {}
+  },
+  "217": {
+   "label": "i)  Goverment & Other Trustee securities",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "218": {
+   "label": "ii) Fixed deposits with bank",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "219": {
+   "label": "i)  Receivables other than deffered & exports",
+   "vals": {
+    "E": 1105.36,
+    "F": 1112.57,
+    "G": 1580.15,
+    "H": 1817.17,
+    "I": 1998.89
+   }
+  },
+  "220": {
+   "label": "(including under BP/BD)",
+   "vals": {}
+  },
+  "221": {
+   "label": "ii) Export receivables (including under BP/BD)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "223": {
+   "label": "Installments of deffered receivable",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "224": {
+   "label": "(due within one year)",
+   "vals": {}
+  },
+  "225": {
+   "label": "Inventory:",
+   "vals": {}
+  },
+  "226": {
+   "label": "i)   Raw materials (including stores)",
+   "vals": {}
+  },
+  "227": {
+   "label": "a) Imported",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "228": {
+   "label": "b) Indegenous",
+   "vals": {
+    "E": 2885.86,
+    "F": 2329.25,
+    "G": 2927.63,
+    "H": 3390.25,
+    "I": 3713.66
+   }
+  },
+  "229": {
+   "label": "ii)  Stock-in-process",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "230": {
+   "label": "iii) Finished goods",
+   "vals": {
+    "E": 1140.82,
+    "F": 1179.17,
+    "G": 1246.51,
+    "H": 1432.63,
+    "I": 1575.34
+   }
+  },
+  "231": {
+   "label": "iv) Stores & Spares",
+   "vals": {}
+  },
+  "232": {
+   "label": "a) Imported",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "233": {
+   "label": "b) Indegenous",
+   "vals": {
+    "E": 231.25,
+    "F": 323.15,
+    "G": 335.58,
+    "H": 388.61,
+    "I": 425.69
+   }
+  },
+  "234": {
+   "label": "Advances to suppliers of raw materials & stores/",
+   "vals": {}
+  },
+  "235": {
+   "label": "spares",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 250.0,
+    "H": 350.0,
+    "I": 450.0
+   }
+  },
+  "236": {
+   "label": "Advance payment of taxes",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "237": {
+   "label": "Other current assets",
+   "vals": {}
+  },
+  "238": {
+   "label": null,
+   "vals": {
+    "E": 19.07,
+    "F": 9.68,
+    "G": 12.5,
+    "H": 14.0,
+    "I": 15.5
+   }
+  },
+  "239": {
+   "label": null,
+   "vals": {
+    "E": 147.73,
+    "F": 121.84,
+    "G": 150.0,
+    "H": 155.0,
+    "I": 160.0
+   }
+  },
+  "240": {
+   "label": null,
+   "vals": {
+    "E": 573.39,
+    "F": 569.44,
+    "G": 650.0,
+    "H": 700.0,
+    "I": 750.0
+   }
+  },
+  "241": {
+   "label": "TOTAL CURRENT ASSETS (Sum of 26 to 33)",
+   "vals": {
+    "E": 6353.97,
+    "F": 5751.65,
+    "G": 7401.06,
+    "H": 8546.66,
+    "I": 9546.68
+   }
+  },
+  "242": {
+   "label": "FIXED ASSETS",
+   "vals": {}
+  },
+  "243": {
+   "label": "GROSS BLOCK",
+   "vals": {
+    "E": 5260.78,
+    "F": 6223.7,
+    "G": 6605.39,
+    "H": 7120.39,
+    "I": 7945.39
+   }
+  },
+  "244": {
+   "label": "Depreciation to date",
+   "vals": {
+    "E": 3146.28,
+    "F": 3447.44,
+    "G": 3780.97,
+    "H": 4151.26,
+    "I": 4564.78
+   }
+  },
+  "245": {
+   "label": "NET BLOCK (35-36)",
+   "vals": {
+    "E": 2114.5,
+    "F": 2776.26,
+    "G": 2824.42,
+    "H": 2969.13,
+    "I": 3380.61
+   }
+  },
+  "247": {
+   "label": "OTHER NON-CURRENT ASSETS",
+   "vals": {}
+  },
+  "248": {
+   "label": "Investments/book debts/advances/deposits",
+   "vals": {}
+  },
+  "249": {
+   "label": "which are not Current Assets",
+   "vals": {}
+  },
+  "250": {
+   "label": "i)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "251": {
+   "label": "b) Others",
+   "vals": {
+    "E": 3472.87,
+    "F": 4029.0,
+    "G": 4150.0,
+    "H": 4300.0,
+    "I": 4450.0
+   }
+  },
+  "252": {
+   "label": "ii)",
+   "vals": {}
+  },
+  "253": {
+   "label": "contractors",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "254": {
+   "label": "iii)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "255": {
+   "label": "(maturity exceeding one year)",
+   "vals": {}
+  },
+  "256": {
+   "label": "iv)",
+   "vals": {}
+  },
+  "257": {
+   "label": null,
+   "vals": {
+    "E": 56.15,
+    "F": 56.26,
+    "G": 57.5,
+    "H": 60.0,
+    "I": 62.5
+   }
+  },
+  "258": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "259": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "260": {
+   "label": "Non consumable stores & spares",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "261": {
+   "label": "Other non-current assets incldg. dues from directors",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "263": {
+   "label": "TOTAL OTHER NON-CURRENT ASSETS",
+   "vals": {}
+  },
+  "264": {
+   "label": "(Total of 38 to 40)",
+   "vals": {
+    "E": 3529.02,
+    "F": 4085.26,
+    "G": 4207.5,
+    "H": 4360.0,
+    "I": 4512.5
+   }
+  },
+  "265": {
+   "label": "Intangible assets (patents goodwill, prelim.exp.,",
+   "vals": {}
+  },
+  "266": {
+   "label": "bad/doughtful debts not provided for, etc.)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "267": {
+   "label": "TOTAL ASSETS ( Total of  34, 37, 41 & 42)",
+   "vals": {
+    "E": 11997.49,
+    "F": 12613.17,
+    "G": 14432.98,
+    "H": 15875.79,
+    "I": 17439.79
+   }
+  },
+  "268": {
+   "label": "TANGIBLE NET WORTH (24-42)",
+   "vals": {
+    "E": 8473.97,
+    "F": 9531.06,
+    "G": 10700.11,
+    "H": 12098.95,
+    "I": 13647.39
+   }
+  },
+  "269": {
+   "label": "NET WORKING CAPITAL (17+24) - (37+41+42)",
+   "vals": {
+    "E": 3749.99,
+    "F": 3667.18,
+    "G": 5003.24,
+    "H": 6053.64,
+    "I": 7038.1
+   }
+  },
+  "270": {
+   "label": "To tally with (34-10)",
+   "vals": {}
+  },
+  "271": {
+   "label": "Current Ratio (Item 34/10)",
+   "vals": {
+    "E": 2.4401,
+    "F": 2.7593,
+    "G": 3.0866,
+    "H": 3.4282,
+    "I": 3.8056
+   }
+  },
+  "272": {
+   "label": "Total Outstanding Liabilities/Tangible Net Worth",
+   "vals": {}
+  },
+  "273": {
+   "label": "(18/44)",
+   "vals": {
+    "E": 0.4158,
+    "F": 0.3234,
+    "G": 0.3489,
+    "H": 0.3122,
+    "I": 0.2779
+   }
+  },
+  "274": {
+   "label": "ADDITIONAL INFORMATION",
+   "vals": {}
+  },
+  "275": {
+   "label": "(A)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "276": {
+   "label": "(B)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "277": {
+   "label": "TOL (Excluding Quasi-Equity)",
+   "vals": {
+    "E": 2563.4,
+    "F": 2020.6,
+    "G": 2333.95,
+    "H": 2429.15,
+    "I": 2444.71
+   }
+  },
+  "278": {
+   "label": "Quasi TNW (Including Quasi Equity)",
+   "vals": {
+    "E": 9434.09,
+    "F": 10592.57,
+    "G": 12099.03,
+    "H": 13446.64,
+    "I": 14995.08
+   }
+  },
+  "279": {
+   "label": "Quasi TOL/TNW",
+   "vals": {
+    "E": 0.2717,
+    "F": 0.1908,
+    "G": 0.1929,
+    "H": 0.1807,
+    "I": 0.163
+   }
+  },
+  "280": {
+   "label": "Contingent Liabilities:",
+   "vals": {}
+  },
+  "281": {
+   "label": "i)   Arrears of cumulative dividends",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "282": {
+   "label": "ii)  Gratuity liability not provided for",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "283": {
+   "label": "iii)  Disputed excise/customs/tax liabilities",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "284": {
+   "label": "iv)  Other Liabilities not provided for",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "286": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "287": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "294": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "295": {
+   "label": "FORM IV",
+   "vals": {}
+  },
+  "296": {
+   "label": "COMPARATIVE STATEMENT OF CURRENT ASSETS & CURRENT LIABILITIES",
+   "vals": {}
+  },
+  "299": {
+   "label": "PARTICULARS",
+   "vals": {}
+  },
+  "301": {
+   "label": null,
+   "vals": {
+    "E": 1.0,
+    "F": 2.0,
+    "G": 3.0,
+    "H": 4.0,
+    "I": 5.0
+   }
+  },
+  "302": {
+   "label": "A.",
+   "vals": {}
+  },
+  "303": {
+   "label": "Raw materials (including stores)",
+   "vals": {}
+  },
+  "304": {
+   "label": "a) Imported",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "305": {
+   "label": "(months' consumption)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "306": {
+   "label": "b) Indigenous",
+   "vals": {
+    "E": 2885.86,
+    "F": 2329.25,
+    "G": 2927.63,
+    "H": 3390.25,
+    "I": 3713.66
+   }
+  },
+  "307": {
+   "label": "( months' consumption)",
+   "vals": {
+    "E": 2.8,
+    "F": 2.55,
+    "G": 3.0,
+    "H": 3.0,
+    "I": 3.0
+   }
+  },
+  "308": {
+   "label": "Other consumable spares, excluding",
+   "vals": {}
+  },
+  "309": {
+   "label": "those included in (1) above",
+   "vals": {}
+  },
+  "310": {
+   "label": "a) Imported",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "311": {
+   "label": "(months' consumption)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "312": {
+   "label": "b) Indigenous",
+   "vals": {
+    "E": 231.25,
+    "F": 323.15,
+    "G": 335.58,
+    "H": 388.61,
+    "I": 425.69
+   }
+  },
+  "313": {
+   "label": "(months' consumption)",
+   "vals": {
+    "E": 398.71,
+    "F": 6.69,
+    "G": 6.5,
+    "H": 6.5,
+    "I": 6.5
+   }
+  },
+  "314": {
+   "label": "Stock-in-process",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "315": {
+   "label": "(Months' cost of production)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "316": {
+   "label": "Finished goods",
+   "vals": {
+    "E": 1140.82,
+    "F": 1179.17,
+    "G": 1246.51,
+    "H": 1432.63,
+    "I": 1575.34
+   }
+  },
+  "317": {
+   "label": "Other Trading items- Direct",
+   "vals": {}
+  },
+  "318": {
+   "label": "(Months' cost of sales)",
+   "vals": {
+    "E": 1.0323,
+    "F": 1.0641,
+    "G": 1.05,
+    "H": 1.05,
+    "I": 1.05
+   }
+  },
+  "319": {
+   "label": "Receibables other than export &",
+   "vals": {}
+  },
+  "320": {
+   "label": "deffered receivables (including BP/BD)",
+   "vals": {
+    "E": 1105.36,
+    "F": 1112.57,
+    "G": 1580.15,
+    "H": 1817.17,
+    "I": 1998.89
+   }
+  },
+  "321": {
+   "label": "(  Months' domestic sales excluding",
+   "vals": {}
+  },
+  "322": {
+   "label": "deffered payment sales)",
+   "vals": {
+    "E": 0.83,
+    "F": 0.84,
+    "G": 1.1,
+    "H": 1.1,
+    "I": 1.1
+   }
+  },
+  "323": {
+   "label": "Export receivables (including bills",
+   "vals": {}
+  },
+  "324": {
+   "label": "Purchased & Discounted)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "325": {
+   "label": "(Months' export sales)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "326": {
+   "label": "Advances to suppliers of raw materials",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 250.0,
+    "H": 350.0,
+    "I": 450.0
+   }
+  },
+  "327": {
+   "label": "& stores/spares consumable",
+   "vals": {}
+  },
+  "328": {
+   "label": "Other current assets including cash &",
+   "vals": {}
+  },
+  "329": {
+   "label": "bank balances & deffered receivables",
+   "vals": {
+    "E": 990.68,
+    "F": 807.51,
+    "G": 1061.19,
+    "H": 1168.0,
+    "I": 1383.1
+   }
+  },
+  "330": {
+   "label": "due within one year",
+   "vals": {}
+  },
+  "331": {
+   "label": "TOTAL CURRENT ASSETS",
+   "vals": {
+    "E": 6353.97,
+    "F": 5751.65,
+    "G": 7401.06,
+    "H": 8546.66,
+    "I": 9546.68
+   }
+  },
+  "332": {
+   "label": "(To agree with item 34 in Form III)",
+   "vals": {}
+  },
+  "333": {
+   "label": "B.",
+   "vals": {}
+  },
+  "334": {
+   "label": "(Other than bank borrowings for working",
+   "vals": {}
+  },
+  "335": {
+   "label": "capital)",
+   "vals": {}
+  },
+  "336": {
+   "label": "Creditors for purchase of raw materials,",
+   "vals": {
+    "E": 893.14,
+    "F": 928.26,
+    "G": 539.2,
+    "H": 616.42,
+    "I": 666.71
+   }
+  },
+  "337": {
+   "label": "stores & consumable spares",
+   "vals": {}
+  },
+  "338": {
+   "label": "Consumption",
+   "vals": {
+    "E": 12354.71,
+    "F": 10963.93,
+    "G": 11710.53,
+    "H": 13561.01,
+    "I": 14854.62
+   }
+  },
+  "339": {
+   "label": "Add: Closing Stock",
+   "vals": {
+    "E": 2885.86,
+    "F": 2329.25,
+    "G": 2927.63,
+    "H": 3390.25,
+    "I": 3713.66
+   }
+  },
+  "340": {
+   "label": "Less: Opening Stock",
+   "vals": {
+    "E": 0.0,
+    "F": 2885.86,
+    "G": 2329.25,
+    "H": 2927.63,
+    "I": 3390.25
+   }
+  },
+  "341": {
+   "label": "Annual Purchase",
+   "vals": {
+    "E": 15240.57,
+    "F": 10407.32,
+    "G": 12308.91,
+    "H": 14023.63,
+    "I": 15178.03
+   }
+  },
+  "342": {
+   "label": "( Months' consumption)",
+   "vals": {
+    "E": 0.7,
+    "F": 1.07,
+    "G": 0.53,
+    "H": 0.53,
+    "I": 0.53
+   }
+  },
+  "343": {
+   "label": "Advances from costomers",
+   "vals": {
+    "E": 30.17,
+    "F": 84.88,
+    "G": 35.0,
+    "H": 40.0,
+    "I": 45.0
+   }
+  },
+  "344": {
+   "label": "Statutory liabilities",
+   "vals": {
+    "E": 94.5,
+    "F": 58.37,
+    "G": 35.0,
+    "H": 40.0,
+    "I": 45.0
+   }
+  },
+  "345": {
+   "label": "Other current liabilities (specify major items)",
+   "vals": {}
+  },
+  "346": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "347": {
+   "label": null,
+   "vals": {
+    "E": 417.53,
+    "F": 347.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "348": {
+   "label": null,
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "349": {
+   "label": "Loan Inst. Due within 1 year",
+   "vals": {
+    "E": 0.0,
+    "F": 31.92,
+    "G": 49.75,
+    "H": 51.23,
+    "I": 0.0
+   }
+  },
+  "350": {
+   "label": "Other current liabilities & provisons",
+   "vals": {
+    "E": 292.04,
+    "F": 274.0,
+    "G": 238.87,
+    "H": 245.37,
+    "I": 251.87
+   }
+  },
+  "351": {
+   "label": "TOTAL",
+   "vals": {
+    "E": 1727.38,
+    "F": 1724.43,
+    "G": 897.82,
+    "H": 993.02,
+    "I": 1008.58
+   }
+  },
+  "352": {
+   "label": "(to agree with sub.total B of Form No.III)",
+   "vals": {}
+  },
+  "359": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "360": {
+   "label": "FORM V",
+   "vals": {}
+  },
+  "361": {
+   "label": "COMPUTATION OF MAXIMUM PERMISSIBLE BANK FINANCE FOR WORKING CAPITAL",
+   "vals": {}
+  },
+  "364": {
+   "label": "PARTICULARS",
+   "vals": {}
+  },
+  "366": {
+   "label": null,
+   "vals": {
+    "E": 1.0,
+    "F": 2.0,
+    "G": 3.0,
+    "H": 4.0,
+    "I": 5.0
+   }
+  },
+  "367": {
+   "label": "Total Current Assets (Item 9 of form IV)",
+   "vals": {
+    "E": 6353.97,
+    "F": 5751.65,
+    "G": 7401.06,
+    "H": 8546.66,
+    "I": 9546.68
+   }
+  },
+  "368": {
+   "label": "Other Current Liabilities other than bank",
+   "vals": {
+    "E": 1727.38,
+    "F": 1724.43,
+    "G": 897.82,
+    "H": 993.02,
+    "I": 1008.58
+   }
+  },
+  "369": {
+   "label": "borrowing",
+   "vals": {}
+  },
+  "370": {
+   "label": "(Item 14 of form IV)",
+   "vals": {}
+  },
+  "371": {
+   "label": "Working Capital Gap (WCG) ( 1 - 2)",
+   "vals": {
+    "E": 4626.59,
+    "F": 4027.22,
+    "G": 6503.24,
+    "H": 7553.64,
+    "I": 8538.1
+   }
+  },
+  "372": {
+   "label": "Min.Stipulated net working capital(i.e.25%",
+   "vals": {
+    "E": 1156.65,
+    "F": 1006.81,
+    "G": 1625.81,
+    "H": 1888.41,
+    "I": 2134.53
+   }
+  },
+  "373": {
+   "label": "of WCG/25%of TOTAL CURRENT ASSETS",
+   "vals": {}
+  },
+  "374": {
+   "label": "as the case may be depending upon the",
+   "vals": {}
+  },
+  "375": {
+   "label": "method of lending being applied)",
+   "vals": {}
+  },
+  "376": {
+   "label": "(Export receivables to be excluded under",
+   "vals": {}
+  },
+  "377": {
+   "label": "both methods)",
+   "vals": {}
+  },
+  "378": {
+   "label": "Actual / Projected N.W.C. (Item 45 of Form III)",
+   "vals": {
+    "E": 3749.99,
+    "F": 3667.18,
+    "G": 5003.24,
+    "H": 6053.64,
+    "I": 7038.1
+   }
+  },
+  "379": {
+   "label": "Item (3) minus item (4)",
+   "vals": {
+    "E": 3469.94,
+    "F": 3020.41,
+    "G": 4877.43,
+    "H": 5665.23,
+    "I": 6403.57
+   }
+  },
+  "380": {
+   "label": "Item (3) minus item (5)",
+   "vals": {
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0,
+    "I": 1500.0
+   }
+  },
+  "381": {
+   "label": "Maximum permissible bank finance",
+   "vals": {
+    "E": 876.6,
+    "F": 360.04,
+    "G": 1500.0,
+    "H": 1500.0,
+    "I": 1500.0
+   }
+  },
+  "382": {
+   "label": "(Item (6) or (7) whichever is lower)",
+   "vals": {}
+  },
+  "383": {
+   "label": "Excess borrowings representing short fall",
+   "vals": {}
+  },
+  "384": {
+   "label": "in N.W.C.",
+   "vals": {}
+  },
+  "385": {
+   "label": "(Item 4 minus 5)",
+   "vals": {}
+  },
+  "392": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "393": {
+   "label": "FORM VI",
+   "vals": {}
+  },
+  "394": {
+   "label": "FUNDS FLOW STATEMENT",
+   "vals": {}
+  },
+  "399": {
+   "label": null,
+   "vals": {
+    "E": 1.0,
+    "F": 2.0,
+    "G": 3.0,
+    "H": 4.0,
+    "I": 5.0
+   }
+  },
+  "400": {
+   "label": "SOURCES",
+   "vals": {}
+  },
+  "401": {
+   "label": "a)",
+   "vals": {
+    "E": 1239.19,
+    "F": 1057.09,
+    "G": 1169.05,
+    "H": 1398.84,
+    "I": 1548.44
+   }
+  },
+  "402": {
+   "label": "b)",
+   "vals": {
+    "E": 252.13,
+    "F": 247.38,
+    "G": 333.53,
+    "H": 370.29,
+    "I": 413.52
+   }
+  },
+  "403": {
+   "label": "c)",
+   "vals": {
+    "E": 97.38,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "404": {
+   "label": "d)",
+   "vals": {
+    "E": 919.54,
+    "F": 78.1,
+    "G": 337.41,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "405": {
+   "label": "(including public deposits)",
+   "vals": {}
+  },
+  "406": {
+   "label": "e)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "407": {
+   "label": "f)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "408": {
+   "label": "g)",
+   "vals": {
+    "E": 7137.4,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "409": {
+   "label": "h)",
+   "vals": {
+    "E": 9645.64,
+    "F": 1382.57,
+    "G": 1839.99,
+    "H": 1769.13,
+    "I": 1961.96
+   }
+  },
+  "411": {
+   "label": "USES",
+   "vals": {}
+  },
+  "412": {
+   "label": "a)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "413": {
+   "label": "b)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 51.23,
+    "I": 0.0
+   }
+  },
+  "414": {
+   "label": "(including public deposits)",
+   "vals": {}
+  },
+  "415": {
+   "label": "c)",
+   "vals": {
+    "E": 2366.63,
+    "F": 909.14,
+    "G": 381.69,
+    "H": 515.0,
+    "I": 825.0
+   }
+  },
+  "416": {
+   "label": "d)",
+   "vals": {
+    "E": 3529.02,
+    "F": 556.24,
+    "G": 122.24,
+    "H": 152.5,
+    "I": 152.5
+   }
+  },
+  "417": {
+   "label": "e)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "418": {
+   "label": "f)",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "419": {
+   "label": "g)",
+   "vals": {
+    "E": 5895.65,
+    "F": 1465.38,
+    "G": 503.93,
+    "H": 718.73,
+    "I": 977.5
+   }
+  },
+  "421": {
+   "label": "Long Term Surplus (+)/Deficit",
+   "vals": {}
+  },
+  "422": {
+   "label": "(-) (item 1 - item 2)",
+   "vals": {
+    "E": 3749.99,
+    "F": -82.81,
+    "G": 1336.06,
+    "H": 1050.4,
+    "I": 984.46
+   }
+  },
+  "423": {
+   "label": "Increase/(Decrease) in current assets",
+   "vals": {
+    "E": 6353.97,
+    "F": -602.32,
+    "G": 1649.41,
+    "H": 1145.6,
+    "I": 1000.02
+   }
+  },
+  "424": {
+   "label": "Increase/(-)decrease in current",
+   "vals": {}
+  },
+  "425": {
+   "label": "liablities other than Bank",
+   "vals": {}
+  },
+  "426": {
+   "label": "borrowings",
+   "vals": {
+    "E": 1727.38,
+    "F": -2.95,
+    "G": -826.61,
+    "H": 95.2,
+    "I": 15.56
+   }
+  },
+  "427": {
+   "label": "Increase/(decrease) in working",
+   "vals": {}
+  },
+  "428": {
+   "label": "capital gap",
+   "vals": {
+    "E": 4626.59,
+    "F": -599.37,
+    "G": 2476.02,
+    "H": 1050.4,
+    "I": 984.46
+   }
+  },
+  "429": {
+   "label": "Net surplus (+) / deficit (-)",
+   "vals": {}
+  },
+  "430": {
+   "label": "(Difference of 3 & 6)",
+   "vals": {
+    "E": -876.6,
+    "F": 516.56,
+    "G": -1139.96,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "431": {
+   "label": "Increase/(Decrase) in Bank",
+   "vals": {}
+  },
+  "432": {
+   "label": "borrowings",
+   "vals": {
+    "E": 876.6,
+    "F": -516.56,
+    "G": 1139.96,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "434": {
+   "label": "BREAK UP OF (4)",
+   "vals": {}
+  },
+  "435": {
+   "label": "i)",
+   "vals": {}
+  },
+  "436": {
+   "label": "Materials",
+   "vals": {
+    "E": 2885.86,
+    "F": -556.61,
+    "G": 598.38,
+    "H": 462.62,
+    "I": 323.41
+   }
+  },
+  "437": {
+   "label": "ii)",
+   "vals": {}
+  },
+  "438": {
+   "label": "in process",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "439": {
+   "label": "iii)",
+   "vals": {
+    "E": 1140.82,
+    "F": 38.35,
+    "G": 67.34,
+    "H": 186.12,
+    "I": 142.71
+   }
+  },
+  "440": {
+   "label": "iv)",
+   "vals": {}
+  },
+  "441": {
+   "label": "a) Domestic",
+   "vals": {
+    "E": 1105.36,
+    "F": 7.21,
+    "G": 467.58,
+    "H": 237.02,
+    "I": 181.72
+   }
+  },
+  "442": {
+   "label": "b) Export",
+   "vals": {
+    "E": 0.0,
+    "F": 0.0,
+    "G": 0.0,
+    "H": 0.0,
+    "I": 0.0
+   }
+  },
+  "443": {
+   "label": "v)",
+   "vals": {}
+  },
+  "444": {
+   "label": "spares & traded goods",
+   "vals": {
+    "E": 231.25,
+    "F": 91.9,
+    "G": 12.43,
+    "H": 53.03,
+    "I": 37.08
+   }
+  },
+  "445": {
+   "label": "vi)",
+   "vals": {
+    "E": 990.68,
+    "F": -183.17,
+    "G": 503.68,
+    "H": 206.81,
+    "I": 315.1
+   }
+  },
+  "447": {
+   "label": "Total",
+   "vals": {
+    "E": 6353.97,
+    "F": -602.32,
+    "G": 1649.41,
+    "H": 1145.6,
+    "I": 1000.02
+   }
+  },
+  "456": {
+   "label": "CMA Data",
+   "vals": {}
+  },
+  "457": {
+   "label": "RATIO ANALYSIS",
+   "vals": {}
+  },
+  "461": {
+   "label": "Ratios",
+   "vals": {}
+  },
+  "462": {
+   "label": null,
+   "vals": {
+    "E": 1.0,
+    "F": 2.0,
+    "G": 3.0,
+    "H": 4.0,
+    "I": 5.0
+   }
+  },
+  "463": {
+   "label": "Gross Sales",
+   "vals": {
+    "E": 16700.99,
+    "F": 16703.96,
+    "G": 18033.69,
+    "H": 20727.02,
+    "I": 22791.84
+   }
+  },
+  "464": {
+   "label": "Growth in Gross Sales (%)",
+   "vals": {
+    "F": 0.0002,
+    "G": 0.0796,
+    "H": 0.1493,
+    "I": 0.0996
+   }
+  },
+  "465": {
+   "label": "Net Sales (NS)",
+   "vals": {
+    "E": 16700.99,
+    "F": 16703.96,
+    "G": 18033.69,
+    "H": 20727.02,
+    "I": 22791.84
+   }
+  },
+  "466": {
+   "label": "Growth in Net Sales (%)",
+   "vals": {
+    "F": 0.0002,
+    "G": 0.0796,
+    "H": 0.1493,
+    "I": 0.0996
+   }
+  },
+  "467": {
+   "label": "Total Income",
+   "vals": {
+    "E": 16700.99,
+    "F": 16703.96,
+    "G": 18033.69,
+    "H": 20727.02,
+    "I": 22791.84
+   }
+  },
+  "468": {
+   "label": "Gross Profit (GP)",
+   "vals": {
+    "E": 3439.99,
+    "F": 3406.51,
+    "G": 3787.8,
+    "H": 4354.1,
+    "I": 4788.0
+   }
+  },
+  "469": {
+   "label": "Gross Profit Ratio (GP/NS)",
+   "vals": {
+    "E": 0.206,
+    "F": 0.2039,
+    "G": 0.21,
+    "H": 0.2101,
+    "I": 0.2101
+   }
+  },
+  "470": {
+   "label": "Operating Profit (OP)",
+   "vals": {
+    "E": 1473.2,
+    "F": 1240.6,
+    "G": 1419.24,
+    "H": 1730.16,
+    "I": 1917.98
+   }
+  },
+  "471": {
+   "label": "Operating Profit Ratio (OP/NS)",
+   "vals": {
+    "E": 0.0882,
+    "F": 0.0743,
+    "G": 0.0787,
+    "H": 0.0835,
+    "I": 0.0842
+   }
+  },
+  "472": {
+   "label": "Net Profit (NP)",
+   "vals": {
+    "E": 1239.19,
+    "F": 1057.09,
+    "G": 1169.05,
+    "H": 1398.84,
+    "I": 1548.44
+   }
+  },
+  "473": {
+   "label": "Net Profit Ratio (NP/NS)",
+   "vals": {
+    "E": 0.0742,
+    "F": 0.0633,
+    "G": 0.0648,
+    "H": 0.0675,
+    "I": 0.0679
+   }
+  },
+  "474": {
+   "label": "Cash Accruals",
+   "vals": {
+    "E": 1491.32,
+    "F": 1304.47,
+    "G": 1502.58,
+    "H": 1769.13,
+    "I": 1961.96
+   }
+  },
+  "475": {
+   "label": "Cash Accrual Ratio (Cash Accruals/NS)",
+   "vals": {
+    "E": 0.0893,
+    "F": 0.0781,
+    "G": 0.0833,
+    "H": 0.0854,
+    "I": 0.0861
+   }
+  },
+  "476": {
+   "label": "PBDIT",
+   "vals": {
+    "E": 2040.87,
+    "F": 1830.81,
+    "G": 2068.07,
+    "H": 2464.3,
+    "I": 2712.92
+   }
+  },
+  "477": {
+   "label": "PBDIT Ratio (PBDIT/NS)",
+   "vals": {
+    "E": 0.1222,
+    "F": 0.1096,
+    "G": 0.1147,
+    "H": 0.1189,
+    "I": 0.119
+   }
+  },
+  "478": {
+   "label": "Paid up Equity Capital",
+   "vals": {
+    "E": 25.48,
+    "F": 25.48,
+    "G": 25.48,
+    "H": 25.48,
+    "I": 25.48
+   }
+  },
+  "479": {
+   "label": "Tangible Networth (TNW)",
+   "vals": {
+    "E": 8473.97
+   }
+  },
+  "480": {
+   "label": "TOL/TNW",
+   "vals": {
+    "E": 0.4158
+   }
+  },
+  "481": {
+   "label": "Current Ratio",
+   "vals": {
+    "E": 2.4401
+   }
+  },
+  "482": {
+   "label": "PBDIT/Interest",
+   "vals": {
+    "E": 15.63
+   }
+  },
+  "483": {
+   "label": "ROCE",
+   "vals": {
+    "E": 0.1701
+   }
+  },
+  "484": {
+   "label": "Retained Profit / Total Assets",
+   "vals": {
+    "E": 0.1033,
+    "F": 0.1452,
+    "G": 0.1433,
+    "H": 0.1552,
+    "I": 0.1556
+   }
+  },
+  "485": {
+   "label": "Net Cash Accruals / Total Debt %",
+   "vals": {
+    "E": 0.4232
+   }
+  },
+  "486": {
+   "label": "Inventories/NS + Receiveables/GS",
+   "vals": {
+    "E": 117.2147
+   }
+  }
+ }
+}

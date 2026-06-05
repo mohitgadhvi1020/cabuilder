@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "verify:engine": "node lib/cma/engine.test.ts",
     "postinstall": "npx patch-package"
   },
   "dependencies": {
