@@ -241,7 +241,7 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
           </div>
           <div className="flex items-center gap-2">
             <span className="hidden sm:inline text-[11px] text-muted-foreground">
-              Choose <strong>Save as PDF</strong> in the print dialog
+              If a print dialog opens, choose <strong>Save as PDF</strong>
             </span>
             <Button
               size="sm"
@@ -249,7 +249,7 @@ export function ReportPreview({ backHref }: ReportPreviewProps) {
               className="gap-2 bg-accent hover:bg-accent-hover text-accent-foreground"
             >
               <Download className="w-4 h-4" />
-              Save as PDF
+              Download PDF
             </Button>
           </div>
         </div>
